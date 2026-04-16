@@ -94,16 +94,7 @@ export default function Page() {
             </h1>
             <p className="mt-2 text-sm sm:text-base text-court-300 max-w-2xl">
               Browse, search, and sort player salaries and contracts across the
-              league. Updated daily from{" "}
-              <a
-                href={meta.source}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline decoration-dotted underline-offset-2 hover:text-white"
-              >
-                Her Hoop Stats
-              </a>
-              {" · "}
+              league.
               <span className="text-court-400">
                 last updated{" "}
                 {new Date(meta.lastUpdated).toLocaleDateString("en-US", {
