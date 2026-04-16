@@ -1,0 +1,8518 @@
+{
+  "source": "https://herhoopstats.com/salary-cap-sheet/wnba/",
+  "season": 2026,
+  "lastUpdated": "2026-04-15T21:35:43.168Z",
+  "playerCount": 230,
+  "players": [
+    {
+      "id": "84",
+      "name": "Kelsey Mitchell",
+      "team": "Indiana Fever",
+      "salary": 1400000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1400000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "191",
+      "name": "Ezi Magbegor",
+      "team": "Seattle Storm",
+      "salary": 1250000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1250000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1250000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1250000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "148",
+      "name": "Kahleah Copper",
+      "team": "Phoenix Mercury",
+      "salary": 1200000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1260000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "149",
+      "name": "Alyssa Thomas",
+      "team": "Phoenix Mercury",
+      "salary": 1200000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "202",
+      "name": "Marina Mabrey",
+      "team": "Toronto Tempo",
+      "salary": 1200000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "Allisha Gray",
+      "team": "Atlanta Dream",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1240000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1270000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "name": "Brittney Griner",
+      "team": "Connecticut Sun",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "name": "Alanna Smith",
+      "team": "Dallas Wings",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1309000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "name": "Arike Ogunbowale",
+      "team": "Dallas Wings",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "name": "Gabby Williams",
+      "team": "Golden State Valkyries",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1309000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "name": "Jackie Young",
+      "team": "Las Vegas Aces",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "118",
+      "name": "Kayla McBride",
+      "team": "Minnesota Lynx",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "119",
+      "name": "Courtney Williams",
+      "team": "Minnesota Lynx",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "175",
+      "name": "Bridget Carleton",
+      "team": "Portland Fire",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1309000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "203",
+      "name": "Brittney Sykes",
+      "team": "Toronto Tempo",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "222",
+      "name": "Shakira Austin",
+      "team": "Washington Mystics",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Rhyne Howard",
+      "team": "Atlanta Dream",
+      "salary": 1100000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1125000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "106",
+      "name": "Dearica Hamby",
+      "team": "Los Angeles Sparks",
+      "salary": 1100000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1122500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1177500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "107",
+      "name": "Ariel Atkins",
+      "team": "Los Angeles Sparks",
+      "salary": 1085000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1085000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1139000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1193000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Brionna Jones",
+      "team": "Atlanta Dream",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1025000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1050000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "name": "Azurá Stevens",
+      "team": "Chicago Sky",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1050000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "name": "Kennedy Burke",
+      "team": "Connecticut Sun",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "name": "Jessica Shepard",
+      "team": "Dallas Wings",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1050000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "name": "Chelsea Gray",
+      "team": "Las Vegas Aces",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1050000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "204",
+      "name": "Temi Fagbenle",
+      "team": "Toronto Tempo",
+      "salary": 1000000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "108",
+      "name": "Kelsey Plum",
+      "team": "Los Angeles Sparks",
+      "salary": 999999,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 999999,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "109",
+      "name": "Nneka Ogwumike",
+      "team": "Los Angeles Sparks",
+      "salary": 950000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 950000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "name": "Veronica Burton",
+      "team": "Golden State Valkyries",
+      "salary": 925000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 925000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 971250,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1017500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "name": "Skylar Diggins",
+      "team": "Chicago Sky",
+      "salary": 920000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 920000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 940000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Naz Hillmon",
+      "team": "Atlanta Dream",
+      "salary": 840000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 840000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 850000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 860000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "name": "Monique Billings",
+      "team": "Indiana Fever",
+      "salary": 800000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 800000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 800000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "name": "Jewell Loyd",
+      "team": "Las Vegas Aces",
+      "salary": 800000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 800000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 840000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 880000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "name": "Lexie Hull",
+      "team": "Indiana Fever",
+      "salary": 765000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 765000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 803250,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "name": "Courtney Vandersloot",
+      "team": "Chicago Sky",
+      "salary": 750000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 750000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 750000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "name": "Kayla Thornton",
+      "team": "Golden State Valkyries",
+      "salary": 750000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 750000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "192",
+      "name": "Natisha Hiedeman",
+      "team": "Seattle Storm",
+      "salary": 750000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 750000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 775000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "193",
+      "name": "Stefanie Dolson",
+      "team": "Seattle Storm",
+      "salary": 750000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 750000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "name": "Olivia Nelson-Ododa",
+      "team": "Connecticut Sun",
+      "salary": 735000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 735000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 700000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "150",
+      "name": "Sami Whitcomb",
+      "team": "Phoenix Mercury",
+      "salary": 735000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 735000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 700000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "120",
+      "name": "Natasha Howard",
+      "team": "Minnesota Lynx",
+      "salary": 700000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 700000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 735000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "223",
+      "name": "Michaela Onyenwere",
+      "team": "Washington Mystics",
+      "salary": 700000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 700000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 735000,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "name": "Sophie Cunningham",
+      "team": "Indiana Fever",
+      "salary": 665000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 665000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Jordin Canada",
+      "team": "Atlanta Dream",
+      "salary": 650000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 650000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 650000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "name": "DiJonai Carrington",
+      "team": "Chicago Sky",
+      "salary": 650000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 650000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "110",
+      "name": "Erica Wheeler",
+      "team": "Los Angeles Sparks",
+      "salary": 625000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 625000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 625000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "name": "Elizabeth Williams",
+      "team": "Chicago Sky",
+      "salary": 600000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 600000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 600000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "name": "Kaila Charles",
+      "team": "Golden State Valkyries",
+      "salary": 600000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 600000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 615000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "name": "Aliyah Boston",
+      "team": "Indiana Fever",
+      "salary": 574612,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 574612,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "name": "Diamond Miller",
+      "team": "Connecticut Sun",
+      "salary": 536588,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 536588,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "name": "Caitlin Clark",
+      "team": "Indiana Fever",
+      "salary": 528846,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 528846,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 597596,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "name": "Awak Kuier",
+      "team": "Dallas Wings",
+      "salary": 525000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 525000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "name": "Maddy Siegrist",
+      "team": "Dallas Wings",
+      "salary": 501080,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 501080,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "name": "Paige Bueckers",
+      "team": "Dallas Wings",
+      "salary": 500000,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 550000,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 621500,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "name": "Janelle Salaün",
+      "team": "Golden State Valkyries",
+      "salary": 500000,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 520000,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "name": "Cecilia Zandalasini",
+      "team": "Golden State Valkyries",
+      "salary": 500000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "151",
+      "name": "Valériane Ayayi",
+      "team": "Phoenix Mercury",
+      "salary": 500000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "152",
+      "name": "DeWanna Bonner",
+      "team": "Phoenix Mercury",
+      "salary": 500000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "176",
+      "name": "Megan Gustafson",
+      "team": "Portland Fire",
+      "salary": 500000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 525000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "194",
+      "name": "Jade Melbourne",
+      "team": "Seattle Storm",
+      "salary": 500000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "111",
+      "name": "Cameron Brink",
+      "team": "Los Angeles Sparks",
+      "salary": 493851,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 493851,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 558051,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "195",
+      "name": "Dominique Malonga",
+      "team": "Seattle Storm",
+      "salary": 466913,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 466913,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 513605,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 580373,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "name": "Kamilla Cardoso",
+      "team": "Chicago Sky",
+      "salary": 461171,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 461171,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 521123,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "name": "Iliana Rupert",
+      "team": "Golden State Valkyries",
+      "salary": 450000,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 450000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 472500,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "name": "NaLyssa Smith",
+      "team": "Las Vegas Aces",
+      "salary": 450000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 450000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "205",
+      "name": "Nyara Sabally",
+      "team": "Toronto Tempo",
+      "salary": 436957,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 436957,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "224",
+      "name": "Sonia Citron",
+      "team": "Washington Mystics",
+      "salary": 436016,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 436016,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 479618,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 541968,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "name": "Rickea Jackson",
+      "team": "Chicago Sky",
+      "salary": 430654,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 430654,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 486638,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "name": "Rachel Banham",
+      "team": "Chicago Sky",
+      "salary": 425000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 425000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "177",
+      "name": "Sug Sutton",
+      "team": "Portland Fire",
+      "salary": 425000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 425000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "206",
+      "name": "Julie Allemand",
+      "team": "Toronto Tempo",
+      "salary": 425000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 425000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 425000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "196",
+      "name": "Katie Lou Samuelson",
+      "team": "Seattle Storm",
+      "salary": 420000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 420000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 420000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "name": "Lindsay Allen",
+      "team": "Dallas Wings",
+      "salary": 410000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 410000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "225",
+      "name": "Kiki Iriafen",
+      "team": "Washington Mystics",
+      "salary": 407163,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 407163,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 447880,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 506104,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "name": "Jacy Sheldon",
+      "team": "Chicago Sky",
+      "salary": 402155,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 402155,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 454435,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "name": "Tyasha Harris",
+      "team": "Indiana Fever",
+      "salary": 400000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 400000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "207",
+      "name": "Isabelle Harrison",
+      "team": "Toronto Tempo",
+      "salary": 400000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 400000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "name": "Stephanie Talbot",
+      "team": "Las Vegas Aces",
+      "salary": 392500,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 392500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "name": "Justė Jocytė",
+      "team": "Golden State Valkyries",
+      "salary": 380219,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 380219,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 395428,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 434971,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 491517,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "name": "Dana Evans",
+      "team": "Las Vegas Aces",
+      "salary": 380000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 380000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 399000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "name": "Aaliyah Edwards",
+      "team": "Connecticut Sun",
+      "salary": 375542,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 375542,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 424362,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "name": "Kiah Stokes",
+      "team": "Golden State Valkyries",
+      "salary": 375000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 375000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 386250,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "178",
+      "name": "Karlie Samuelson",
+      "team": "Portland Fire",
+      "salary": 360000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 360000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "208",
+      "name": "Kiki Rice",
+      "team": "Toronto Tempo",
+      "salary": 355058,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 355058,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 369260,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 406186,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 458990,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "226",
+      "name": "Georgia Amoore",
+      "team": "Washington Mystics",
+      "salary": 355058,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 355058,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 390563,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 441337,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Angel Reese",
+      "team": "Atlanta Dream",
+      "salary": 350692,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 350692,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 396282,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "121",
+      "name": "Nia Coffey",
+      "team": "Minnesota Lynx",
+      "salary": 350000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 350000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 367500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "131",
+      "name": "Rebecca Allen",
+      "team": "New York Liberty",
+      "salary": 350000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 350000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "197",
+      "name": "Jordan Horston",
+      "team": "Seattle Storm",
+      "salary": 332278,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 332278,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "name": "Aneesah Morrow",
+      "team": "Connecticut Sun",
+      "salary": 331563,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 331563,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 364720,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 412134,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "179",
+      "name": "Luisa Geiselsöder",
+      "team": "Portland Fire",
+      "salary": 325000,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 325000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 341250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 357500,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "122",
+      "name": "Dorka Juhasz",
+      "team": "Minnesota Lynx",
+      "salary": 318910,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 318910,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "name": "Saniya Rivers",
+      "team": "Connecticut Sun",
+      "salary": 309622,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 309622,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 340585,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 384861,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "153",
+      "name": "Natasha Mack",
+      "team": "Phoenix Mercury",
+      "salary": 303600,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 303600,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "180",
+      "name": "Haley Jones",
+      "team": "Portland Fire",
+      "salary": 300000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 300000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "name": "Kate Martin",
+      "team": "Golden State Valkyries",
+      "salary": 293510,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 293510,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 331666,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "132",
+      "name": "Leonie Fiebich",
+      "team": "New York Liberty",
+      "salary": 293510,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 293510,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 331666,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "181",
+      "name": "Nika Muhl",
+      "team": "Portland Fire",
+      "salary": 293510,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 293510,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 331666,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "name": "Hailey Van Lith",
+      "team": "Chicago Sky",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 318046,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 359392,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "name": "Leila Lacan",
+      "team": "Connecticut Sun",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 318046,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 359392,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "name": "Aziaha James",
+      "team": "Dallas Wings",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 318046,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 359392,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "182",
+      "name": "Sarah Ashlee Barker",
+      "team": "Portland Fire",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 318046,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 359392,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "183",
+      "name": "Carla Leite",
+      "team": "Portland Fire",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 318046,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 359392,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "184",
+      "name": "Nyadiew Puoch",
+      "team": "Portland Fire",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 300698,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 330768,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 373768,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Te-Hina Paopao",
+      "team": "Atlanta Dream",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Taylor Thierry",
+      "team": "Atlanta Dream",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Maite Cazorla",
+      "team": "Atlanta Dream",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Sika Koné",
+      "team": "Atlanta Dream",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "name": "Maddy Westbeld",
+      "team": "Chicago Sky",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "name": "Shey Peddy",
+      "team": "Connecticut Sun",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "name": "Mamignan Touré",
+      "team": "Connecticut Sun",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "name": "Rayah Marshall",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "name": "JJ Quinerly",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "name": "Grace Berger",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "name": "Alysha Clark",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "name": "Dulcy Fankam Mendjiadeu",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "name": "Li Yueru",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "name": "Makayla Timpson",
+      "team": "Indiana Fever",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "name": "Damiris Dantas",
+      "team": "Indiana Fever",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "101",
+      "name": "Kierstan Bell",
+      "team": "Las Vegas Aces",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "102",
+      "name": "Chennedy Carter",
+      "team": "Las Vegas Aces",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "103",
+      "name": "Cheyenne Parker-Tyus",
+      "team": "Las Vegas Aces",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "104",
+      "name": "Brianna Turner",
+      "team": "Las Vegas Aces",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "112",
+      "name": "Sania Feagin",
+      "team": "Los Angeles Sparks",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "113",
+      "name": "Rae Burrell",
+      "team": "Los Angeles Sparks",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "114",
+      "name": "Emma Cannon",
+      "team": "Los Angeles Sparks",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "115",
+      "name": "Julie Vanloo",
+      "team": "Los Angeles Sparks",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "123",
+      "name": "Anastasiia Olairi Kosu",
+      "team": "Minnesota Lynx",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "124",
+      "name": "Jaylyn Sherrod",
+      "team": "Minnesota Lynx",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "133",
+      "name": "Rebekah Gardner",
+      "team": "New York Liberty",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "134",
+      "name": "DiDi Richards",
+      "team": "New York Liberty",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "154",
+      "name": "Kalani Brown",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "155",
+      "name": "Kyara Linskens",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "156",
+      "name": "Jaime Nared",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "157",
+      "name": "Aisha Sheppard",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "158",
+      "name": "Kathryn Westbeld",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "159",
+      "name": "Kiana Williams",
+      "team": "Phoenix Mercury",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "185",
+      "name": "Chloe Bibby",
+      "team": "Portland Fire",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "186",
+      "name": "Maya Caldwell",
+      "team": "Portland Fire",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "187",
+      "name": "Emily Engstler",
+      "team": "Portland Fire",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "198",
+      "name": "Lexie Brown",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "199",
+      "name": "Zia Cooke",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "200",
+      "name": "Mackenzie Holmes",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "209",
+      "name": "Aaliyah Nye",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "210",
+      "name": "Lexi Held",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "211",
+      "name": "Kitija Laksa",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "212",
+      "name": "Nikolina Milić",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "213",
+      "name": "Kia Nurse",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Protected Veteran",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "214",
+      "name": "Kristy Wallace",
+      "team": "Toronto Tempo",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "227",
+      "name": "Lucy Olsen",
+      "team": "Washington Mystics",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 305250,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 344933,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "228",
+      "name": "Madison Scott",
+      "team": "Washington Mystics",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Isobel Borlase",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Holly Winterburn",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "name": "Paige Robinson",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "name": "Tonie Morgan",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "name": "Aicha Coulibaly",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "name": "Megan Nestor",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "name": "Sydney Taylor",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "name": "Zee Spearman",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "name": "Costanza Verona",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "name": "Grace Sullivan",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "name": "Kyla Oldacre",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "name": "Shyanne Sellers",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "name": "Amy Okonkwo",
+      "team": "Dallas Wings",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "name": "Cate Reese",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "name": "Mariella Fasoula",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "name": "Miela Sowah",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "116",
+      "name": "Jihyun Park",
+      "team": "Los Angeles Sparks",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "125",
+      "name": "Aubrey Griffin",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "126",
+      "name": "Antonia Delaere",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "127",
+      "name": "Eliska Hamzova",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "128",
+      "name": "Emma Cechova",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "129",
+      "name": "Reigan Richardson",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "135",
+      "name": "Ashley Owusu",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "136",
+      "name": "Pauline Astier",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "137",
+      "name": "Raquel Carrera",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "138",
+      "name": "Ugonne Onyiah",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "139",
+      "name": "Anneli Maley",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "160",
+      "name": "Ashten Prechtel",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "161",
+      "name": "Jovana Nogic",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "162",
+      "name": "Kara Dunn",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "163",
+      "name": "Lauren Jensen",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "164",
+      "name": "Maggie Doogan",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "165",
+      "name": "Morgan Maly",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "166",
+      "name": "Noemie Brochant",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "167",
+      "name": "Quionche Carter",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "168",
+      "name": "Shay Ciezki",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "169",
+      "name": "Yarden Garzon",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "188",
+      "name": "Peyton Williams",
+      "team": "Portland Fire",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "189",
+      "name": "Teja Oblak",
+      "team": "Portland Fire",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "190",
+      "name": "Kamiah Smalls",
+      "team": "Portland Fire",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "215",
+      "name": "Teonni Key",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ]
+    },
+    {
+      "id": "216",
+      "name": "Dara Mabrey",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "217",
+      "name": "Elizabeth Balogun",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "218",
+      "name": "Laura Juškaitė",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "219",
+      "name": "Maddison Rocci",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "220",
+      "name": "Maria Conde",
+      "team": "Toronto Tempo",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "229",
+      "name": "Alex Wilson",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "name": "Shatori Walker-Kimbrough",
+      "team": "Atlanta Dream",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "name": "Lorela Cubaj",
+      "team": "Atlanta Dream",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "name": "Sevgi Uzun",
+      "team": "Chicago Sky",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "name": "Tina Charles",
+      "team": "Connecticut Sun",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "name": "Diamond DeShields",
+      "team": "Connecticut Sun",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "name": "Bria Hartley",
+      "team": "Connecticut Sun",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "name": "Haley Peters",
+      "team": "Connecticut Sun",
+      "salary": 0,
+      "status": "RFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "name": "Myisha Hines-Allen",
+      "team": "Dallas Wings",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "name": "Lou Lopez Sénéchal",
+      "team": "Dallas Wings",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "name": "Tiffany Hayes",
+      "team": "Golden State Valkyries",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "name": "Laeticia Amihere",
+      "team": "Golden State Valkyries",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "name": "Kaitlyn Chen",
+      "team": "Golden State Valkyries",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "name": "Sydney Colson",
+      "team": "Indiana Fever",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "name": "Aari McDonald",
+      "team": "Indiana Fever",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "105",
+      "name": "A'ja Wilson",
+      "team": "Las Vegas Aces",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "117",
+      "name": "Alissa Pili",
+      "team": "Los Angeles Sparks",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "130",
+      "name": "Napheesa Collier",
+      "team": "Minnesota Lynx",
+      "salary": 0,
+      "status": "CORED",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "CORED"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "140",
+      "name": "Sabrina Ionescu",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": "CORED",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "CORED"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "141",
+      "name": "Natasha Cloud",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "142",
+      "name": "Jonquel Jones",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "143",
+      "name": "Emma Meesseman",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "144",
+      "name": "Breanna Stewart",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "145",
+      "name": "Marine Johannès",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "146",
+      "name": "Betnijah Laney-Hamilton",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "147",
+      "name": "Han Xu",
+      "team": "New York Liberty",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "170",
+      "name": "Satou Sabally",
+      "team": "Phoenix Mercury",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "171",
+      "name": "Monique Akoa Makani",
+      "team": "Phoenix Mercury",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "172",
+      "name": "Helena Pueyo",
+      "team": "Phoenix Mercury",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "173",
+      "name": "Julia Ayrault",
+      "team": "Phoenix Mercury",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "174",
+      "name": "Klara Lundquist",
+      "team": "Phoenix Mercury",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "201",
+      "name": "Tiffany Mitchell",
+      "team": "Seattle Storm",
+      "salary": 0,
+      "status": "UFA",
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "221",
+      "name": "Maria Kliundikova",
+      "team": "Toronto Tempo",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    },
+    {
+      "id": "230",
+      "name": "Bernadett Határ",
+      "team": "Washington Mystics",
+      "salary": 0,
+      "status": null,
+      "contractLengthYears": 0,
+      "contractStart": null,
+      "contractEnd": null,
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ]
+    }
+  ]
+}
