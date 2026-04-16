@@ -19,8 +19,8 @@ type Props = {
   focusMode?: boolean;
 };
 
-const ACCENT = "#ff6b2c";
-const ACCENT_SOFT = "#f59c74";
+const ACCENT = "#9333ea";
+const ACCENT_SOFT = "#c084fc";
 
 function CustomTooltip({ active, payload }: any) {
   if (!active || !payload || !payload.length) return null;

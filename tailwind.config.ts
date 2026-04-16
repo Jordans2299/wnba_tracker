@@ -22,8 +22,8 @@ const config: Config = {
           950: "#0d1220",
         },
         accent: {
-          DEFAULT: "#ff6b2c",
-          hover: "#ff8553",
+          DEFAULT: "#9333ea",
+          hover: "#a855f7",
         },
       },
       fontFamily: {
