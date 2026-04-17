@@ -1,7 +1,8 @@
 "use client";
 
+import Link from "next/link";
 import type { Player } from "@/lib/data";
-import { classNames, formatCurrency, formatDate } from "@/lib/utils";
+import { classNames, formatCurrency, formatDate, teamUrlSlug } from "@/lib/utils";
 
 export type SortKey =
   | "name"
@@ -23,59 +24,35 @@ const COLUMNS: {
   key: SortKey | "team";
   label: string;
   sortable: boolean;
-  className?: string;
   align?: "left" | "right";
 }[] = [
-  { key: "name", label: "Player", sortable: true },
-  { key: "team", label: "Team", sortable: false },
-  { key: "salary", label: "Salary", sortable: true, align: "right" },
-  { key: "contractLengthYears", label: "Length", sortable: true, align: "right" },
-  { key: "contractStart", label: "Start", sortable: true, align: "right" },
-  { key: "contractEnd", label: "End", sortable: true, align: "right" },
+  { key: "name",                label: "Player",   sortable: true  },
+  { key: "team",                label: "Team",     sortable: false },
+  { key: "salary",              label: "Salary",   sortable: true,  align: "right" },
+  { key: "contractLengthYears", label: "Length",   sortable: true,  align: "right" },
+  { key: "contractStart",       label: "Start",    sortable: true,  align: "right" },
+  { key: "contractEnd",         label: "End",      sortable: true,  align: "right" },
 ];
 
 function SortIcon({ dir }: { dir: SortDir | null }) {
   return (
     <span className="inline-flex flex-col leading-none ml-1 text-court-400">
-      <svg
-        viewBox="0 0 10 6"
-        className={classNames(
-          "h-[6px] w-[10px]",
-          dir === "asc" && "text-accent"
-        )}
-        fill="currentColor"
-        aria-hidden
-      >
+      <svg viewBox="0 0 10 6" className={classNames("h-[6px] w-[10px]", dir === "asc" && "text-accent")} fill="currentColor" aria-hidden>
         <path d="M5 0 L10 6 L0 6 Z" />
       </svg>
-      <svg
-        viewBox="0 0 10 6"
-        className={classNames(
-          "h-[6px] w-[10px] mt-[1px]",
-          dir === "desc" && "text-accent"
-        )}
-        fill="currentColor"
-        aria-hidden
-      >
+      <svg viewBox="0 0 10 6" className={classNames("h-[6px] w-[10px] mt-[1px]", dir === "desc" && "text-accent")} fill="currentColor" aria-hidden>
         <path d="M0 0 L10 0 L5 6 Z" />
       </svg>
     </span>
   );
 }
 
-export default function SalaryTable({
-  players,
-  sortKey,
-  sortDir,
-  onSortChange,
-}: Props) {
+export default function SalaryTable({ players, sortKey, sortDir, onSortChange }: Props) {
   if (players.length === 0) {
     return (
       <div className="rounded-xl border border-white/5 bg-white/[0.03] p-10 text-center">
         <div className="text-lg font-semibold text-white">No players found</div>
-        <div className="mt-1 text-sm text-court-300">
-          Try clearing the search or changing the team filter.
-        </div>
+        <div className="mt-1 text-sm text-court-300">Try clearing the search or changing the team filter.</div>
       </div>
     );
   }
@@ -98,25 +75,10 @@ export default function SalaryTable({
                       c.align === "right" ? "text-right" : "text-left",
                       c.sortable && "cursor-pointer select-none hover:text-white"
                     )}
-                    onClick={
-                      c.sortable
-                        ? () => onSortChange(c.key as SortKey)
-                        : undefined
-                    }
-                    aria-sort={
-                      isSorted
-                        ? sortDir === "asc"
-                          ? "ascending"
-                          : "descending"
-                        : "none"
-                    }
+                    onClick={c.sortable ? () => onSortChange(c.key as SortKey) : undefined}
+                    aria-sort={isSorted ? (sortDir === "asc" ? "ascending" : "descending") : "none"}
                   >
-                    <span
-                      className={classNames(
-                        "inline-flex items-center",
-                        c.align === "right" && "justify-end w-full"
-                      )}
-                    >
+                    <span className={classNames("inline-flex items-center", c.align === "right" && "justify-end w-full")}>
                       {c.label}
                       {c.sortable && <SortIcon dir={dir} />}
                     </span>
@@ -135,14 +97,15 @@ export default function SalaryTable({
                 )}
               >
                 <td className="px-4 py-3">
-                  <div className="font-medium text-white truncate max-w-[200px] sm:max-w-none">
-                    {p.name}
-                  </div>
+                  <div className="font-medium text-white truncate max-w-[200px] sm:max-w-none">{p.name}</div>
                 </td>
                 <td className="px-4 py-3">
-                  <span className="inline-flex items-center rounded-md border border-white/10 bg-white/[0.03] px-2 py-0.5 text-xs text-court-200 whitespace-nowrap">
+                  <Link
+                    href={`/teams/${teamUrlSlug(p.team)}`}
+                    className="inline-flex items-center rounded-md border border-white/10 bg-white/[0.03] px-2 py-0.5 text-xs text-court-200 whitespace-nowrap hover:border-accent/50 hover:bg-accent/10 hover:text-accent transition-colors"
+                  >
                     {p.team}
-                  </span>
+                  </Link>
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums font-semibold text-white">
                   {formatCurrency(p.salary)}

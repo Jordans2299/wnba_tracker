@@ -1,7 +1,7 @@
 {
   "source": "https://herhoopstats.com/salary-cap-sheet/wnba/",
   "season": 2026,
-  "lastUpdated": "2026-04-16T23:01:14.770Z",
+  "lastUpdated": "2026-04-17T00:13:11.495Z",
   "playerCount": 230,
   "players": [
     {
@@ -8514,5 +8514,157 @@
         }
       ]
     }
-  ]
+  ],
+  "teamSummaries": {
+    "Atlanta Dream": {
+      "name": "Atlanta Dream",
+      "urlSlug": "atlanta-dream",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 1044308,
+      "guaranteedSalary": 4780000,
+      "totalPlayers": null,
+      "openRosterSlots": 3
+    },
+    "Chicago Sky": {
+      "name": "Chicago Sky",
+      "urlSlug": "chicago-sky",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 794387,
+      "guaranteedSalary": 4345000,
+      "totalPlayers": null,
+      "openRosterSlots": 1
+    },
+    "Connecticut Sun": {
+      "name": "Connecticut Sun",
+      "urlSlug": "connecticut-sun",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2232552,
+      "guaranteedSalary": 3461588,
+      "totalPlayers": null,
+      "openRosterSlots": 4
+    },
+    "Dallas Wings": {
+      "name": "Dallas Wings",
+      "urlSlug": "dallas-wings",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 839787,
+      "guaranteedSalary": 4406080,
+      "totalPlayers": null,
+      "openRosterSlots": 2
+    },
+    "Golden State Valkyries": {
+      "name": "Golden State Valkyries",
+      "urlSlug": "golden-state-valkyries",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 1416490,
+      "guaranteedSalary": 3840000,
+      "totalPlayers": null,
+      "openRosterSlots": 3
+    },
+    "Indiana Fever": {
+      "name": "Indiana Fever",
+      "urlSlug": "indiana-fever",
+      "salaryCap": 7000000,
+      "totalSalaries": 5688458,
+      "capRoom": 1311542,
+      "guaranteedSalary": 4204612,
+      "totalPlayers": 9,
+      "openRosterSlots": 3
+    },
+    "Las Vegas Aces": {
+      "name": "Las Vegas Aces",
+      "urlSlug": "las-vegas-aces",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2787500,
+      "guaranteedSalary": 4212500,
+      "totalPlayers": null,
+      "openRosterSlots": 6
+    },
+    "Los Angeles Sparks": {
+      "name": "Los Angeles Sparks",
+      "urlSlug": "los-angeles-sparks",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 1468650,
+      "guaranteedSalary": 4759999,
+      "totalPlayers": null,
+      "openRosterSlots": 5
+    },
+    "Minnesota Lynx": {
+      "name": "Minnesota Lynx",
+      "urlSlug": "minnesota-lynx",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2703590,
+      "guaranteedSalary": 3748910,
+      "totalPlayers": null,
+      "openRosterSlots": 5
+    },
+    "New York Liberty": {
+      "name": "New York Liberty",
+      "urlSlug": "new-york-liberty",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 6356490,
+      "guaranteedSalary": 0,
+      "totalPlayers": null,
+      "openRosterSlots": 10
+    },
+    "Phoenix Mercury": {
+      "name": "Phoenix Mercury",
+      "urlSlug": "phoenix-mercury",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2283900,
+      "guaranteedSalary": 3912500,
+      "totalPlayers": null,
+      "openRosterSlots": 5
+    },
+    "Portland Fire": {
+      "name": "Portland Fire",
+      "urlSlug": "portland-fire",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2739091,
+      "guaranteedSalary": 2350000,
+      "totalPlayers": null,
+      "openRosterSlots": 2
+    },
+    "Seattle Storm": {
+      "name": "Seattle Storm",
+      "urlSlug": "seattle-storm",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 2253309,
+      "guaranteedSalary": 4279778,
+      "totalPlayers": null,
+      "openRosterSlots": 4
+    },
+    "Toronto Tempo": {
+      "name": "Toronto Tempo",
+      "urlSlug": "toronto-tempo",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 1793043,
+      "guaranteedSalary": 4529457,
+      "totalPlayers": null,
+      "openRosterSlots": 4
+    },
+    "Washington Mystics": {
+      "name": "Washington Mystics",
+      "urlSlug": "washington-mystics",
+      "salaryCap": 7000000,
+      "totalSalaries": null,
+      "capRoom": 3634263,
+      "guaranteedSalary": 1890000,
+      "totalPlayers": null,
+      "openRosterSlots": 6
+    }
+  }
 }
