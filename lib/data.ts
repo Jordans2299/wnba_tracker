@@ -6,6 +6,13 @@ export type YearlySalary = {
   status: string | null;
 };
 
+export type CareerEntry = {
+  season: number;
+  team: string;
+  salary: number;
+  status: string | null;
+};
+
 export type Player = {
   id: string;
   name: string;
@@ -16,6 +23,10 @@ export type Player = {
   contractStart: string | null;
   contractEnd: string | null;
   yearlySalaries: YearlySalary[];
+  profileSlug: string;
+  photoUrl: string | null;
+  careerEarnings: CareerEntry[];
+  totalCareerEarnings: number;
 };
 
 export type TeamSummary = {
@@ -40,18 +51,10 @@ export type SalaryDataset = {
 
 const dataset = salaryData as SalaryDataset;
 
-/** Players with a current-year cap hit — what the salary tracker shows. */
 export const players: Player[] = dataset.players.filter((p) => p.salary > 0);
-
-/** All players including unsigned free agents. */
 export const allPlayers: Player[] = dataset.players;
-
-export const teams: string[] = Array.from(
-  new Set(players.map((p) => p.team))
-).sort();
-
+export const teams: string[] = Array.from(new Set(players.map((p) => p.team))).sort();
 export const teamSummaries: Record<string, TeamSummary> = dataset.teamSummaries;
-
 export const meta = {
   source: dataset.source,
   season: dataset.season,

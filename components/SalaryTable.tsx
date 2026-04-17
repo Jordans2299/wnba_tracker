@@ -97,7 +97,12 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
                 )}
               >
                 <td className="px-4 py-3">
-                  <div className="font-medium text-white truncate max-w-[200px] sm:max-w-none">{p.name}</div>
+                  <Link
+                    href={`/players/${p.profileSlug}`}
+                    className="font-medium text-white hover:text-accent transition-colors truncate max-w-[200px] sm:max-w-none block"
+                  >
+                    {p.name}
+                  </Link>
                 </td>
                 <td className="px-4 py-3">
                   <Link

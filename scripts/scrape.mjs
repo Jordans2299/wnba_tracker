@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 /**
- * Scrapes WNBA salary data from Her Hoop Stats team cap sheets and writes
- * a consolidated JSON file at data/salaries.json.
+ * Scrapes WNBA salary data from Her Hoop Stats team cap sheets + ESPN rosters.
  *
- * Source: https://herhoopstats.com/salary-cap-sheet/wnba/team/<year>/<team-slug>/
+ * Outputs data/salaries.json with:
+ *  - players: current season cap hits + contract details + career earnings + photo URLs
+ *  - teamSummaries: cap totals / cap room / guaranteed salary per team
  */
 
 import { writeFile, mkdir } from "node:fs/promises";
@@ -14,10 +15,9 @@ import * as cheerio from "cheerio";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, "..", "data", "salaries.json");
 
-const USER_AGENT =
-  "wnba-wage-tracker/0.1 (+scraper; contact: see repo) Mozilla/5.0";
-
+const USER_AGENT = "wnba-wage-tracker/0.1 (+scraper) Mozilla/5.0";
 const CURRENT_SEASON = 2026;
+const HISTORICAL_SEASONS = [2023, 2024, 2025]; // scraped for career earnings
 
 const TEAMS = [
   { name: "Atlanta Dream",          slug: "atlanta-dream-11eaecc7-356c-1364-b611-2362f5011b0b" },
@@ -37,75 +37,86 @@ const TEAMS = [
   { name: "Washington Mystics",     slug: "washington-mystics-11eaecc7-3568-d154-b611-2362f5011b0b" },
 ];
 
-/** URL-safe slug derived from the team display name. */
+// ─── Helpers ─────────────────────────────────────────────────────────────────
+
+function sleep(ms) { return new Promise((r) => setTimeout(r, ms)); }
+
 function teamUrlSlug(name) {
   return name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 }
 
-function sleep(ms) {
-  return new Promise((r) => setTimeout(r, ms));
+/** Normalize a display name for fuzzy matching (lowercase, remove accents + punctuation). */
+function normalizeName(name) {
+  return name
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")   // strip accents
+    .replace(/[^a-z\s]/g, "")          // keep only letters + spaces
+    .replace(/\s+/g, " ")
+    .trim();
 }
 
-async function fetchText(url, { retries = 2 } = {}) {
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      const res = await fetch(url, {
-        headers: {
-          "user-agent": USER_AGENT,
-          accept: "text/html,application/xhtml+xml",
-        },
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status} on ${url}`);
-      return await res.text();
-    } catch (err) {
-      if (attempt === retries) throw err;
-      const backoff = 1000 * (attempt + 1);
-      console.warn(`  retry ${attempt + 1} after ${backoff}ms: ${err.message}`);
-      await sleep(backoff);
-    }
-  }
-}
-
-/** Parse a dollar string like "$5,688,458" → 5688458, or return null. */
 function parseDollar(text) {
   const m = text && text.match(/\$([\d,]+)/);
   return m ? parseInt(m[1].replace(/,/g, ""), 10) : null;
 }
 
+async function fetchText(url, opts = {}) {
+  const { retries = 2, isJson = false } = opts;
+  for (let attempt = 0; attempt <= retries; attempt++) {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "user-agent": USER_AGENT,
+          accept: isJson ? "application/json" : "text/html,application/xhtml+xml",
+        },
+      });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return isJson ? res.json() : res.text();
+    } catch (err) {
+      if (attempt === retries) throw err;
+      await sleep(1000 * (attempt + 1));
+    }
+  }
+}
+
+// ─── HHS scraping ────────────────────────────────────────────────────────────
+
 /**
- * Parse one team cap-sheet page.
+ * Parse a team cap-sheet page.
  * Returns { players, capSummary }.
+ * Each player has yearlySalaries[] covering all columns shown.
  */
 function parseTeamPage(html, teamName) {
   const $ = cheerio.load(html);
   const table = $("table.sortable").first();
-  if (table.length === 0) {
-    console.warn(`  no salary table found for ${teamName}`);
-    return { players: [], capSummary: null };
-  }
+  if (!table.length) return { players: [], capSummary: null };
 
-  // ── Year columns ──────────────────────────────────────────────────────────
   const years = [];
   table.find("thead th span.salary_year").each((_, el) => {
     const y = parseInt($(el).text().trim(), 10);
     if (!Number.isNaN(y)) years.push(y);
   });
-  if (years.length === 0) {
-    console.warn(`  no year columns for ${teamName}`);
-    return { players: [], capSummary: null };
-  }
+  if (!years.length) return { players: [], capSummary: null };
 
-  // ── Player rows (tbody) ───────────────────────────────────────────────────
   const players = [];
   table.find("tbody tr").each((_, tr) => {
     const $tr = $(tr);
     const nameCell = $tr.find("td.salary_player_name").first();
-    if (nameCell.length === 0) return;
+    if (!nameCell.length) return;
 
+    // Player name — prefer full-name anchor
     let name = nameCell.find("a.d-none.d-sm-block").first().text().trim();
     if (!name) name = nameCell.find("a").first().text().trim();
-    if (!name) name = nameCell.text().trim().split("\n")[0].trim();
     if (!name) return;
+
+    // Player profile URL from the anchor href
+    const profileHref = nameCell.find("a").first().attr("href") || "";
+    // Extract slug like "aja-wilson" from "/stats/wnba/player/aja-wilson-stats-UUID/"
+    const profileSlug = profileHref
+      .split("/player/")[1]
+      ?.replace(/\/$/, "")
+      ?.replace(/-stats-[0-9a-f-]+$/, "") || "";
 
     const yearCells = $tr.find("td").slice(1, 1 + years.length);
     const yearly = [];
@@ -134,66 +145,119 @@ function parseTeamPage(html, teamName) {
       yearly.push({ year: years[i], salary, status });
     });
 
-    players.push({ name, team: teamName, yearlySalaries: yearly });
+    players.push({ name, profileSlug, team: teamName, yearlySalaries: yearly });
   });
 
-  // ── Cap summary (tfoot) ───────────────────────────────────────────────────
+  // Cap summary from tfoot
   const capSummary = {
-    salaryCap: null,
-    totalSalaries: null,
-    capRoom: null,
-    guaranteedSalary: null,
-    totalPlayers: null,
-    openRosterSlots: null,
+    salaryCap: null, totalSalaries: null, capRoom: null,
+    guaranteedSalary: null, totalPlayers: null, openRosterSlots: null,
   };
-
   table.find("tfoot tr").each((_, tr) => {
     const cells = $(tr).find("td");
     const label = cells.first().text().replace(/\s+/g, " ").trim();
-    // For current-season column (index 1), get the first value cell text
     const valText = cells.eq(1).text().replace(/\s+/g, " ").trim();
-
     switch (label) {
-      case "Salary Cap":
-        capSummary.salaryCap = parseDollar(valText);
-        break;
-      case "Total Salaries":
-        capSummary.totalSalaries = parseDollar(valText);
-        break;
-      case "Cap Room":
-        capSummary.capRoom = parseDollar(valText);
-        break;
-      case "Total Guaranteed Salary":
-        capSummary.guaranteedSalary = parseDollar(valText);
-        break;
-      case "Total Players":
-        capSummary.totalPlayers = parseInt(valText, 10) || null;
-        break;
-      case "Open Roster Slots":
-        capSummary.openRosterSlots = parseInt(valText, 10) || null;
-        break;
+      case "Salary Cap":              capSummary.salaryCap = parseDollar(valText); break;
+      case "Total Salaries":          capSummary.totalSalaries = parseDollar(valText); break;
+      case "Cap Room":                capSummary.capRoom = parseDollar(valText); break;
+      case "Total Guaranteed Salary": capSummary.guaranteedSalary = parseDollar(valText); break;
+      case "Total Players":           capSummary.totalPlayers = parseInt(valText, 10) || null; break;
+      case "Open Roster Slots":       capSummary.openRosterSlots = parseInt(valText, 10) || null; break;
     }
   });
 
   return { players, capSummary };
 }
 
-function toFrontendRecord(p, idx) {
+// ─── ESPN photo scraping ─────────────────────────────────────────────────────
+
+/**
+ * Fetch all WNBA team rosters from ESPN and return a Map of
+ * normalizedName → photoUrl.
+ */
+async function fetchEspnPhotoMap() {
+  const photoMap = new Map();
+  console.log("\nFetching ESPN rosters for player photos…");
+
+  let teamsData;
+  try {
+    teamsData = await fetchText(
+      "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams?limit=30",
+      { isJson: true }
+    );
+  } catch (err) {
+    console.warn("  ESPN teams fetch failed:", err.message);
+    return photoMap;
+  }
+
+  const espnTeams = teamsData?.sports?.[0]?.leagues?.[0]?.teams ?? [];
+  console.log(`  ${espnTeams.length} ESPN teams found`);
+
+  for (const { team } of espnTeams) {
+    try {
+      const rosterData = await fetchText(
+        `https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/${team.id}/roster`,
+        { isJson: true }
+      );
+      const athletes = rosterData?.athletes ?? [];
+      for (const athlete of athletes) {
+        const normalized = normalizeName(athlete.fullName || athlete.displayName || "");
+        if (normalized && athlete.headshot?.href) {
+          // Upgrade to a larger headshot if possible
+          const url = athlete.headshot.href.replace(
+            /\/i\/headshots\/wnba\/players\/full\//,
+            "/combiner/i?img=/i/headshots/wnba/players/full/"
+          );
+          photoMap.set(normalized, url);
+        }
+      }
+      await sleep(200);
+    } catch (_) { /* individual team failures are non-fatal */ }
+  }
+
+  console.log(`  ${photoMap.size} player photos collected`);
+  return photoMap;
+}
+
+// ─── Build final records ──────────────────────────────────────────────────────
+
+function toFrontendRecord(p, idx, photoMap, historyMap) {
   const ys = p.yearlySalaries;
   const current = ys.find((y) => y.year === CURRENT_SEASON) || ys[0] || null;
   const currentSalary = current?.salary ?? 0;
   const currentStatus = current?.status ?? null;
 
-  let runStart = null;
-  let runEnd = null;
+  // Derive contract window from consecutive signed years
+  let runStart = null, runEnd = null;
   for (const y of ys) {
     if (y.salary != null) {
       if (runStart === null) runStart = y.year;
       runEnd = y.year;
-    } else if (runStart !== null) {
-      break;
-    }
+    } else if (runStart !== null) break;
   }
+
+  // Career earnings: historical entries + current season
+  const key = normalizeName(p.name);
+  const historicalEntries = historyMap.get(key) ?? [];
+
+  // Deduplicate: don't double-count if a historical year already appears in yearlySalaries
+  const coveredYears = new Set(ys.filter(y => y.salary != null).map(y => y.year));
+  const careerEntries = [
+    ...historicalEntries.filter(e => !coveredYears.has(e.season)),
+    // Add each signed year from current sheet as a career entry
+    ...ys
+      .filter(y => y.salary != null && y.year <= CURRENT_SEASON)
+      .map(y => ({ season: y.year, team: p.team, salary: y.salary, status: y.status })),
+  ].sort((a, b) => a.season - b.season);
+
+  const totalCareerEarnings = careerEntries.reduce((s, e) => s + e.salary, 0);
+
+  // Photo from ESPN
+  const photoUrl = photoMap.get(key) ?? null;
+
+  // URL-safe player slug (derived from HHS profile slug, fallback to name)
+  const profileSlug = p.profileSlug || p.name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 
   return {
     id: `${idx + 1}`,
@@ -205,13 +269,19 @@ function toFrontendRecord(p, idx) {
     contractStart: runStart != null ? `${runStart}-02-01` : null,
     contractEnd: runEnd != null ? `${runEnd + 1}-01-31` : null,
     yearlySalaries: ys,
+    profileSlug,
+    photoUrl,
+    careerEarnings: careerEntries,
+    totalCareerEarnings,
   };
 }
 
-async function main() {
-  console.log(`Scraping ${TEAMS.length} team cap sheets…\n`);
+// ─── Main ─────────────────────────────────────────────────────────────────────
 
-  const allPlayers = [];
+async function main() {
+  // ── 1. Current season (2026) ──────────────────────────────────────────────
+  console.log(`\n═══ Scraping ${CURRENT_SEASON} (current season) ═══`);
+  const currentPlayers = [];
   const teamSummaries = {};
 
   for (const team of TEAMS) {
@@ -221,21 +291,55 @@ async function main() {
       const html = await fetchText(url);
       const { players, capSummary } = parseTeamPage(html, team.name);
       console.log(`${players.length} players | cap room: ${capSummary?.capRoom != null ? "$" + capSummary.capRoom.toLocaleString() : "n/a"}`);
-      allPlayers.push(...players);
-      teamSummaries[team.name] = {
-        name: team.name,
-        urlSlug: teamUrlSlug(team.name),
-        ...capSummary,
-      };
+      currentPlayers.push(...players);
+      teamSummaries[team.name] = { name: team.name, urlSlug: teamUrlSlug(team.name), ...capSummary };
     } catch (err) {
       console.log(`FAILED: ${err.message}`);
     }
-    await sleep(500);
+    await sleep(400);
   }
 
-  // De-dupe
+  // ── 2. Historical seasons for career earnings ─────────────────────────────
+  // historyMap: normalizedName → [{season, team, salary, status}]
+  const historyMap = new Map();
+
+  for (const season of HISTORICAL_SEASONS) {
+    console.log(`\n═══ Scraping ${season} (historical) ═══`);
+    for (const team of TEAMS) {
+      const url = `https://herhoopstats.com/salary-cap-sheet/wnba/team/${season}/${team.slug}/`;
+      process.stdout.write(`• ${team.name} (${season}) … `);
+      try {
+        const html = await fetchText(url);
+        const { players } = parseTeamPage(html, team.name);
+        let count = 0;
+        for (const p of players) {
+          // Only take the salary for the season year column
+          const entry = p.yearlySalaries.find(y => y.year === season);
+          if (!entry || entry.salary == null) continue;
+          const key = normalizeName(p.name);
+          if (!historyMap.has(key)) historyMap.set(key, []);
+          // avoid duplicate season entries
+          const existing = historyMap.get(key);
+          if (!existing.some(e => e.season === season)) {
+            existing.push({ season, team: team.name, salary: entry.salary, status: entry.status });
+            count++;
+          }
+        }
+        console.log(`${count} entries`);
+      } catch (err) {
+        // Teams that didn't exist yet (expansion teams) will 404 — that's fine
+        console.log(err.message.includes("404") ? "not found (expansion team)" : `FAILED: ${err.message}`);
+      }
+      await sleep(400);
+    }
+  }
+
+  // ── 3. ESPN photos ────────────────────────────────────────────────────────
+  const photoMap = await fetchEspnPhotoMap();
+
+  // ── 4. Deduplicate + build final records ──────────────────────────────────
   const byKey = new Map();
-  for (const p of allPlayers) {
+  for (const p of currentPlayers) {
     const key = `${p.name}::${p.team}`;
     const existing = byKey.get(key);
     if (!existing || p.yearlySalaries.length > existing.yearlySalaries.length) {
@@ -243,8 +347,9 @@ async function main() {
     }
   }
 
-  const records = Array.from(byKey.values()).map(toFrontendRecord);
-  records.sort((a, b) => (b.salary ?? 0) - (a.salary ?? 0));
+  const records = Array.from(byKey.values())
+    .map((p, idx) => toFrontendRecord(p, idx, photoMap, historyMap))
+    .sort((a, b) => (b.salary ?? 0) - (a.salary ?? 0));
 
   const payload = {
     source: "https://herhoopstats.com/salary-cap-sheet/wnba/",
@@ -257,10 +362,11 @@ async function main() {
 
   await mkdir(dirname(OUT_PATH), { recursive: true });
   await writeFile(OUT_PATH, JSON.stringify(payload, null, 2) + "\n", "utf8");
-  console.log(`\n✓ Wrote ${records.length} players + ${Object.keys(teamSummaries).length} team summaries to ${OUT_PATH}`);
+
+  const withPhotos = records.filter(r => r.photoUrl).length;
+  const withHistory = records.filter(r => r.careerEarnings.length > 1).length;
+  console.log(`\n✓ ${records.length} players | ${withPhotos} with photos | ${withHistory} with career history`);
+  console.log(`✓ Written to ${OUT_PATH}`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main().catch((err) => { console.error(err); process.exit(1); });

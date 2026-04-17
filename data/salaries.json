@@ -1,7 +1,7 @@
 {
   "source": "https://herhoopstats.com/salary-cap-sheet/wnba/",
   "season": 2026,
-  "lastUpdated": "2026-04-17T00:13:11.495Z",
+  "lastUpdated": "2026-04-17T00:33:50.651Z",
   "playerCount": 230,
   "players": [
     {
@@ -39,7 +39,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kelsey-mitchell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142191.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 206000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 212000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 269244,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 1400000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 2087244
     },
     {
       "id": "191",
@@ -76,7 +105,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "ezi-magbegor",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4420318.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 159650,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 155000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 186000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 1250000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1750650
     },
     {
       "id": "148",
@@ -113,7 +171,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kahleah-copper",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2998938.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 205000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 241984,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 248134,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1895118
     },
     {
       "id": "149",
@@ -150,7 +237,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "alyssa-thomas",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529140.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 212000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 218000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 215000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1845000
     },
     {
       "id": "202",
@@ -187,7 +303,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "marina-mabrey",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3904576.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 202000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 217592,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 210000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 1200000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1829592
     },
     {
       "id": "1",
@@ -224,7 +369,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "allisha-gray",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058901.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 194600,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 185000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1759600
     },
     {
       "id": "32",
@@ -261,7 +435,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "brittney-griner",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2490553.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 165100,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 214466,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1719566
     },
     {
       "id": "46",
@@ -298,7 +501,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "alanna-smith",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3913881.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1590000
     },
     {
       "id": "47",
@@ -335,7 +567,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "arike-ogunbowale",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3904577.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 234936,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 241984,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 249032,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1915952
     },
     {
       "id": "68",
@@ -372,7 +633,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "gabby-williams",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142328.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 23491,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 225000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1538491
     },
     {
       "id": "95",
@@ -409,7 +699,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jackie-young",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4065870.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 165000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 169950,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 169950,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1694900
     },
     {
       "id": "118",
@@ -446,7 +765,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kayla-mcbride",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529205.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 201984,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 208000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 205000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1804984
     },
     {
       "id": "119",
@@ -483,7 +831,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "courtney-williams",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2987891.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 175000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 180000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1705000
     },
     {
       "id": "175",
@@ -520,7 +897,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "bridget-carleton",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3906972.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 91000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 125000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 125000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1531000
     },
     {
       "id": "203",
@@ -557,7 +963,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "brittney-sykes",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2988756.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 195000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1775000
     },
     {
       "id": "222",
@@ -594,7 +1029,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "shakira-austin",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398911.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 73584,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 80943,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 91981,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1436508
     },
     {
       "id": "2",
@@ -631,7 +1095,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rhyne-howard",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398674.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 73584,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 80943,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 91981,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1346508
     },
     {
       "id": "106",
@@ -668,7 +1161,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dearica-hamby",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2566106.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 169000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 189000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 202000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 1100000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1660000
     },
     {
       "id": "107",
@@ -705,7 +1227,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "ariel-atkins",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3146151.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 175000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 223000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 1085000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1683000
     },
     {
       "id": "3",
@@ -742,7 +1293,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "brionna-jones",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058895.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 208000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 212000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 214466,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1634466
     },
     {
       "id": "16",
@@ -779,7 +1359,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "azurá-stevens",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142010.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 215000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 195000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1600000
     },
     {
       "id": "33",
@@ -816,7 +1425,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kennedy-burke",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3922628.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 76535,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1155366
     },
     {
       "id": "48",
@@ -853,7 +1485,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jessica-shepard",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3906949.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 120000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1198831
     },
     {
       "id": "96",
@@ -890,7 +1545,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "chelsea-gray",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529122.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 196267,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 196267,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 196267,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1588801
     },
     {
       "id": "204",
@@ -927,7 +1611,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "temi-fagbenle",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2569044.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 90000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 1000000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1166535
     },
     {
       "id": "108",
@@ -964,7 +1671,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kelsey-plum",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3065570.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 202000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 999999,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1601999
     },
     {
       "id": "109",
@@ -1001,7 +1737,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nneka-ogwumike",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/1068.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 199530,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 204500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 195000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 950000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1549030
     },
     {
       "id": "69",
@@ -1038,7 +1803,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "veronica-burton",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398935.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 70609,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 50180,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 103831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 925000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1149620
     },
     {
       "id": "17",
@@ -1075,7 +1869,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "skylar-diggins",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2491205.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 234350,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 208219,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 214466,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 920000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1577035
     },
     {
       "id": "4",
@@ -1112,7 +1935,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "naz-hillmon",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398915.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 64657,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 71124,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 80823,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 840000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1056604
     },
     {
       "id": "85",
@@ -1149,7 +2001,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "monique-billings",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142255.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 145000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 35237,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 110000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 800000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1090237
     },
     {
       "id": "97",
@@ -1186,7 +2067,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jewell-loyd",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2987869.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 234936,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 241984,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 249032,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 800000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1525952
     },
     {
       "id": "86",
@@ -1223,7 +2133,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lexie-hull",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398829.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 70609,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 77669,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 88261,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 765000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1001539
     },
     {
       "id": "18",
@@ -1260,7 +2199,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "courtney-vandersloot",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/981.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 194000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 194670,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 185000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 750000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1323670
     },
     {
       "id": "70",
@@ -1297,7 +2265,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kayla-thornton",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529622.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 109716,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 110000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 132000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 750000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1101716
     },
     {
       "id": "192",
@@ -1334,7 +2331,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "natisha-hiedeman",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3906753.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 120000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 120000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 135000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 750000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1125000
     },
     {
       "id": "193",
@@ -1371,7 +2397,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "stefanie-dolson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529183.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 185000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 170000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 750000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1265000
     },
     {
       "id": "34",
@@ -1408,7 +2463,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "olivia-nelson-ododa",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398966.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 64657,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 71124,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 80823,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 735000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 951604
     },
     {
       "id": "150",
@@ -1445,7 +2529,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sami-whitcomb",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/887.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 142500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 140000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 125000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 735000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1142500
     },
     {
       "id": "120",
@@ -1482,7 +2595,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "natasha-howard",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529130.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 227900,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 234350,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 214466,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 700000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1376716
     },
     {
       "id": "223",
@@ -1519,7 +2661,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "michaela-onyenwere",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4282173.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 75407,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 85690,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 125000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 700000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 986097
     },
     {
       "id": "87",
@@ -1556,7 +2727,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sophie-cunningham",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3907781.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 189500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 665000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1104500
     },
     {
       "id": "5",
@@ -1593,7 +2793,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jordin-canada",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142250.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 185000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 650000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1099305
     },
     {
       "id": "19",
@@ -1630,7 +2859,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dijonai-carrington",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4066548.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 69053,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 78469,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 650000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 997522
     },
     {
       "id": "110",
@@ -1667,7 +2925,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "erica-wheeler",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2491214.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 242154,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 202154,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 625000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1148139
     },
     {
       "id": "20",
@@ -1704,7 +2991,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "elizabeth-williams",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2566081.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 135000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 165000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 600000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1000000
     },
     {
       "id": "71",
@@ -1741,7 +3057,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kaila-charles",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4065780.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 12999,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 21198,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 600000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 634197
     },
     {
       "id": "88",
@@ -1778,7 +3117,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aliyah-boston",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432831.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 75792,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 83371,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 574612,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 808080
     },
     {
       "id": "35",
@@ -1815,7 +3183,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "diamond-miller",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433635.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 75792,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 83371,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 536588,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 770056
     },
     {
       "id": "89",
@@ -1852,7 +3249,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "caitlin-clark",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433403.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 78066,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 528846,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 683447
     },
     {
       "id": "49",
@@ -1889,7 +3309,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "awak-kuier",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4790266.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 78586,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 525000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 603586
     },
     {
       "id": "50",
@@ -1926,7 +3363,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maddy-siegrist",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4399415.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 75792,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 83371,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 501080,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 734548
     },
     {
       "id": "51",
@@ -1963,7 +3429,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "paige-bueckers",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433730.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 500000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 578831
     },
     {
       "id": "72",
@@ -2000,7 +3483,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "janelle-salaün",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4790264.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 500000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 566079
     },
     {
       "id": "73",
@@ -2037,7 +3537,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "cecilia-zandalasini",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4257500.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 500000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 664154
     },
     {
       "id": "151",
@@ -2074,7 +3597,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "valériane-ayayi",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 500000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 500000
     },
     {
       "id": "152",
@@ -2111,7 +3645,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dewanna-bonner",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/869.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 234350,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 209593,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 72269,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 500000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 1016212
     },
     {
       "id": "176",
@@ -2148,7 +3711,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "megan-gustafson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3934218.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 94000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 96820,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 500000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 765125
     },
     {
       "id": "194",
@@ -2185,7 +3777,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jade-melbourne",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5017726.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 62285,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 66710,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 500000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 693149
     },
     {
       "id": "111",
@@ -2222,7 +3843,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "cameron-brink",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433404.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 78066,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 493851,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 648452
     },
     {
       "id": "195",
@@ -2259,7 +3903,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dominique-malonga",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5220150.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 466913,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 545744
     },
     {
       "id": "21",
@@ -2296,7 +3957,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kamilla-cardoso",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433405.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 78066,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 461171,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 615772
     },
     {
       "id": "74",
@@ -2333,7 +4017,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "iliana-rupert",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 67634,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 32207,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 450000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 549841
     },
     {
       "id": "98",
@@ -2370,7 +4077,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nalyssa-smith",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398776.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 73584,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 80943,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 91981,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 450000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 696508
     },
     {
       "id": "205",
@@ -2407,7 +4143,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nyara-sabally",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398768.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 72727,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 79999,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 436957,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 660983
     },
     {
       "id": "224",
@@ -2444,7 +4209,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sonia-citron",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433524.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 436016,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 514847
     },
     {
       "id": "22",
@@ -2481,7 +4263,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rickea-jackson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433630.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 78066,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 430654,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 585255
     },
     {
       "id": "23",
@@ -2518,7 +4323,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rachel-banham",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2566186.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 95000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 95000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 425000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 689305
     },
     {
       "id": "177",
@@ -2555,7 +4389,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sug-sutton",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4068159.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 62285,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 93831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 425000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 645270
     },
     {
       "id": "206",
@@ -2592,7 +4455,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "julie-allemand",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4001679.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 85000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 425000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 510000
     },
     {
       "id": "196",
@@ -2629,7 +4509,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "katie-lou-samuelson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3917453.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 130000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 175000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 95835,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 420000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 820835
     },
     {
       "id": "52",
@@ -2666,7 +4575,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lindsay-allen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058908.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 90000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 90000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 410000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 664305
     },
     {
       "id": "225",
@@ -2703,7 +4641,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kiki-iriafen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4898384.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 407163,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 485994
     },
     {
       "id": "24",
@@ -2740,7 +4695,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jacy-sheldon",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432865.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 73439,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 74909,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 402155,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 550503
     },
     {
       "id": "90",
@@ -2777,7 +4755,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "tyasha-harris",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4065760.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 83194,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 97100,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 100013,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 400000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 680307
     },
     {
       "id": "207",
@@ -2814,7 +4821,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "isabelle-harrison",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2566453.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 400000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 798831
     },
     {
       "id": "99",
@@ -2851,7 +4887,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "stephanie-talbot",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3099736.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 115000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 125000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 392500,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 632500
     },
     {
       "id": "75",
@@ -2888,7 +4947,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "justė-jocytė-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 380219,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 380219
     },
     {
       "id": "100",
@@ -2925,7 +4995,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dana-evans",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4281190.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 69053,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 78469,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 89000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 380000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 616522
     },
     {
       "id": "36",
@@ -2962,7 +5061,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aaliyah-edwards",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433408.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 73439,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 74909,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 375542,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 523890
     },
     {
       "id": "76",
@@ -2999,7 +5121,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kiah-stokes",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2590093.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 81000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 103000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 375000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 659000
     },
     {
       "id": "178",
@@ -3036,7 +5187,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "karlie-samuelson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3056730.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 62675,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 125000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 118450,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 360000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 666125
     },
     {
       "id": "208",
@@ -3073,7 +5253,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "kiki-rice-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 355058,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 355058
     },
     {
       "id": "226",
@@ -3110,7 +5301,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "georgia-amoore",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4704180.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 75643,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 355058,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 430701
     },
     {
       "id": "6",
@@ -3147,7 +5355,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "angel-reese",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433402.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 73439,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 74909,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 350692,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 499040
     },
     {
       "id": "121",
@@ -3184,7 +5415,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nia-coffey",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3054590.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 135000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 350000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 785000
     },
     {
       "id": "131",
@@ -3221,7 +5481,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rebecca-allen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3102133.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 136850,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 160000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 350000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 806850
     },
     {
       "id": "197",
@@ -3258,7 +5547,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jordan-horston",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432830.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 68295,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 69663,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 332278,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 470236
     },
     {
       "id": "37",
@@ -3295,7 +5607,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aneesah-morrow",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4684384.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 75643,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 331563,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 407206
     },
     {
       "id": "179",
@@ -3332,7 +5661,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "luisa-geiselsöder",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4682797.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 325000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 391079
     },
     {
       "id": "122",
@@ -3369,7 +5715,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dorka-juhasz",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398938.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 65290,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 66597,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 318910,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 450797
     },
     {
       "id": "38",
@@ -3406,7 +5775,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "saniya-rivers",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433514.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 75643,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 309622,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 385265
     },
     {
       "id": "153",
@@ -3443,7 +5829,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "natasha-mack",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4068042.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 116079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 303600,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 483833
     },
     {
       "id": "180",
@@ -3480,7 +5889,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "haley-jones",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4595910.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 72727,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 36094,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 300000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 480121
     },
     {
       "id": "77",
@@ -3517,7 +5955,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kate-martin",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398907.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 67249,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 68595,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 293510,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 429354
     },
     {
       "id": "132",
@@ -3554,7 +6015,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "leonie-fiebich",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4683006.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 67249,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 68595,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 293510,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 429354
     },
     {
       "id": "181",
@@ -3591,7 +6075,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nika-muhl",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433468.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 67249,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 293510,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 360759
     },
     {
       "id": "25",
@@ -3628,7 +6129,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "hailey-van-lith",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433412.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 72455,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 361588
     },
     {
       "id": "39",
@@ -3665,7 +6183,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "leila-lacan",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5208981.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 72455,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 361588
     },
     {
       "id": "53",
@@ -3702,7 +6237,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aziaha-james",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433807.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 72455,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 361588
     },
     {
       "id": "182",
@@ -3739,7 +6291,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sarah-ashlee-barker",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4703794.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 72455,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 361588
     },
     {
       "id": "183",
@@ -3776,7 +6345,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "carla-leite",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5208982.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 72455,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 361588
     },
     {
       "id": "184",
@@ -3813,7 +6399,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "nyadiew-puoch",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 289133
     },
     {
       "id": "7",
@@ -3850,7 +6447,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "te-hina-paopao",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433431.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "8",
@@ -3887,7 +6501,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "taylor-thierry",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4898400.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 343579
     },
     {
       "id": "9",
@@ -3924,7 +6555,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maite-cazorla",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
     },
     {
       "id": "10",
@@ -3961,7 +6603,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sika-koné",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5017721.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 62285,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 15548,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 419487
     },
     {
       "id": "26",
@@ -3998,7 +6669,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maddy-westbeld",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433424.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "40",
@@ -4035,7 +6723,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "shey-peddy",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/1107.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 1987,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 353792
     },
     {
       "id": "41",
@@ -4072,7 +6783,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "mamignan-touré",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5279789.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 17769,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 295269
     },
     {
       "id": "54",
@@ -4109,7 +6837,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rayah-marshall",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433792.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "55",
@@ -4146,7 +6891,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jj-quinerly",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4434015.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 343579
     },
     {
       "id": "56",
@@ -4183,7 +6945,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "grace-berger",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398899.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 72727,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 17214,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 438741
     },
     {
       "id": "57",
@@ -4220,7 +7011,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "alysha-clark",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/924.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 110000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 110000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 205908,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 703408
     },
     {
       "id": "58",
@@ -4257,7 +7077,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dulcy-fankam-mendjiadeu",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4594527.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 65290,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 13188,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 355978
     },
     {
       "id": "59",
@@ -4294,7 +7137,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "li-yueru",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 64767,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 408346
     },
     {
       "id": "91",
@@ -4331,7 +7197,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "makayla-timpson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433546.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "92",
@@ -4368,7 +7251,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "damiris-dantas",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2955898.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 97100,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 100000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 474600
     },
     {
       "id": "101",
@@ -4405,7 +7311,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kierstan-bell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433633.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 67634,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 74398,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 84543,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 504075
     },
     {
       "id": "102",
@@ -4442,7 +7377,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "chennedy-carter",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 86701,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 440736
     },
     {
       "id": "103",
@@ -4479,7 +7437,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "cheyenne-parker-tyus",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529458.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 216100,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 78831,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 772431
     },
     {
       "id": "104",
@@ -4516,7 +7503,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "brianna-turner",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142086.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Phoenix Mercury",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 85000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 662500
     },
     {
       "id": "112",
@@ -4553,7 +7569,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sania-feagin",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433795.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "113",
@@ -4590,7 +7623,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rae-burrell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398764.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 34934,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 125000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 137500,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 574934
     },
     {
       "id": "114",
@@ -4627,7 +7689,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "emma-cannon",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2284331.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 80000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 27280,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 116331,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 501111
     },
     {
       "id": "115",
@@ -4664,7 +7755,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "julie-vanloo",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2566110.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 407733
     },
     {
       "id": "123",
@@ -4701,7 +7815,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "anastasiia-olairi-kosu",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5278237.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "124",
@@ -4738,7 +7869,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jaylyn-sherrod",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433386.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 17150,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 18880,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 313530
     },
     {
       "id": "133",
@@ -4775,7 +7929,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "rebekah-gardner",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2327695.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Chicago Sky",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 443579
     },
     {
       "id": "134",
@@ -4812,7 +7989,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "didi-richards",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 341654
     },
     {
       "id": "154",
@@ -4849,7 +8043,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kalani-brown",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3916514.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 35861,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 125000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 128750,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 567111
     },
     {
       "id": "155",
@@ -4886,7 +8109,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kyara-linskens",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 14437,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 291937
     },
     {
       "id": "156",
@@ -4923,7 +8163,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jaime-nared",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
     },
     {
       "id": "157",
@@ -4960,7 +8211,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aisha-sheppard",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
     },
     {
       "id": "158",
@@ -4997,7 +8259,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kathryn-westbeld",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142087.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 343579
     },
     {
       "id": "159",
@@ -5034,7 +8313,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kiana-williams",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4282168.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Seattle Storm",
+          "salary": 32395,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 12772,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 322667
     },
     {
       "id": "185",
@@ -5071,7 +8373,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "chloe-bibby",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4280877.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 9995,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 287495
     },
     {
       "id": "186",
@@ -5108,7 +8427,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maya-caldwell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4280850.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 68000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 36841,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 448420
     },
     {
       "id": "187",
@@ -5145,7 +8493,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "emily-engstler",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398729.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 17467,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 81079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 440200
     },
     {
       "id": "198",
@@ -5182,7 +8559,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lexie-brown",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058892.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 78000,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 80340,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 96408,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 532248
     },
     {
       "id": "199",
@@ -5219,7 +8625,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "zia-cooke",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432832.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Los Angeles Sparks",
+          "salary": 68295,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 69663,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 13882,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 429340
     },
     {
       "id": "200",
@@ -5256,7 +8691,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "mackenzie-holmes",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433643.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Seattle Storm",
+          "salary": 48865,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 326365
     },
     {
       "id": "209",
@@ -5293,7 +8745,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aaliyah-nye",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4597509.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "210",
@@ -5330,7 +8799,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lexi-held",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4399342.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 343579
     },
     {
       "id": "211",
@@ -5367,7 +8853,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kitija-laksa",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3920741.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 80000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 357500
     },
     {
       "id": "212",
@@ -5404,7 +8907,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "nikolina-milić",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 90000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 367500
     },
     {
       "id": "213",
@@ -5441,7 +8961,36 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kia-nurse",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142327.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Seattle Storm",
+          "salary": 142500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 142500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 145000,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 707500
     },
     {
       "id": "214",
@@ -5478,7 +9027,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kristy-wallace",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3156318.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Indiana Fever",
+          "salary": 64657,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Indiana Fever",
+          "salary": 71124,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 413281
     },
     {
       "id": "227",
@@ -5515,7 +9087,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lucy-olsen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433815.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 69267,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346767
     },
     {
       "id": "228",
@@ -5552,7 +9141,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "madison-scott",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433416.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Washington Mystics",
+          "salary": 4442,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 281942
     },
     {
       "id": "11",
@@ -5589,7 +9195,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "isobel-borlase",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "12",
@@ -5626,7 +9243,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "holly-winterburn-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "13",
@@ -5663,7 +9291,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "paige-robinson-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "27",
@@ -5700,7 +9339,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "tonie-morgan-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "28",
@@ -5737,7 +9387,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "aicha-coulibaly",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "29",
@@ -5774,7 +9435,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "megan-nestor-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "30",
@@ -5811,7 +9483,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sydney-taylor-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "60",
@@ -5848,7 +9531,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "zee-spearman-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "61",
@@ -5885,7 +9579,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "costanza-verona-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "62",
@@ -5922,7 +9627,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "grace-sullivan-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "63",
@@ -5959,7 +9675,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kyla-oldacre-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "64",
@@ -5996,7 +9723,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "shyanne-sellers-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "65",
@@ -6033,7 +9771,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "amy-okonkwo",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142242.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 2915,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 272915
     },
     {
       "id": "78",
@@ -6070,7 +9825,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "cate-reese-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "79",
@@ -6107,7 +9873,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "mariella-fasoula-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "80",
@@ -6144,7 +9921,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "miela-sowah-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "116",
@@ -6181,7 +9969,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jihyun-park-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "125",
@@ -6218,7 +10017,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "aubrey-griffin",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "126",
@@ -6255,7 +10065,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "antonia-delaere-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "127",
@@ -6292,7 +10113,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "eliska-hamzova-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "128",
@@ -6329,7 +10161,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "emma-cechova-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "129",
@@ -6366,7 +10209,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "reigan-richardson-stats-none",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433543.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "135",
@@ -6403,7 +10257,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "ashley-owusu-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "136",
@@ -6440,7 +10305,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "pauline-astier-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "137",
@@ -6477,7 +10353,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "raquel-carrera-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "138",
@@ -6514,7 +10401,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "ugonne-onyiah-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "139",
@@ -6551,7 +10449,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "anneli-maley",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4281930.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "160",
@@ -6588,7 +10497,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "ashten-prechtel-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "161",
@@ -6625,7 +10545,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jovana-nogic-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "162",
@@ -6662,7 +10593,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kara-dunn-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "163",
@@ -6699,7 +10641,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lauren-jensen-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "164",
@@ -6736,7 +10689,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maggie-doogan-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "165",
@@ -6773,7 +10737,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "morgan-maly-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "166",
@@ -6810,7 +10785,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "noemie-brochant-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "167",
@@ -6847,7 +10833,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "quionche-carter-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "168",
@@ -6884,7 +10881,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "shay-ciezki-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "169",
@@ -6921,7 +10929,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "yarden-garzon-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "188",
@@ -6958,7 +10977,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "peyton-williams-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "189",
@@ -6995,7 +11025,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "teja-oblak-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "190",
@@ -7032,7 +11073,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kamiah-smalls",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 7774,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277774
     },
     {
       "id": "215",
@@ -7069,7 +11127,18 @@
           "salary": null,
           "status": "RFA"
         }
-      ]
+      ],
+      "profileSlug": "teonni-key-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "216",
@@ -7106,7 +11175,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "dara-mabrey-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "217",
@@ -7143,7 +11223,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "elizabeth-balogun-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "218",
@@ -7180,7 +11271,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "laura-juškaitė-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "219",
@@ -7217,7 +11319,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maddison-rocci-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "220",
@@ -7254,7 +11367,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maria-conde-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Toronto Tempo",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "229",
@@ -7291,7 +11415,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "alex-wilson-stats-none",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5278157.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
       "id": "14",
@@ -7328,7 +11463,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "shatori-walker-kimbrough",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058893.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 95000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 97850,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 342850
     },
     {
       "id": "15",
@@ -7365,7 +11523,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lorela-cubaj",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 9749,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 64154,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 73903
     },
     {
       "id": "31",
@@ -7402,7 +11577,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sevgi-uzun",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5209660.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 25543,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 89697
     },
     {
       "id": "42",
@@ -7439,7 +11631,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "tina-charles",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/918.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 130000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 170000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 300000
     },
     {
       "id": "43",
@@ -7476,7 +11685,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "diamond-deshields",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 154500,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Chicago Sky",
+          "salary": 100000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 20294,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 274794
     },
     {
       "id": "44",
@@ -7513,7 +11745,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "bria-hartley",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529185.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 78831,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 78831
     },
     {
       "id": "45",
@@ -7550,7 +11793,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "haley-peters",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529125.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 25173,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 25173
     },
     {
       "id": "66",
@@ -7587,7 +11841,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "myisha-hines-allen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3142055.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 175100,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 180200,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 203000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 558300
     },
     {
       "id": "67",
@@ -7624,7 +11901,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "lou-lopez-sénéchal",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 72727,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 144027
     },
     {
       "id": "81",
@@ -7661,7 +11955,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "tiffany-hayes",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/1054.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 162477,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 88000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 200000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 450477
     },
     {
       "id": "82",
@@ -7698,7 +12015,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "laeticia-amihere",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432834.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 72727,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 53307,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 197334
     },
     {
       "id": "83",
@@ -7735,7 +12075,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "kaitlyn-chen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4899328.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 49420,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 49420
     },
     {
       "id": "93",
@@ -7772,7 +12123,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sydney-colson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/1004.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 74305,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 76535,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 90000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 240840
     },
     {
       "id": "94",
@@ -7809,7 +12183,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aari-mcdonald",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4066553.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 78586,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Los Angeles Sparks",
+          "salary": 89302,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 52333,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 220221
     },
     {
       "id": "105",
@@ -7846,7 +12243,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "aja-wilson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3149391.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 202154,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 227303,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 629457
     },
     {
       "id": "117",
@@ -7883,7 +12303,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "alissa-pili",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5105752.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 73439,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Los Angeles Sparks",
+          "salary": 10550,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 83989
     },
     {
       "id": "130",
@@ -7920,7 +12357,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "napheesa-collier",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3917450.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 202154,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Minnesota Lynx",
+          "salary": 215469,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 214284,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 631907
     },
     {
       "id": "140",
@@ -7957,7 +12417,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "sabrina-ionescu",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4066533.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 86701,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 202000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 222060,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 510761
     },
     {
       "id": "141",
@@ -7994,7 +12477,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "natasha-cloud",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529137.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Phoenix Mercury",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 590000
     },
     {
       "id": "142",
@@ -8031,7 +12537,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "jonquel-jones",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2999101.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 211150,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 209000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 610150
     },
     {
       "id": "143",
@@ -8068,7 +12597,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "emma-meesseman",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3027368.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 75694,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 75694
     },
     {
       "id": "144",
@@ -8105,7 +12645,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "breanna-stewart",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2998928.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 180000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 205000,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 222400,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 607400
     },
     {
       "id": "145",
@@ -8142,7 +12705,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "marine-johannès",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4038379.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 62285,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 66079,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 128364
     },
     {
       "id": "146",
@@ -8179,7 +12759,24 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "betnijah-laney-hamilton",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2593770.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 201984,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 180000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 381984
     },
     {
       "id": "147",
@@ -8216,7 +12813,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "han-xu",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 62285,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 62285
     },
     {
       "id": "170",
@@ -8253,7 +12861,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "satou-sabally",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4281929.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 86701,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 195000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 215000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 496701
     },
     {
       "id": "171",
@@ -8290,7 +12921,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "monique-akoa-makani",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5274110.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 66079,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 66079
     },
     {
       "id": "172",
@@ -8327,7 +12969,11 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "helena-pueyo-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [],
+      "totalCareerEarnings": 0
     },
     {
       "id": "173",
@@ -8364,7 +13010,11 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "julia-ayrault-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [],
+      "totalCareerEarnings": 0
     },
     {
       "id": "174",
@@ -8401,7 +13051,11 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "klara-lundquist-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [],
+      "totalCareerEarnings": 0
     },
     {
       "id": "201",
@@ -8438,7 +13092,30 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "tiffany-mitchell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2984741.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 135000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Connecticut Sun",
+          "salary": 139050,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 40789,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 314839
     },
     {
       "id": "221",
@@ -8475,7 +13152,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "maria-kliundikova",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Minnesota Lynx",
+          "salary": 54418,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 54418
     },
     {
       "id": "230",
@@ -8512,7 +13200,18 @@
           "salary": null,
           "status": null
         }
-      ]
+      ],
+      "profileSlug": "bernadett-határ",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Connecticut Sun",
+          "salary": 25456,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 25456
     }
   ],
   "teamSummaries": {

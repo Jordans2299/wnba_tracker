@@ -134,7 +134,11 @@ export default function TeamPage({ params }: Props) {
                           className={`border-t border-white/5 transition-colors hover:bg-white/[0.04] ${i % 2 === 1 ? "bg-white/[0.015]" : ""}`}
                         >
                           <td className="px-4 py-3 text-court-500 tabular-nums text-xs">{i + 1}</td>
-                          <td className="px-4 py-3 font-medium text-white whitespace-nowrap">{p.name}</td>
+                          <td className="px-4 py-3 font-medium whitespace-nowrap">
+                            <Link href={`/players/${p.profileSlug}`} className="text-white hover:text-accent transition-colors">
+                              {p.name}
+                            </Link>
+                          </td>
                           <td className="px-4 py-3 text-right tabular-nums font-semibold text-white">
                             {formatCurrency(p.salary)}
                           </td>
@@ -213,7 +217,11 @@ export default function TeamPage({ params }: Props) {
                 <tbody>
                   {roster.map((p, i) => (
                     <tr key={p.id} className={`border-t border-white/5 ${i % 2 === 1 ? "bg-white/[0.01]" : ""}`}>
-                      <td className="px-4 py-2 text-court-200 whitespace-nowrap">{p.name}</td>
+                      <td className="px-4 py-2 whitespace-nowrap">
+                        <Link href={`/players/${p.profileSlug}`} className="text-court-200 hover:text-accent transition-colors">
+                          {p.name}
+                        </Link>
+                      </td>
                       {[2026, 2027, 2028, 2029, 2030].map((y) => {
                         const ys = p.yearlySalaries.find((yr) => yr.year === y);
                         return (
