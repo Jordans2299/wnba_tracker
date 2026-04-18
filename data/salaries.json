@@ -1,15 +1,15 @@
 {
   "source": "https://herhoopstats.com/salary-cap-sheet/wnba/",
   "season": 2026,
-  "lastUpdated": "2026-04-17T11:02:05.271Z",
-  "playerCount": 230,
+  "lastUpdated": "2026-04-18T10:46:10.414Z",
+  "playerCount": 281,
   "players": [
     {
-      "id": "84",
+      "id": "102",
       "name": "Kelsey Mitchell",
       "team": "Indiana Fever",
       "salary": 1400000,
-      "status": "Protected Veteran",
+      "status": "Supermax",
       "contractLengthYears": 1,
       "contractStart": "2026-02-01",
       "contractEnd": "2027-01-31",
@@ -17,7 +17,7 @@
         {
           "year": 2026,
           "salary": 1400000,
-          "status": "Protected Veteran"
+          "status": "Supermax"
         },
         {
           "year": 2027,
@@ -65,13 +65,79 @@
           "season": 2026,
           "team": "Indiana Fever",
           "salary": 1400000,
-          "status": "Protected Veteran"
+          "status": "Supermax"
         }
       ],
       "totalCareerEarnings": 2087244
     },
     {
-      "id": "191",
+      "id": "116",
+      "name": "A'ja Wilson",
+      "team": "Las Vegas Aces",
+      "salary": 1400000,
+      "status": "Supermax",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1400000,
+          "status": "Supermax"
+        },
+        {
+          "year": 2027,
+          "salary": 1470000,
+          "status": "Supermax"
+        },
+        {
+          "year": 2028,
+          "salary": 1543500,
+          "status": "Supermax"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "aja-wilson",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3149391.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Las Vegas Aces",
+          "salary": 202154,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Las Vegas Aces",
+          "salary": 227303,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "Las Vegas Aces",
+          "salary": 200000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 1400000,
+          "status": "Supermax"
+        }
+      ],
+      "totalCareerEarnings": 2029457
+    },
+    {
+      "id": "228",
       "name": "Ezi Magbegor",
       "team": "Seattle Storm",
       "salary": 1250000,
@@ -137,7 +203,7 @@
       "totalCareerEarnings": 1750650
     },
     {
-      "id": "148",
+      "id": "181",
       "name": "Kahleah Copper",
       "team": "Phoenix Mercury",
       "salary": 1200000,
@@ -203,7 +269,7 @@
       "totalCareerEarnings": 1895118
     },
     {
-      "id": "149",
+      "id": "182",
       "name": "Alyssa Thomas",
       "team": "Phoenix Mercury",
       "salary": 1200000,
@@ -269,7 +335,7 @@
       "totalCareerEarnings": 1845000
     },
     {
-      "id": "202",
+      "id": "246",
       "name": "Marina Mabrey",
       "team": "Toronto Tempo",
       "salary": 1200000,
@@ -401,7 +467,7 @@
       "totalCareerEarnings": 1759600
     },
     {
-      "id": "32",
+      "id": "39",
       "name": "Brittney Griner",
       "team": "Connecticut Sun",
       "salary": 1190000,
@@ -467,7 +533,7 @@
       "totalCareerEarnings": 1719566
     },
     {
-      "id": "46",
+      "id": "59",
       "name": "Alanna Smith",
       "team": "Dallas Wings",
       "salary": 1190000,
@@ -533,7 +599,7 @@
       "totalCareerEarnings": 1590000
     },
     {
-      "id": "47",
+      "id": "60",
       "name": "Arike Ogunbowale",
       "team": "Dallas Wings",
       "salary": 1190000,
@@ -599,7 +665,7 @@
       "totalCareerEarnings": 1915952
     },
     {
-      "id": "68",
+      "id": "83",
       "name": "Gabby Williams",
       "team": "Golden State Valkyries",
       "salary": 1190000,
@@ -665,7 +731,7 @@
       "totalCareerEarnings": 1538491
     },
     {
-      "id": "95",
+      "id": "117",
       "name": "Jackie Young",
       "team": "Las Vegas Aces",
       "salary": 1190000,
@@ -731,7 +797,7 @@
       "totalCareerEarnings": 1694900
     },
     {
-      "id": "118",
+      "id": "141",
       "name": "Kayla McBride",
       "team": "Minnesota Lynx",
       "salary": 1190000,
@@ -797,7 +863,7 @@
       "totalCareerEarnings": 1804984
     },
     {
-      "id": "119",
+      "id": "142",
       "name": "Courtney Williams",
       "team": "Minnesota Lynx",
       "salary": 1190000,
@@ -863,7 +929,7 @@
       "totalCareerEarnings": 1705000
     },
     {
-      "id": "175",
+      "id": "210",
       "name": "Bridget Carleton",
       "team": "Portland Fire",
       "salary": 1190000,
@@ -929,7 +995,7 @@
       "totalCareerEarnings": 1531000
     },
     {
-      "id": "203",
+      "id": "247",
       "name": "Brittney Sykes",
       "team": "Toronto Tempo",
       "salary": 1190000,
@@ -995,7 +1061,7 @@
       "totalCareerEarnings": 1775000
     },
     {
-      "id": "222",
+      "id": "266",
       "name": "Shakira Austin",
       "team": "Washington Mystics",
       "salary": 1190000,
@@ -1127,7 +1193,7 @@
       "totalCareerEarnings": 1346508
     },
     {
-      "id": "106",
+      "id": "129",
       "name": "Dearica Hamby",
       "team": "Los Angeles Sparks",
       "salary": 1100000,
@@ -1193,7 +1259,7 @@
       "totalCareerEarnings": 1660000
     },
     {
-      "id": "107",
+      "id": "130",
       "name": "Ariel Atkins",
       "team": "Los Angeles Sparks",
       "salary": 1085000,
@@ -1325,7 +1391,7 @@
       "totalCareerEarnings": 1634466
     },
     {
-      "id": "16",
+      "id": "21",
       "name": "Azurá Stevens",
       "team": "Chicago Sky",
       "salary": 1000000,
@@ -1391,7 +1457,7 @@
       "totalCareerEarnings": 1600000
     },
     {
-      "id": "33",
+      "id": "40",
       "name": "Kennedy Burke",
       "team": "Connecticut Sun",
       "salary": 1000000,
@@ -1451,7 +1517,7 @@
       "totalCareerEarnings": 1155366
     },
     {
-      "id": "48",
+      "id": "61",
       "name": "Jessica Shepard",
       "team": "Dallas Wings",
       "salary": 1000000,
@@ -1511,7 +1577,7 @@
       "totalCareerEarnings": 1198831
     },
     {
-      "id": "96",
+      "id": "118",
       "name": "Chelsea Gray",
       "team": "Las Vegas Aces",
       "salary": 1000000,
@@ -1577,7 +1643,7 @@
       "totalCareerEarnings": 1588801
     },
     {
-      "id": "204",
+      "id": "248",
       "name": "Temi Fagbenle",
       "team": "Toronto Tempo",
       "salary": 1000000,
@@ -1637,7 +1703,7 @@
       "totalCareerEarnings": 1166535
     },
     {
-      "id": "108",
+      "id": "131",
       "name": "Kelsey Plum",
       "team": "Los Angeles Sparks",
       "salary": 999999,
@@ -1703,7 +1769,7 @@
       "totalCareerEarnings": 1601999
     },
     {
-      "id": "109",
+      "id": "132",
       "name": "Nneka Ogwumike",
       "team": "Los Angeles Sparks",
       "salary": 950000,
@@ -1769,7 +1835,7 @@
       "totalCareerEarnings": 1549030
     },
     {
-      "id": "69",
+      "id": "84",
       "name": "Veronica Burton",
       "team": "Golden State Valkyries",
       "salary": 925000,
@@ -1835,7 +1901,7 @@
       "totalCareerEarnings": 1149620
     },
     {
-      "id": "17",
+      "id": "22",
       "name": "Skylar Diggins",
       "team": "Chicago Sky",
       "salary": 920000,
@@ -1967,7 +2033,7 @@
       "totalCareerEarnings": 1056604
     },
     {
-      "id": "85",
+      "id": "103",
       "name": "Monique Billings",
       "team": "Indiana Fever",
       "salary": 800000,
@@ -2033,7 +2099,7 @@
       "totalCareerEarnings": 1090237
     },
     {
-      "id": "97",
+      "id": "119",
       "name": "Jewell Loyd",
       "team": "Las Vegas Aces",
       "salary": 800000,
@@ -2099,7 +2165,7 @@
       "totalCareerEarnings": 1525952
     },
     {
-      "id": "86",
+      "id": "104",
       "name": "Lexie Hull",
       "team": "Indiana Fever",
       "salary": 765000,
@@ -2165,7 +2231,7 @@
       "totalCareerEarnings": 1001539
     },
     {
-      "id": "18",
+      "id": "23",
       "name": "Courtney Vandersloot",
       "team": "Chicago Sky",
       "salary": 750000,
@@ -2231,7 +2297,7 @@
       "totalCareerEarnings": 1323670
     },
     {
-      "id": "70",
+      "id": "85",
       "name": "Kayla Thornton",
       "team": "Golden State Valkyries",
       "salary": 750000,
@@ -2297,7 +2363,7 @@
       "totalCareerEarnings": 1101716
     },
     {
-      "id": "192",
+      "id": "229",
       "name": "Natisha Hiedeman",
       "team": "Seattle Storm",
       "salary": 750000,
@@ -2363,7 +2429,7 @@
       "totalCareerEarnings": 1125000
     },
     {
-      "id": "193",
+      "id": "230",
       "name": "Stefanie Dolson",
       "team": "Seattle Storm",
       "salary": 750000,
@@ -2429,7 +2495,7 @@
       "totalCareerEarnings": 1265000
     },
     {
-      "id": "34",
+      "id": "41",
       "name": "Olivia Nelson-Ododa",
       "team": "Connecticut Sun",
       "salary": 735000,
@@ -2495,7 +2561,7 @@
       "totalCareerEarnings": 951604
     },
     {
-      "id": "150",
+      "id": "183",
       "name": "Sami Whitcomb",
       "team": "Phoenix Mercury",
       "salary": 735000,
@@ -2561,7 +2627,7 @@
       "totalCareerEarnings": 1142500
     },
     {
-      "id": "120",
+      "id": "143",
       "name": "Natasha Howard",
       "team": "Minnesota Lynx",
       "salary": 700000,
@@ -2627,7 +2693,7 @@
       "totalCareerEarnings": 1376716
     },
     {
-      "id": "223",
+      "id": "267",
       "name": "Michaela Onyenwere",
       "team": "Washington Mystics",
       "salary": 700000,
@@ -2693,7 +2759,7 @@
       "totalCareerEarnings": 986097
     },
     {
-      "id": "87",
+      "id": "105",
       "name": "Sophie Cunningham",
       "team": "Indiana Fever",
       "salary": 665000,
@@ -2825,7 +2891,7 @@
       "totalCareerEarnings": 1099305
     },
     {
-      "id": "19",
+      "id": "24",
       "name": "DiJonai Carrington",
       "team": "Chicago Sky",
       "salary": 650000,
@@ -2891,7 +2957,7 @@
       "totalCareerEarnings": 997522
     },
     {
-      "id": "110",
+      "id": "133",
       "name": "Erica Wheeler",
       "team": "Los Angeles Sparks",
       "salary": 625000,
@@ -2957,7 +3023,7 @@
       "totalCareerEarnings": 1148139
     },
     {
-      "id": "20",
+      "id": "25",
       "name": "Elizabeth Williams",
       "team": "Chicago Sky",
       "salary": 600000,
@@ -3023,7 +3089,7 @@
       "totalCareerEarnings": 1000000
     },
     {
-      "id": "71",
+      "id": "86",
       "name": "Kaila Charles",
       "team": "Golden State Valkyries",
       "salary": 600000,
@@ -3083,7 +3149,7 @@
       "totalCareerEarnings": 634197
     },
     {
-      "id": "88",
+      "id": "106",
       "name": "Aliyah Boston",
       "team": "Indiana Fever",
       "salary": 574612,
@@ -3149,7 +3215,7 @@
       "totalCareerEarnings": 808080
     },
     {
-      "id": "35",
+      "id": "42",
       "name": "Diamond Miller",
       "team": "Connecticut Sun",
       "salary": 536588,
@@ -3215,7 +3281,7 @@
       "totalCareerEarnings": 770056
     },
     {
-      "id": "89",
+      "id": "107",
       "name": "Caitlin Clark",
       "team": "Indiana Fever",
       "salary": 528846,
@@ -3275,7 +3341,7 @@
       "totalCareerEarnings": 683447
     },
     {
-      "id": "49",
+      "id": "62",
       "name": "Awak Kuier",
       "team": "Dallas Wings",
       "salary": 525000,
@@ -3329,7 +3395,7 @@
       "totalCareerEarnings": 603586
     },
     {
-      "id": "50",
+      "id": "63",
       "name": "Maddy Siegrist",
       "team": "Dallas Wings",
       "salary": 501080,
@@ -3395,7 +3461,7 @@
       "totalCareerEarnings": 734548
     },
     {
-      "id": "51",
+      "id": "64",
       "name": "Paige Bueckers",
       "team": "Dallas Wings",
       "salary": 500000,
@@ -3449,7 +3515,55 @@
       "totalCareerEarnings": 578831
     },
     {
-      "id": "72",
+      "id": "65",
+      "name": "Azzi Fudd",
+      "team": "Dallas Wings",
+      "salary": 500000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 500000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 520000,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 572000,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 646360,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "azzi-fudd-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 500000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 500000
+    },
+    {
+      "id": "87",
       "name": "Janelle Salaün",
       "team": "Golden State Valkyries",
       "salary": 500000,
@@ -3503,7 +3617,7 @@
       "totalCareerEarnings": 566079
     },
     {
-      "id": "73",
+      "id": "88",
       "name": "Cecilia Zandalasini",
       "team": "Golden State Valkyries",
       "salary": 500000,
@@ -3563,7 +3677,7 @@
       "totalCareerEarnings": 664154
     },
     {
-      "id": "151",
+      "id": "184",
       "name": "Valériane Ayayi",
       "team": "Phoenix Mercury",
       "salary": 500000,
@@ -3611,7 +3725,7 @@
       "totalCareerEarnings": 500000
     },
     {
-      "id": "152",
+      "id": "185",
       "name": "DeWanna Bonner",
       "team": "Phoenix Mercury",
       "salary": 500000,
@@ -3677,7 +3791,7 @@
       "totalCareerEarnings": 1016212
     },
     {
-      "id": "176",
+      "id": "211",
       "name": "Megan Gustafson",
       "team": "Portland Fire",
       "salary": 500000,
@@ -3743,7 +3857,7 @@
       "totalCareerEarnings": 765125
     },
     {
-      "id": "194",
+      "id": "231",
       "name": "Jade Melbourne",
       "team": "Seattle Storm",
       "salary": 500000,
@@ -3809,7 +3923,7 @@
       "totalCareerEarnings": 693149
     },
     {
-      "id": "111",
+      "id": "134",
       "name": "Cameron Brink",
       "team": "Los Angeles Sparks",
       "salary": 493851,
@@ -3869,7 +3983,7 @@
       "totalCareerEarnings": 648452
     },
     {
-      "id": "195",
+      "id": "232",
       "name": "Dominique Malonga",
       "team": "Seattle Storm",
       "salary": 466913,
@@ -3923,7 +4037,7 @@
       "totalCareerEarnings": 545744
     },
     {
-      "id": "21",
+      "id": "26",
       "name": "Kamilla Cardoso",
       "team": "Chicago Sky",
       "salary": 461171,
@@ -3983,7 +4097,7 @@
       "totalCareerEarnings": 615772
     },
     {
-      "id": "74",
+      "id": "89",
       "name": "Iliana Rupert",
       "team": "Golden State Valkyries",
       "salary": 450000,
@@ -4043,7 +4157,7 @@
       "totalCareerEarnings": 549841
     },
     {
-      "id": "98",
+      "id": "120",
       "name": "NaLyssa Smith",
       "team": "Las Vegas Aces",
       "salary": 450000,
@@ -4109,7 +4223,7 @@
       "totalCareerEarnings": 696508
     },
     {
-      "id": "205",
+      "id": "249",
       "name": "Nyara Sabally",
       "team": "Toronto Tempo",
       "salary": 436957,
@@ -4175,7 +4289,55 @@
       "totalCareerEarnings": 660983
     },
     {
-      "id": "224",
+      "id": "233",
+      "name": "Awa Fam",
+      "team": "Seattle Storm",
+      "salary": 436016,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 436016,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 453457,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 498803,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 563647,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "awa-fam-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 436016,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 436016
+    },
+    {
+      "id": "268",
       "name": "Sonia Citron",
       "team": "Washington Mystics",
       "salary": 436016,
@@ -4229,7 +4391,7 @@
       "totalCareerEarnings": 514847
     },
     {
-      "id": "22",
+      "id": "27",
       "name": "Rickea Jackson",
       "team": "Chicago Sky",
       "salary": 430654,
@@ -4289,7 +4451,7 @@
       "totalCareerEarnings": 585255
     },
     {
-      "id": "23",
+      "id": "28",
       "name": "Rachel Banham",
       "team": "Chicago Sky",
       "salary": 425000,
@@ -4355,7 +4517,7 @@
       "totalCareerEarnings": 689305
     },
     {
-      "id": "177",
+      "id": "212",
       "name": "Sug Sutton",
       "team": "Portland Fire",
       "salary": 425000,
@@ -4421,7 +4583,7 @@
       "totalCareerEarnings": 645270
     },
     {
-      "id": "206",
+      "id": "250",
       "name": "Julie Allemand",
       "team": "Toronto Tempo",
       "salary": 425000,
@@ -4475,7 +4637,7 @@
       "totalCareerEarnings": 510000
     },
     {
-      "id": "196",
+      "id": "234",
       "name": "Katie Lou Samuelson",
       "team": "Seattle Storm",
       "salary": 420000,
@@ -4541,7 +4703,7 @@
       "totalCareerEarnings": 820835
     },
     {
-      "id": "52",
+      "id": "66",
       "name": "Lindsay Allen",
       "team": "Dallas Wings",
       "salary": 410000,
@@ -4607,7 +4769,7 @@
       "totalCareerEarnings": 664305
     },
     {
-      "id": "225",
+      "id": "269",
       "name": "Kiki Iriafen",
       "team": "Washington Mystics",
       "salary": 407163,
@@ -4661,7 +4823,7 @@
       "totalCareerEarnings": 485994
     },
     {
-      "id": "24",
+      "id": "29",
       "name": "Jacy Sheldon",
       "team": "Chicago Sky",
       "salary": 402155,
@@ -4721,7 +4883,7 @@
       "totalCareerEarnings": 550503
     },
     {
-      "id": "90",
+      "id": "108",
       "name": "Tyasha Harris",
       "team": "Indiana Fever",
       "salary": 400000,
@@ -4787,7 +4949,7 @@
       "totalCareerEarnings": 680307
     },
     {
-      "id": "207",
+      "id": "251",
       "name": "Isabelle Harrison",
       "team": "Toronto Tempo",
       "salary": 400000,
@@ -4853,7 +5015,7 @@
       "totalCareerEarnings": 798831
     },
     {
-      "id": "99",
+      "id": "121",
       "name": "Stephanie Talbot",
       "team": "Las Vegas Aces",
       "salary": 392500,
@@ -4913,7 +5075,7 @@
       "totalCareerEarnings": 632500
     },
     {
-      "id": "75",
+      "id": "90",
       "name": "Justė Jocytė",
       "team": "Golden State Valkyries",
       "salary": 380219,
@@ -4961,7 +5123,7 @@
       "totalCareerEarnings": 380219
     },
     {
-      "id": "100",
+      "id": "122",
       "name": "Dana Evans",
       "team": "Las Vegas Aces",
       "salary": 380000,
@@ -5027,7 +5189,7 @@
       "totalCareerEarnings": 616522
     },
     {
-      "id": "36",
+      "id": "43",
       "name": "Aaliyah Edwards",
       "team": "Connecticut Sun",
       "salary": 375542,
@@ -5087,7 +5249,7 @@
       "totalCareerEarnings": 523890
     },
     {
-      "id": "76",
+      "id": "91",
       "name": "Kiah Stokes",
       "team": "Golden State Valkyries",
       "salary": 375000,
@@ -5153,7 +5315,7 @@
       "totalCareerEarnings": 659000
     },
     {
-      "id": "178",
+      "id": "213",
       "name": "Karlie Samuelson",
       "team": "Portland Fire",
       "salary": 360000,
@@ -5219,7 +5381,7 @@
       "totalCareerEarnings": 666125
     },
     {
-      "id": "208",
+      "id": "252",
       "name": "Kiki Rice",
       "team": "Toronto Tempo",
       "salary": 355058,
@@ -5267,7 +5429,7 @@
       "totalCareerEarnings": 355058
     },
     {
-      "id": "226",
+      "id": "270",
       "name": "Georgia Amoore",
       "team": "Washington Mystics",
       "salary": 355058,
@@ -5381,7 +5543,7 @@
       "totalCareerEarnings": 499040
     },
     {
-      "id": "121",
+      "id": "144",
       "name": "Nia Coffey",
       "team": "Minnesota Lynx",
       "salary": 350000,
@@ -5447,7 +5609,7 @@
       "totalCareerEarnings": 785000
     },
     {
-      "id": "131",
+      "id": "161",
       "name": "Rebecca Allen",
       "team": "New York Liberty",
       "salary": 350000,
@@ -5513,7 +5675,7 @@
       "totalCareerEarnings": 806850
     },
     {
-      "id": "197",
+      "id": "235",
       "name": "Jordan Horston",
       "team": "Seattle Storm",
       "salary": 332278,
@@ -5573,7 +5735,7 @@
       "totalCareerEarnings": 470236
     },
     {
-      "id": "37",
+      "id": "44",
       "name": "Aneesah Morrow",
       "team": "Connecticut Sun",
       "salary": 331563,
@@ -5627,7 +5789,7 @@
       "totalCareerEarnings": 407206
     },
     {
-      "id": "179",
+      "id": "214",
       "name": "Luisa Geiselsöder",
       "team": "Portland Fire",
       "salary": 325000,
@@ -5681,7 +5843,7 @@
       "totalCareerEarnings": 391079
     },
     {
-      "id": "122",
+      "id": "145",
       "name": "Dorka Juhasz",
       "team": "Minnesota Lynx",
       "salary": 318910,
@@ -5741,7 +5903,7 @@
       "totalCareerEarnings": 450797
     },
     {
-      "id": "38",
+      "id": "45",
       "name": "Saniya Rivers",
       "team": "Connecticut Sun",
       "salary": 309622,
@@ -5795,7 +5957,7 @@
       "totalCareerEarnings": 385265
     },
     {
-      "id": "153",
+      "id": "186",
       "name": "Natasha Mack",
       "team": "Phoenix Mercury",
       "salary": 303600,
@@ -5855,7 +6017,61 @@
       "totalCareerEarnings": 483833
     },
     {
-      "id": "180",
+      "id": "187",
+      "name": "Monique Akoa Makani",
+      "team": "Phoenix Mercury",
+      "salary": 300000,
+      "status": "Signed",
+      "contractLengthYears": 2,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2028-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 300000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "monique-akoa-makani",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5274110.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 66079,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 300000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 366079
+    },
+    {
+      "id": "215",
       "name": "Haley Jones",
       "team": "Portland Fire",
       "salary": 300000,
@@ -5921,7 +6137,7 @@
       "totalCareerEarnings": 480121
     },
     {
-      "id": "77",
+      "id": "92",
       "name": "Kate Martin",
       "team": "Golden State Valkyries",
       "salary": 293510,
@@ -5981,7 +6197,7 @@
       "totalCareerEarnings": 429354
     },
     {
-      "id": "132",
+      "id": "162",
       "name": "Leonie Fiebich",
       "team": "New York Liberty",
       "salary": 293510,
@@ -6041,7 +6257,7 @@
       "totalCareerEarnings": 429354
     },
     {
-      "id": "181",
+      "id": "216",
       "name": "Nika Muhl",
       "team": "Portland Fire",
       "salary": 293510,
@@ -6095,7 +6311,55 @@
       "totalCareerEarnings": 360759
     },
     {
-      "id": "25",
+      "id": "7",
+      "name": "Madina Okot",
+      "team": "Atlanta Dream",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 300698,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 330768,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 373768,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "madina-okot-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 289133
+    },
+    {
+      "id": "30",
       "name": "Hailey Van Lith",
       "team": "Chicago Sky",
       "salary": 289133,
@@ -6149,7 +6413,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "39",
+      "id": "46",
       "name": "Leila Lacan",
       "team": "Connecticut Sun",
       "salary": 289133,
@@ -6203,7 +6467,55 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "53",
+      "id": "47",
+      "name": "Gianna Kneepkens",
+      "team": "Connecticut Sun",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 300698,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 330768,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 373768,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "gianna-kneepkens-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 289133
+    },
+    {
+      "id": "67",
       "name": "Aziaha James",
       "team": "Dallas Wings",
       "salary": 289133,
@@ -6257,7 +6569,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "182",
+      "id": "217",
       "name": "Sarah Ashlee Barker",
       "team": "Portland Fire",
       "salary": 289133,
@@ -6311,7 +6623,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "183",
+      "id": "218",
       "name": "Carla Leite",
       "team": "Portland Fire",
       "salary": 289133,
@@ -6365,7 +6677,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "184",
+      "id": "219",
       "name": "Nyadiew Puoch",
       "team": "Portland Fire",
       "salary": 289133,
@@ -6413,7 +6725,103 @@
       "totalCareerEarnings": 289133
     },
     {
-      "id": "7",
+      "id": "236",
+      "name": "Taina Mair",
+      "team": "Seattle Storm",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 300698,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 330768,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 373768,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "taina-mair-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 289133
+    },
+    {
+      "id": "271",
+      "name": "Cotie McMahon",
+      "team": "Washington Mystics",
+      "salary": 289133,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 289133,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 300698,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 330768,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 373768,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "cotie-mcmahon-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 289133,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 289133
+    },
+    {
+      "id": "8",
       "name": "Te-Hina Paopao",
       "team": "Atlanta Dream",
       "salary": 277500,
@@ -6467,7 +6875,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "8",
+      "id": "9",
       "name": "Taylor Thierry",
       "team": "Atlanta Dream",
       "salary": 277500,
@@ -6521,7 +6929,7 @@
       "totalCareerEarnings": 343579
     },
     {
-      "id": "9",
+      "id": "10",
       "name": "Maite Cazorla",
       "team": "Atlanta Dream",
       "salary": 277500,
@@ -6569,7 +6977,55 @@
       "totalCareerEarnings": 277500
     },
     {
-      "id": "10",
+      "id": "11",
+      "name": "Stephanie Jones",
+      "team": "Atlanta Dream",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "stephanie-jones",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4065785.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
+    },
+    {
+      "id": "12",
       "name": "Sika Koné",
       "team": "Atlanta Dream",
       "salary": 277500,
@@ -6635,7 +7091,7 @@
       "totalCareerEarnings": 419487
     },
     {
-      "id": "26",
+      "id": "31",
       "name": "Maddy Westbeld",
       "team": "Chicago Sky",
       "salary": 277500,
@@ -6689,7 +7145,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "40",
+      "id": "48",
       "name": "Shey Peddy",
       "team": "Connecticut Sun",
       "salary": 277500,
@@ -6749,7 +7205,7 @@
       "totalCareerEarnings": 353792
     },
     {
-      "id": "41",
+      "id": "49",
       "name": "Mamignan Touré",
       "team": "Connecticut Sun",
       "salary": 277500,
@@ -6803,7 +7259,7 @@
       "totalCareerEarnings": 295269
     },
     {
-      "id": "54",
+      "id": "68",
       "name": "Rayah Marshall",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -6857,7 +7313,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "55",
+      "id": "69",
       "name": "JJ Quinerly",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -6911,7 +7367,7 @@
       "totalCareerEarnings": 343579
     },
     {
-      "id": "56",
+      "id": "70",
       "name": "Grace Berger",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -6977,7 +7433,7 @@
       "totalCareerEarnings": 438741
     },
     {
-      "id": "57",
+      "id": "71",
       "name": "Alysha Clark",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -7043,7 +7499,7 @@
       "totalCareerEarnings": 703408
     },
     {
-      "id": "58",
+      "id": "72",
       "name": "Dulcy Fankam Mendjiadeu",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -7103,7 +7559,73 @@
       "totalCareerEarnings": 355978
     },
     {
-      "id": "59",
+      "id": "73",
+      "name": "Odyssey Sims",
+      "team": "Dallas Wings",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "odyssey-sims",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529047.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Dallas Wings",
+          "salary": 48460,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 13072,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Indiana Fever",
+          "salary": 7949,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Dallas Wings",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 346981
+    },
+    {
+      "id": "74",
       "name": "Li Yueru",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -7163,7 +7685,127 @@
       "totalCareerEarnings": 408346
     },
     {
-      "id": "91",
+      "id": "93",
+      "name": "Laeticia Amihere",
+      "team": "Golden State Valkyries",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "laeticia-amihere",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432834.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Atlanta Dream",
+          "salary": 71300,
+          "status": "Signed"
+        },
+        {
+          "season": 2024,
+          "team": "Atlanta Dream",
+          "salary": 72727,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 53307,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 474834
+    },
+    {
+      "id": "94",
+      "name": "Kaitlyn Chen",
+      "team": "Golden State Valkyries",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "kaitlyn-chen",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4899328.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Golden State Valkyries",
+          "salary": 49420,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 326920
+    },
+    {
+      "id": "109",
       "name": "Makayla Timpson",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -7217,7 +7859,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "92",
+      "id": "110",
       "name": "Damiris Dantas",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -7277,7 +7919,127 @@
       "totalCareerEarnings": 474600
     },
     {
-      "id": "101",
+      "id": "111",
+      "name": "Megan McConnell",
+      "team": "Indiana Fever",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "megan-mcconnell",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433510.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Phoenix Mercury",
+          "salary": 31096,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 308596
+    },
+    {
+      "id": "112",
+      "name": "Shatori Walker-Kimbrough",
+      "team": "Indiana Fever",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "shatori-walker-kimbrough",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058893.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Washington Mystics",
+          "salary": 95000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "Washington Mystics",
+          "salary": 97850,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Atlanta Dream",
+          "salary": 150000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 620350
+    },
+    {
+      "id": "123",
       "name": "Kierstan Bell",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -7343,7 +8105,7 @@
       "totalCareerEarnings": 504075
     },
     {
-      "id": "102",
+      "id": "124",
       "name": "Chennedy Carter",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -7403,7 +8165,7 @@
       "totalCareerEarnings": 440736
     },
     {
-      "id": "103",
+      "id": "125",
       "name": "Cheyenne Parker-Tyus",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -7469,7 +8231,7 @@
       "totalCareerEarnings": 772431
     },
     {
-      "id": "104",
+      "id": "126",
       "name": "Brianna Turner",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -7535,7 +8297,7 @@
       "totalCareerEarnings": 662500
     },
     {
-      "id": "112",
+      "id": "135",
       "name": "Sania Feagin",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -7589,7 +8351,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "113",
+      "id": "136",
       "name": "Rae Burrell",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -7655,7 +8417,7 @@
       "totalCareerEarnings": 574934
     },
     {
-      "id": "114",
+      "id": "137",
       "name": "Emma Cannon",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -7721,7 +8483,7 @@
       "totalCareerEarnings": 501111
     },
     {
-      "id": "115",
+      "id": "138",
       "name": "Julie Vanloo",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -7781,7 +8543,7 @@
       "totalCareerEarnings": 407733
     },
     {
-      "id": "123",
+      "id": "146",
       "name": "Anastasiia Olairi Kosu",
       "team": "Minnesota Lynx",
       "salary": 277500,
@@ -7835,7 +8597,61 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "124",
+      "id": "147",
+      "name": "Liatu King",
+      "team": "Minnesota Lynx",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "liatu-king",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4596309.png",
+      "careerEarnings": [
+        {
+          "season": 2025,
+          "team": "Dallas Wings",
+          "salary": 4998,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 282498
+    },
+    {
+      "id": "148",
       "name": "Jaylyn Sherrod",
       "team": "Minnesota Lynx",
       "salary": 277500,
@@ -7895,7 +8711,7 @@
       "totalCareerEarnings": 313530
     },
     {
-      "id": "133",
+      "id": "163",
       "name": "Rebekah Gardner",
       "team": "New York Liberty",
       "salary": 277500,
@@ -7955,7 +8771,7 @@
       "totalCareerEarnings": 443579
     },
     {
-      "id": "134",
+      "id": "164",
       "name": "DiDi Richards",
       "team": "New York Liberty",
       "salary": 277500,
@@ -8009,7 +8825,7 @@
       "totalCareerEarnings": 341654
     },
     {
-      "id": "154",
+      "id": "188",
       "name": "Kalani Brown",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8075,7 +8891,7 @@
       "totalCareerEarnings": 567111
     },
     {
-      "id": "155",
+      "id": "189",
       "name": "Kyara Linskens",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8129,7 +8945,7 @@
       "totalCareerEarnings": 291937
     },
     {
-      "id": "156",
+      "id": "190",
       "name": "Jaime Nared",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8177,7 +8993,7 @@
       "totalCareerEarnings": 277500
     },
     {
-      "id": "157",
+      "id": "191",
       "name": "Aisha Sheppard",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8225,7 +9041,7 @@
       "totalCareerEarnings": 277500
     },
     {
-      "id": "158",
+      "id": "192",
       "name": "Kathryn Westbeld",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8279,7 +9095,7 @@
       "totalCareerEarnings": 343579
     },
     {
-      "id": "159",
+      "id": "193",
       "name": "Kiana Williams",
       "team": "Phoenix Mercury",
       "salary": 277500,
@@ -8339,7 +9155,7 @@
       "totalCareerEarnings": 322667
     },
     {
-      "id": "185",
+      "id": "220",
       "name": "Chloe Bibby",
       "team": "Portland Fire",
       "salary": 277500,
@@ -8393,7 +9209,7 @@
       "totalCareerEarnings": 287495
     },
     {
-      "id": "186",
+      "id": "221",
       "name": "Maya Caldwell",
       "team": "Portland Fire",
       "salary": 277500,
@@ -8459,7 +9275,7 @@
       "totalCareerEarnings": 448420
     },
     {
-      "id": "187",
+      "id": "222",
       "name": "Emily Engstler",
       "team": "Portland Fire",
       "salary": 277500,
@@ -8525,7 +9341,67 @@
       "totalCareerEarnings": 440200
     },
     {
-      "id": "198",
+      "id": "237",
+      "name": "Jaelyn Brown",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jaelyn-brown",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Connecticut Sun",
+          "salary": 42757,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 384411
+    },
+    {
+      "id": "238",
       "name": "Lexie Brown",
       "team": "Seattle Storm",
       "salary": 277500,
@@ -8591,7 +9467,7 @@
       "totalCareerEarnings": 532248
     },
     {
-      "id": "199",
+      "id": "239",
       "name": "Zia Cooke",
       "team": "Seattle Storm",
       "salary": 277500,
@@ -8657,7 +9533,55 @@
       "totalCareerEarnings": 429340
     },
     {
-      "id": "200",
+      "id": "240",
+      "name": "Rennia Davis",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "rennia-davis",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4280888.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
+    },
+    {
+      "id": "241",
       "name": "Mackenzie Holmes",
       "team": "Seattle Storm",
       "salary": 277500,
@@ -8711,7 +9635,55 @@
       "totalCareerEarnings": 326365
     },
     {
-      "id": "209",
+      "id": "242",
+      "name": "Beatrice Mompremier",
+      "team": "Seattle Storm",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": "RFA"
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "beatrice-mompremier",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3916517.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 277500
+    },
+    {
+      "id": "253",
       "name": "Aaliyah Nye",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -8765,7 +9737,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "210",
+      "id": "254",
       "name": "Lexi Held",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -8819,7 +9791,7 @@
       "totalCareerEarnings": 343579
     },
     {
-      "id": "211",
+      "id": "255",
       "name": "Kitija Laksa",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -8873,7 +9845,7 @@
       "totalCareerEarnings": 357500
     },
     {
-      "id": "212",
+      "id": "256",
       "name": "Nikolina Milić",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -8927,7 +9899,7 @@
       "totalCareerEarnings": 367500
     },
     {
-      "id": "213",
+      "id": "257",
       "name": "Kia Nurse",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -8993,7 +9965,7 @@
       "totalCareerEarnings": 707500
     },
     {
-      "id": "214",
+      "id": "258",
       "name": "Kristy Wallace",
       "team": "Toronto Tempo",
       "salary": 277500,
@@ -9053,7 +10025,7 @@
       "totalCareerEarnings": 413281
     },
     {
-      "id": "227",
+      "id": "272",
       "name": "Lucy Olsen",
       "team": "Washington Mystics",
       "salary": 277500,
@@ -9107,7 +10079,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "228",
+      "id": "273",
       "name": "Madison Scott",
       "team": "Washington Mystics",
       "salary": 277500,
@@ -9161,7 +10133,55 @@
       "totalCareerEarnings": 281942
     },
     {
-      "id": "11",
+      "id": "13",
+      "name": "Indya Nivar",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "indya-nivar-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "14",
       "name": "Isobel Borlase",
       "team": "Atlanta Dream",
       "salary": 270000,
@@ -9209,7 +10229,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "12",
+      "id": "15",
+      "name": "Bella Fontleroy",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "bella-fontleroy-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "16",
       "name": "Holly Winterburn",
       "team": "Atlanta Dream",
       "salary": 270000,
@@ -9257,7 +10325,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "13",
+      "id": "17",
+      "name": "Laila Phelia",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "laila-phelia-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "18",
       "name": "Paige Robinson",
       "team": "Atlanta Dream",
       "salary": 270000,
@@ -9305,7 +10421,103 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "27",
+      "id": "19",
+      "name": "Sacha Washington",
+      "team": "Atlanta Dream",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "sacha-washington-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Atlanta Dream",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "32",
+      "name": "Latasha Lattimore",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "latasha-lattimore-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "33",
       "name": "Tonie Morgan",
       "team": "Chicago Sky",
       "salary": 270000,
@@ -9353,7 +10565,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "28",
+      "id": "34",
       "name": "Aicha Coulibaly",
       "team": "Chicago Sky",
       "salary": 270000,
@@ -9401,7 +10613,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "29",
+      "id": "35",
       "name": "Megan Nestor",
       "team": "Chicago Sky",
       "salary": 270000,
@@ -9449,7 +10661,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "30",
+      "id": "36",
+      "name": "Sidney Cooks",
+      "team": "Chicago Sky",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "sidney-cooks-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Chicago Sky",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "37",
       "name": "Sydney Taylor",
       "team": "Chicago Sky",
       "salary": 270000,
@@ -9497,7 +10757,247 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "60",
+      "id": "50",
+      "name": "Charlisse Leger-Walker",
+      "team": "Connecticut Sun",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "charlisse-leger-walker-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "51",
+      "name": "Serah Williams",
+      "team": "Connecticut Sun",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "serah-williams-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "52",
+      "name": "Harmoni Turner",
+      "team": "Connecticut Sun",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "harmoni-turner-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "53",
+      "name": "Madison Hayes",
+      "team": "Connecticut Sun",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "madison-hayes-stats-none",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4433413.png",
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "54",
+      "name": "Raegan Beers",
+      "team": "Connecticut Sun",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "raegan-beers-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Connecticut Sun",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "75",
       "name": "Zee Spearman",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9545,7 +11045,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "61",
+      "id": "76",
       "name": "Costanza Verona",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9593,7 +11093,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "62",
+      "id": "77",
       "name": "Grace Sullivan",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9641,7 +11141,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "63",
+      "id": "78",
       "name": "Kyla Oldacre",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9689,7 +11189,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "64",
+      "id": "79",
       "name": "Shyanne Sellers",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9737,7 +11237,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "65",
+      "id": "80",
       "name": "Amy Okonkwo",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -9791,7 +11291,103 @@
       "totalCareerEarnings": 272915
     },
     {
-      "id": "78",
+      "id": "95",
+      "name": "Bailey Maupin",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "bailey-maupin-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "96",
+      "name": "Caroline Ducharme",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "caroline-ducharme-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "97",
       "name": "Cate Reese",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -9839,7 +11435,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "79",
+      "id": "98",
       "name": "Mariella Fasoula",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -9887,7 +11483,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "80",
+      "id": "99",
       "name": "Miela Sowah",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -9935,7 +11531,205 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "116",
+      "id": "100",
+      "name": "Ndjakalenga Mwenentanda",
+      "team": "Golden State Valkyries",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "ndjakalenga-mwenentanda-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Golden State Valkyries",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "113",
+      "name": "Kayana Traylor",
+      "team": "Indiana Fever",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "kayana-traylor",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4398947.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "Minnesota Lynx",
+          "salary": 10561,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Indiana Fever",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 280561
+    },
+    {
+      "id": "127",
+      "name": "Janiah Barker",
+      "team": "Las Vegas Aces",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "janiah-barker-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "128",
+      "name": "Jordan Obi",
+      "team": "Las Vegas Aces",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "jordan-obi-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Las Vegas Aces",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "139",
       "name": "Jihyun Park",
       "team": "Los Angeles Sparks",
       "salary": 270000,
@@ -9983,7 +11777,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "125",
+      "id": "149",
+      "name": "Lani White",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "lani-white-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "150",
       "name": "Aubrey Griffin",
       "team": "Minnesota Lynx",
       "salary": 270000,
@@ -10031,7 +11873,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "126",
+      "id": "151",
+      "name": "Amaya Battle",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "amaya-battle-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "152",
       "name": "Antonia Delaere",
       "team": "Minnesota Lynx",
       "salary": 270000,
@@ -10079,7 +11969,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "127",
+      "id": "153",
       "name": "Eliska Hamzova",
       "team": "Minnesota Lynx",
       "salary": 270000,
@@ -10127,7 +12017,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "128",
+      "id": "154",
       "name": "Emma Cechova",
       "team": "Minnesota Lynx",
       "salary": 270000,
@@ -10175,7 +12065,103 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "129",
+      "id": "155",
+      "name": "Jade Masogayo",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jade-masogayo-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "156",
+      "name": "Ra Shaya Kyle",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "ra-shaya-kyle-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "157",
       "name": "Reigan Richardson",
       "team": "Minnesota Lynx",
       "salary": 270000,
@@ -10223,7 +12209,151 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "135",
+      "id": "158",
+      "name": "Sakima Walker",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "sakima-walker-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "159",
+      "name": "Saylor Poffenbarger",
+      "team": "Minnesota Lynx",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "saylor-poffenbarger-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Minnesota Lynx",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "165",
+      "name": "Alex Fowler",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "alex-fowler-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "166",
       "name": "Ashley Owusu",
       "team": "New York Liberty",
       "salary": 270000,
@@ -10271,7 +12401,103 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "136",
+      "id": "167",
+      "name": "Derin Erdogan",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "derin-erdogan-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "168",
+      "name": "Ny'Ceara Pryor",
+      "team": "New York Liberty",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "nyceara-pryor-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "169",
       "name": "Pauline Astier",
       "team": "New York Liberty",
       "salary": 270000,
@@ -10319,7 +12545,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "137",
+      "id": "170",
       "name": "Raquel Carrera",
       "team": "New York Liberty",
       "salary": 270000,
@@ -10367,7 +12593,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "138",
+      "id": "171",
       "name": "Ugonne Onyiah",
       "team": "New York Liberty",
       "salary": 270000,
@@ -10415,7 +12641,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "139",
+      "id": "172",
       "name": "Anneli Maley",
       "team": "New York Liberty",
       "salary": 270000,
@@ -10463,7 +12689,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "160",
+      "id": "194",
       "name": "Ashten Prechtel",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10511,7 +12737,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "161",
+      "id": "195",
       "name": "Jovana Nogic",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10559,7 +12785,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "162",
+      "id": "196",
       "name": "Kara Dunn",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10607,7 +12833,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "163",
+      "id": "197",
       "name": "Lauren Jensen",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10655,7 +12881,55 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "164",
+      "id": "198",
+      "name": "Lee Seul Kang",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "lee-seul-kang-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "199",
       "name": "Maggie Doogan",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10703,7 +12977,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "165",
+      "id": "200",
       "name": "Morgan Maly",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10751,7 +13025,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "166",
+      "id": "201",
       "name": "Noemie Brochant",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10799,7 +13073,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "167",
+      "id": "202",
       "name": "Quionche Carter",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10847,7 +13121,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "168",
+      "id": "203",
       "name": "Shay Ciezki",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10895,7 +13169,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "169",
+      "id": "204",
       "name": "Yarden Garzon",
       "team": "Phoenix Mercury",
       "salary": 270000,
@@ -10943,7 +13217,151 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "188",
+      "id": "205",
+      "name": "Jillian Alleyne",
+      "team": "Phoenix Mercury",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jillian-alleyne",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Phoenix Mercury",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "223",
+      "name": "Taylor Bigby",
+      "team": "Portland Fire",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "taylor-bigby-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "224",
+      "name": "Jordan Harrison",
+      "team": "Portland Fire",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jordan-harrison-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Portland Fire",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "225",
       "name": "Peyton Williams",
       "team": "Portland Fire",
       "salary": 270000,
@@ -10991,7 +13409,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "189",
+      "id": "226",
       "name": "Teja Oblak",
       "team": "Portland Fire",
       "salary": 270000,
@@ -11039,7 +13457,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "190",
+      "id": "227",
       "name": "Kamiah Smalls",
       "team": "Portland Fire",
       "salary": 270000,
@@ -11093,7 +13511,103 @@
       "totalCareerEarnings": 277774
     },
     {
-      "id": "215",
+      "id": "243",
+      "name": "Elle Ladine",
+      "team": "Seattle Storm",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "elle-ladine-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "244",
+      "name": "Jalyn Brown",
+      "team": "Seattle Storm",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jalyn-brown-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Seattle Storm",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "259",
       "name": "Teonni Key",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11141,7 +13655,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "216",
+      "id": "260",
       "name": "Dara Mabrey",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11189,7 +13703,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "217",
+      "id": "261",
       "name": "Elizabeth Balogun",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11237,7 +13751,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "218",
+      "id": "262",
       "name": "Laura Juškaitė",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11285,7 +13799,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "219",
+      "id": "263",
       "name": "Maddison Rocci",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11333,7 +13847,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "220",
+      "id": "264",
       "name": "Maria Conde",
       "team": "Toronto Tempo",
       "salary": 270000,
@@ -11381,7 +13895,103 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "229",
+      "id": "274",
+      "name": "Cassandre Prosper",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "cassandre-prosper-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "275",
+      "name": "Rori Harmon",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 4,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2030-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": 288600,
+          "status": "Signed"
+        },
+        {
+          "year": 2028,
+          "salary": 317460,
+          "status": "Signed"
+        },
+        {
+          "year": 2029,
+          "salary": 358730,
+          "status": "Signed"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": "RFA"
+        }
+      ],
+      "profileSlug": "rori-harmon-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "276",
       "name": "Alex Wilson",
       "team": "Washington Mystics",
       "salary": 270000,
@@ -11429,19 +14039,19 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "14",
-      "name": "Shatori Walker-Kimbrough",
-      "team": "Atlanta Dream",
-      "salary": 0,
-      "status": "UFA",
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
+      "id": "277",
+      "name": "Christeen Iwuala",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
       "yearlySalaries": [
         {
           "year": 2026,
-          "salary": null,
-          "status": "UFA"
+          "salary": 270000,
+          "status": "Signed"
         },
         {
           "year": 2027,
@@ -11464,32 +14074,164 @@
           "status": null
         }
       ],
-      "profileSlug": "shatori-walker-kimbrough",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3058893.png",
+      "profileSlug": "christeen-iwuala-stats-none",
+      "photoUrl": null,
       "careerEarnings": [
         {
-          "season": 2023,
+          "season": 2026,
           "team": "Washington Mystics",
-          "salary": 95000,
-          "status": "Protected Veteran"
-        },
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "278",
+      "name": "Kamaria McDaniel",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
         {
-          "season": 2024,
-          "team": "Washington Mystics",
-          "salary": 97850,
+          "year": 2026,
+          "salary": 270000,
           "status": "Signed"
         },
         {
-          "season": 2025,
-          "team": "Atlanta Dream",
-          "salary": 150000,
-          "status": "Protected Veteran"
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
         }
       ],
-      "totalCareerEarnings": 342850
+      "profileSlug": "kamaria-mcdaniel-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
     },
     {
-      "id": "15",
+      "id": "279",
+      "name": "Mya Hollingshed",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "mya-hollingshed-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "280",
+      "name": "Nyla Harris",
+      "team": "Washington Mystics",
+      "salary": 270000,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 270000,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "nyla-harris-stats-none",
+      "photoUrl": null,
+      "careerEarnings": [
+        {
+          "season": 2026,
+          "team": "Washington Mystics",
+          "salary": 270000,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 270000
+    },
+    {
+      "id": "20",
       "name": "Lorela Cubaj",
       "team": "Atlanta Dream",
       "salary": 0,
@@ -11543,7 +14285,7 @@
       "totalCareerEarnings": 73903
     },
     {
-      "id": "31",
+      "id": "38",
       "name": "Sevgi Uzun",
       "team": "Chicago Sky",
       "salary": 0,
@@ -11597,7 +14339,7 @@
       "totalCareerEarnings": 89697
     },
     {
-      "id": "42",
+      "id": "55",
       "name": "Tina Charles",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -11651,7 +14393,7 @@
       "totalCareerEarnings": 300000
     },
     {
-      "id": "43",
+      "id": "56",
       "name": "Diamond DeShields",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -11711,7 +14453,7 @@
       "totalCareerEarnings": 274794
     },
     {
-      "id": "44",
+      "id": "57",
       "name": "Bria Hartley",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -11759,7 +14501,7 @@
       "totalCareerEarnings": 78831
     },
     {
-      "id": "45",
+      "id": "58",
       "name": "Haley Peters",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -11807,7 +14549,7 @@
       "totalCareerEarnings": 25173
     },
     {
-      "id": "66",
+      "id": "81",
       "name": "Myisha Hines-Allen",
       "team": "Dallas Wings",
       "salary": 0,
@@ -11867,7 +14609,7 @@
       "totalCareerEarnings": 558300
     },
     {
-      "id": "67",
+      "id": "82",
       "name": "Lou Lopez Sénéchal",
       "team": "Dallas Wings",
       "salary": 0,
@@ -11921,7 +14663,7 @@
       "totalCareerEarnings": 144027
     },
     {
-      "id": "81",
+      "id": "101",
       "name": "Tiffany Hayes",
       "team": "Golden State Valkyries",
       "salary": 0,
@@ -11981,115 +14723,7 @@
       "totalCareerEarnings": 450477
     },
     {
-      "id": "82",
-      "name": "Laeticia Amihere",
-      "team": "Golden State Valkyries",
-      "salary": 0,
-      "status": null,
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "laeticia-amihere",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4432834.png",
-      "careerEarnings": [
-        {
-          "season": 2023,
-          "team": "Atlanta Dream",
-          "salary": 71300,
-          "status": "Signed"
-        },
-        {
-          "season": 2024,
-          "team": "Atlanta Dream",
-          "salary": 72727,
-          "status": "Signed"
-        },
-        {
-          "season": 2025,
-          "team": "Golden State Valkyries",
-          "salary": 53307,
-          "status": "Signed"
-        }
-      ],
-      "totalCareerEarnings": 197334
-    },
-    {
-      "id": "83",
-      "name": "Kaitlyn Chen",
-      "team": "Golden State Valkyries",
-      "salary": 0,
-      "status": null,
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "kaitlyn-chen",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/4899328.png",
-      "careerEarnings": [
-        {
-          "season": 2025,
-          "team": "Golden State Valkyries",
-          "salary": 49420,
-          "status": "Signed"
-        }
-      ],
-      "totalCareerEarnings": 49420
-    },
-    {
-      "id": "93",
+      "id": "114",
       "name": "Sydney Colson",
       "team": "Indiana Fever",
       "salary": 0,
@@ -12149,7 +14783,7 @@
       "totalCareerEarnings": 240840
     },
     {
-      "id": "94",
+      "id": "115",
       "name": "Aari McDonald",
       "team": "Indiana Fever",
       "salary": 0,
@@ -12209,67 +14843,7 @@
       "totalCareerEarnings": 220221
     },
     {
-      "id": "105",
-      "name": "A'ja Wilson",
-      "team": "Las Vegas Aces",
-      "salary": 0,
-      "status": "UFA",
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": "UFA"
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "aja-wilson",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/3149391.png",
-      "careerEarnings": [
-        {
-          "season": 2023,
-          "team": "Las Vegas Aces",
-          "salary": 202154,
-          "status": "Protected Veteran"
-        },
-        {
-          "season": 2024,
-          "team": "Las Vegas Aces",
-          "salary": 227303,
-          "status": "Protected Veteran"
-        },
-        {
-          "season": 2025,
-          "team": "Las Vegas Aces",
-          "salary": 200000,
-          "status": "Protected Veteran"
-        }
-      ],
-      "totalCareerEarnings": 629457
-    },
-    {
-      "id": "117",
+      "id": "140",
       "name": "Alissa Pili",
       "team": "Los Angeles Sparks",
       "salary": 0,
@@ -12323,7 +14897,7 @@
       "totalCareerEarnings": 83989
     },
     {
-      "id": "130",
+      "id": "160",
       "name": "Napheesa Collier",
       "team": "Minnesota Lynx",
       "salary": 0,
@@ -12383,7 +14957,7 @@
       "totalCareerEarnings": 631907
     },
     {
-      "id": "140",
+      "id": "173",
       "name": "Sabrina Ionescu",
       "team": "New York Liberty",
       "salary": 0,
@@ -12443,7 +15017,7 @@
       "totalCareerEarnings": 510761
     },
     {
-      "id": "141",
+      "id": "174",
       "name": "Natasha Cloud",
       "team": "New York Liberty",
       "salary": 0,
@@ -12503,7 +15077,7 @@
       "totalCareerEarnings": 590000
     },
     {
-      "id": "142",
+      "id": "175",
       "name": "Jonquel Jones",
       "team": "New York Liberty",
       "salary": 0,
@@ -12563,7 +15137,7 @@
       "totalCareerEarnings": 610150
     },
     {
-      "id": "143",
+      "id": "176",
       "name": "Emma Meesseman",
       "team": "New York Liberty",
       "salary": 0,
@@ -12611,7 +15185,7 @@
       "totalCareerEarnings": 75694
     },
     {
-      "id": "144",
+      "id": "177",
       "name": "Breanna Stewart",
       "team": "New York Liberty",
       "salary": 0,
@@ -12671,7 +15245,7 @@
       "totalCareerEarnings": 607400
     },
     {
-      "id": "145",
+      "id": "178",
       "name": "Marine Johannès",
       "team": "New York Liberty",
       "salary": 0,
@@ -12725,7 +15299,7 @@
       "totalCareerEarnings": 128364
     },
     {
-      "id": "146",
+      "id": "179",
       "name": "Betnijah Laney-Hamilton",
       "team": "New York Liberty",
       "salary": 0,
@@ -12779,7 +15353,7 @@
       "totalCareerEarnings": 381984
     },
     {
-      "id": "147",
+      "id": "180",
       "name": "Han Xu",
       "team": "New York Liberty",
       "salary": 0,
@@ -12827,7 +15401,7 @@
       "totalCareerEarnings": 62285
     },
     {
-      "id": "170",
+      "id": "206",
       "name": "Satou Sabally",
       "team": "Phoenix Mercury",
       "salary": 0,
@@ -12887,55 +15461,7 @@
       "totalCareerEarnings": 496701
     },
     {
-      "id": "171",
-      "name": "Monique Akoa Makani",
-      "team": "Phoenix Mercury",
-      "salary": 0,
-      "status": null,
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "monique-akoa-makani",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5274110.png",
-      "careerEarnings": [
-        {
-          "season": 2025,
-          "team": "Phoenix Mercury",
-          "salary": 66079,
-          "status": "Signed"
-        }
-      ],
-      "totalCareerEarnings": 66079
-    },
-    {
-      "id": "172",
+      "id": "207",
       "name": "Helena Pueyo",
       "team": "Phoenix Mercury",
       "salary": 0,
@@ -12976,7 +15502,7 @@
       "totalCareerEarnings": 0
     },
     {
-      "id": "173",
+      "id": "208",
       "name": "Julia Ayrault",
       "team": "Phoenix Mercury",
       "salary": 0,
@@ -13017,7 +15543,7 @@
       "totalCareerEarnings": 0
     },
     {
-      "id": "174",
+      "id": "209",
       "name": "Klara Lundquist",
       "team": "Phoenix Mercury",
       "salary": 0,
@@ -13058,7 +15584,7 @@
       "totalCareerEarnings": 0
     },
     {
-      "id": "201",
+      "id": "245",
       "name": "Tiffany Mitchell",
       "team": "Seattle Storm",
       "salary": 0,
@@ -13118,7 +15644,7 @@
       "totalCareerEarnings": 314839
     },
     {
-      "id": "221",
+      "id": "265",
       "name": "Maria Kliundikova",
       "team": "Toronto Tempo",
       "salary": 0,
@@ -13166,7 +15692,7 @@
       "totalCareerEarnings": 54418
     },
     {
-      "id": "230",
+      "id": "281",
       "name": "Bernadett Határ",
       "team": "Washington Mystics",
       "salary": 0,
@@ -13250,10 +15776,10 @@
       "urlSlug": "dallas-wings",
       "salaryCap": 7000000,
       "totalSalaries": null,
-      "capRoom": 839787,
-      "guaranteedSalary": 4406080,
+      "capRoom": 339787,
+      "guaranteedSalary": 4906080,
       "totalPlayers": null,
-      "openRosterSlots": 2
+      "openRosterSlots": 1
     },
     "Golden State Valkyries": {
       "name": "Golden State Valkyries",
@@ -13269,18 +15795,18 @@
       "name": "Indiana Fever",
       "urlSlug": "indiana-fever",
       "salaryCap": 7000000,
-      "totalSalaries": 5688458,
+      "totalSalaries": null,
       "capRoom": 1311542,
-      "guaranteedSalary": 4204612,
-      "totalPlayers": 9,
-      "openRosterSlots": 3
+      "guaranteedSalary": 2804612,
+      "totalPlayers": null,
+      "openRosterSlots": 4
     },
     "Las Vegas Aces": {
       "name": "Las Vegas Aces",
       "urlSlug": "las-vegas-aces",
       "salaryCap": 7000000,
       "totalSalaries": null,
-      "capRoom": 2787500,
+      "capRoom": 1387500,
       "guaranteedSalary": 4212500,
       "totalPlayers": null,
       "openRosterSlots": 6
@@ -13320,10 +15846,10 @@
       "urlSlug": "phoenix-mercury",
       "salaryCap": 7000000,
       "totalSalaries": null,
-      "capRoom": 2283900,
+      "capRoom": 1983900,
       "guaranteedSalary": 3912500,
       "totalPlayers": null,
-      "openRosterSlots": 5
+      "openRosterSlots": 4
     },
     "Portland Fire": {
       "name": "Portland Fire",
@@ -13340,10 +15866,10 @@
       "urlSlug": "seattle-storm",
       "salaryCap": 7000000,
       "totalSalaries": null,
-      "capRoom": 2253309,
-      "guaranteedSalary": 4279778,
+      "capRoom": 1817293,
+      "guaranteedSalary": 4715794,
       "totalPlayers": null,
-      "openRosterSlots": 4
+      "openRosterSlots": 3
     },
     "Toronto Tempo": {
       "name": "Toronto Tempo",
