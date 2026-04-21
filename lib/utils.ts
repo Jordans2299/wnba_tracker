@@ -34,7 +34,7 @@ export function teamUrlSlug(name: string): string {
 }
 
 export const SITE_URL =
-  process.env.NEXT_PUBLIC_SITE_URL ?? "https://wnbawagetracker.com";
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://playerpay.io";
 
 export function playerUrl(slug: string): string {
   return `/wnba/players/${slug}`;
