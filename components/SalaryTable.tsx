@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { Player } from "@/lib/data";
-import { classNames, formatCurrency, formatDate, teamUrlSlug } from "@/lib/utils";
+import { classNames, formatCurrency, formatDate, playerUrl, teamUrl } from "@/lib/utils";
 
 export type SortKey =
   | "name"
@@ -98,7 +98,7 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
               >
                 <td className="px-4 py-3">
                   <Link
-                    href={`/players/${p.profileSlug}`}
+                    href={playerUrl(p.profileSlug)}
                     className="font-medium text-white hover:text-accent transition-colors truncate max-w-[200px] sm:max-w-none block"
                   >
                     {p.name}
@@ -106,7 +106,7 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
                 </td>
                 <td className="px-4 py-3">
                   <Link
-                    href={`/teams/${teamUrlSlug(p.team)}`}
+                    href={teamUrl(p.team)}
                     className="inline-flex items-center rounded-md border border-white/10 bg-white/[0.03] px-2 py-0.5 text-xs text-court-200 whitespace-nowrap hover:border-accent/50 hover:bg-accent/10 hover:text-accent transition-colors"
                   >
                     {p.team}

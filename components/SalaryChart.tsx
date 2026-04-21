@@ -12,7 +12,7 @@ import {
   Cell,
 } from "recharts";
 import type { Player } from "@/lib/data";
-import { formatCompactCurrency, formatCurrency, teamUrlSlug } from "@/lib/utils";
+import { formatCompactCurrency, formatCurrency, teamUrl } from "@/lib/utils";
 
 type Props = {
   players: Player[];
@@ -55,7 +55,7 @@ export default function SalaryChart({ players, focusMode = false }: Props) {
   const barHeight = focusMode ? Math.max(320, data.length * 28) : 360;
 
   function handleBarClick(entry: Player) {
-    router.push(`/teams/${teamUrlSlug(entry.team)}`);
+    router.push(teamUrl(entry.team));
   }
 
   return (

@@ -32,3 +32,14 @@ export function classNames(...xs: Array<string | false | null | undefined>): str
 export function teamUrlSlug(name: string): string {
   return name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
 }
+
+export const SITE_URL =
+  process.env.NEXT_PUBLIC_SITE_URL ?? "https://wnbawagetracker.com";
+
+export function playerUrl(slug: string): string {
+  return `/wnba/players/${slug}`;
+}
+
+export function teamUrl(teamName: string): string {
+  return `/wnba/teams/${teamUrlSlug(teamName)}`;
+}

@@ -9,6 +9,7 @@ import TeamFilter from "@/components/TeamFilter";
 import StatsSummary from "@/components/StatsSummary";
 import ViewToggle, { View } from "@/components/ViewToggle";
 import { classNames } from "@/lib/utils";
+import Link from "next/link";
 
 export default function Page() {
   const [isLoading, setIsLoading] = useState(true);
@@ -93,17 +94,17 @@ export default function Page() {
               WNBA Wage Tracker
             </h1>
             <p className="mt-2 text-sm sm:text-base text-court-300 max-w-2xl">
-              Browse, search, and sort player salaries and contracts across the
-              league.
-              <span className="text-court-400">
-                last updated{" "}
+              Browse, search, and sort player salaries and contracts across the league.
+            </p>
+            <p className="mt-1 text-xs text-court-500">
+              Updated{" "}
+              <time dateTime={meta.lastUpdated}>
                 {new Date(meta.lastUpdated).toLocaleDateString("en-US", {
                   month: "short",
                   day: "numeric",
                   year: "numeric",
                 })}
-              </span>
-              .
+              </time>
             </p>
           </div>
           <ViewToggle value={view} onChange={setView} />
@@ -204,8 +205,21 @@ export default function Page() {
           <SalaryChart players={sorted} focusMode />
         )}
 
-        <footer className="mt-10 text-center text-xs text-court-500">
-          Built with Next.js · Data is mocked for demo purposes.
+        {/* Ranking page links */}
+        <nav className="mt-8 flex flex-wrap justify-center gap-4 text-xs text-court-400 border-t border-white/5 pt-6">
+          <Link href="/wnba/highest-paid-players" className="hover:text-white transition-colors">Highest Paid Players</Link>
+          <span className="text-court-700">·</span>
+          <Link href="/wnba/lowest-paid-players" className="hover:text-white transition-colors">Lowest Paid Players</Link>
+          <span className="text-court-700">·</span>
+          <Link href="/wnba/average-salary" className="hover:text-white transition-colors">Average Salary</Link>
+          <span className="text-court-700">·</span>
+          <Link href="/wnba/salary-cap" className="hover:text-white transition-colors">Salary Cap</Link>
+          <span className="text-court-700">·</span>
+          <Link href="/wnba/rookie-salaries" className="hover:text-white transition-colors">Rookie Salaries</Link>
+        </nav>
+
+        <footer className="mt-4 text-center text-xs text-court-500">
+          Built with Next.js · Data sourced from Her Hoop Stats.
         </footer>
       </div>
     </main>
