@@ -1,11 +1,11 @@
 {
   "source": "https://herhoopstats.com/salary-cap-sheet/wnba/",
   "season": 2026,
-  "lastUpdated": "2026-04-20T11:21:49.480Z",
+  "lastUpdated": "2026-04-21T11:13:12.458Z",
   "playerCount": 295,
   "players": [
     {
-      "id": "106",
+      "id": "105",
       "name": "Kelsey Mitchell",
       "team": "Indiana Fever",
       "salary": 1400000,
@@ -71,7 +71,7 @@
       "totalCareerEarnings": 2087244
     },
     {
-      "id": "123",
+      "id": "122",
       "name": "A'ja Wilson",
       "team": "Las Vegas Aces",
       "salary": 1400000,
@@ -533,7 +533,7 @@
       "totalCareerEarnings": 1759600
     },
     {
-      "id": "41",
+      "id": "40",
       "name": "Brittney Griner",
       "team": "Connecticut Sun",
       "salary": 1190000,
@@ -599,7 +599,7 @@
       "totalCareerEarnings": 1719566
     },
     {
-      "id": "62",
+      "id": "61",
       "name": "Alanna Smith",
       "team": "Dallas Wings",
       "salary": 1190000,
@@ -665,7 +665,7 @@
       "totalCareerEarnings": 1590000
     },
     {
-      "id": "63",
+      "id": "62",
       "name": "Arike Ogunbowale",
       "team": "Dallas Wings",
       "salary": 1190000,
@@ -731,7 +731,7 @@
       "totalCareerEarnings": 1915952
     },
     {
-      "id": "85",
+      "id": "84",
       "name": "Gabby Williams",
       "team": "Golden State Valkyries",
       "salary": 1190000,
@@ -797,7 +797,7 @@
       "totalCareerEarnings": 1538491
     },
     {
-      "id": "124",
+      "id": "123",
       "name": "Jackie Young",
       "team": "Las Vegas Aces",
       "salary": 1190000,
@@ -1127,6 +1127,72 @@
       "totalCareerEarnings": 1797400
     },
     {
+      "id": "174",
+      "name": "Jonquel Jones",
+      "team": "New York Liberty",
+      "salary": 1190000,
+      "status": "Protected Veteran",
+      "contractLengthYears": 3,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2029-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2027,
+          "salary": 1249500,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2028,
+          "salary": 1309000,
+          "status": "Protected Veteran"
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": "UFA"
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "jonquel-jones",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2999101.png",
+      "careerEarnings": [
+        {
+          "season": 2023,
+          "team": "New York Liberty",
+          "salary": 211150,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2024,
+          "team": "New York Liberty",
+          "salary": 190000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2025,
+          "team": "New York Liberty",
+          "salary": 209000,
+          "status": "Protected Veteran"
+        },
+        {
+          "season": 2026,
+          "team": "New York Liberty",
+          "salary": 1190000,
+          "status": "Protected Veteran"
+        }
+      ],
+      "totalCareerEarnings": 1800150
+    },
+    {
       "id": "221",
       "name": "Bridget Carleton",
       "team": "Portland Fire",
@@ -1391,7 +1457,7 @@
       "totalCareerEarnings": 1346508
     },
     {
-      "id": "136",
+      "id": "135",
       "name": "Dearica Hamby",
       "team": "Los Angeles Sparks",
       "salary": 1100000,
@@ -1457,7 +1523,7 @@
       "totalCareerEarnings": 1660000
     },
     {
-      "id": "137",
+      "id": "136",
       "name": "Ariel Atkins",
       "team": "Los Angeles Sparks",
       "salary": 1085000,
@@ -1655,7 +1721,7 @@
       "totalCareerEarnings": 1600000
     },
     {
-      "id": "42",
+      "id": "41",
       "name": "Kennedy Burke",
       "team": "Connecticut Sun",
       "salary": 1000000,
@@ -1715,7 +1781,7 @@
       "totalCareerEarnings": 1155366
     },
     {
-      "id": "64",
+      "id": "63",
       "name": "Jessica Shepard",
       "team": "Dallas Wings",
       "salary": 1000000,
@@ -1775,7 +1841,7 @@
       "totalCareerEarnings": 1198831
     },
     {
-      "id": "107",
+      "id": "106",
       "name": "Aliyah Boston",
       "team": "Indiana Fever",
       "salary": 1000000,
@@ -1841,7 +1907,7 @@
       "totalCareerEarnings": 1233468
     },
     {
-      "id": "125",
+      "id": "124",
       "name": "Chelsea Gray",
       "team": "Las Vegas Aces",
       "salary": 1000000,
@@ -1967,7 +2033,7 @@
       "totalCareerEarnings": 1166535
     },
     {
-      "id": "138",
+      "id": "137",
       "name": "Kelsey Plum",
       "team": "Los Angeles Sparks",
       "salary": 999999,
@@ -2033,7 +2099,7 @@
       "totalCareerEarnings": 1601999
     },
     {
-      "id": "139",
+      "id": "138",
       "name": "Nneka Ogwumike",
       "team": "Los Angeles Sparks",
       "salary": 950000,
@@ -2099,7 +2165,7 @@
       "totalCareerEarnings": 1549030
     },
     {
-      "id": "86",
+      "id": "85",
       "name": "Veronica Burton",
       "team": "Golden State Valkyries",
       "salary": 925000,
@@ -2297,7 +2363,7 @@
       "totalCareerEarnings": 1056604
     },
     {
-      "id": "174",
+      "id": "175",
       "name": "Satou Sabally",
       "team": "New York Liberty",
       "salary": 815000,
@@ -2363,7 +2429,7 @@
       "totalCareerEarnings": 1311701
     },
     {
-      "id": "108",
+      "id": "107",
       "name": "Monique Billings",
       "team": "Indiana Fever",
       "salary": 800000,
@@ -2429,7 +2495,7 @@
       "totalCareerEarnings": 1090237
     },
     {
-      "id": "126",
+      "id": "125",
       "name": "Jewell Loyd",
       "team": "Las Vegas Aces",
       "salary": 800000,
@@ -2495,7 +2561,7 @@
       "totalCareerEarnings": 1525952
     },
     {
-      "id": "109",
+      "id": "108",
       "name": "Lexie Hull",
       "team": "Indiana Fever",
       "salary": 765000,
@@ -2627,7 +2693,7 @@
       "totalCareerEarnings": 1323670
     },
     {
-      "id": "87",
+      "id": "86",
       "name": "Kayla Thornton",
       "team": "Golden State Valkyries",
       "salary": 750000,
@@ -2825,7 +2891,7 @@
       "totalCareerEarnings": 1265000
     },
     {
-      "id": "43",
+      "id": "42",
       "name": "Olivia Nelson-Ododa",
       "team": "Connecticut Sun",
       "salary": 735000,
@@ -3089,7 +3155,7 @@
       "totalCareerEarnings": 986097
     },
     {
-      "id": "110",
+      "id": "109",
       "name": "Sophie Cunningham",
       "team": "Indiana Fever",
       "salary": 665000,
@@ -3287,7 +3353,7 @@
       "totalCareerEarnings": 997522
     },
     {
-      "id": "140",
+      "id": "139",
       "name": "Erica Wheeler",
       "team": "Los Angeles Sparks",
       "salary": 625000,
@@ -3419,7 +3485,7 @@
       "totalCareerEarnings": 1000000
     },
     {
-      "id": "88",
+      "id": "87",
       "name": "Kaila Charles",
       "team": "Golden State Valkyries",
       "salary": 600000,
@@ -3479,7 +3545,7 @@
       "totalCareerEarnings": 634197
     },
     {
-      "id": "89",
+      "id": "88",
       "name": "Tiffany Hayes",
       "team": "Golden State Valkyries",
       "salary": 600000,
@@ -3545,7 +3611,7 @@
       "totalCareerEarnings": 1050477
     },
     {
-      "id": "44",
+      "id": "43",
       "name": "Diamond Miller",
       "team": "Connecticut Sun",
       "salary": 536588,
@@ -3611,7 +3677,7 @@
       "totalCareerEarnings": 770056
     },
     {
-      "id": "111",
+      "id": "110",
       "name": "Caitlin Clark",
       "team": "Indiana Fever",
       "salary": 528846,
@@ -3671,7 +3737,7 @@
       "totalCareerEarnings": 683447
     },
     {
-      "id": "65",
+      "id": "64",
       "name": "Awak Kuier",
       "team": "Dallas Wings",
       "salary": 525000,
@@ -3725,7 +3791,7 @@
       "totalCareerEarnings": 603586
     },
     {
-      "id": "66",
+      "id": "65",
       "name": "Maddy Siegrist",
       "team": "Dallas Wings",
       "salary": 501080,
@@ -3791,7 +3857,7 @@
       "totalCareerEarnings": 734548
     },
     {
-      "id": "67",
+      "id": "66",
       "name": "Paige Bueckers",
       "team": "Dallas Wings",
       "salary": 500000,
@@ -3845,7 +3911,7 @@
       "totalCareerEarnings": 578831
     },
     {
-      "id": "68",
+      "id": "67",
       "name": "Azzi Fudd",
       "team": "Dallas Wings",
       "salary": 500000,
@@ -3893,7 +3959,7 @@
       "totalCareerEarnings": 500000
     },
     {
-      "id": "90",
+      "id": "89",
       "name": "Janelle Salaün",
       "team": "Golden State Valkyries",
       "salary": 500000,
@@ -3947,7 +4013,7 @@
       "totalCareerEarnings": 566079
     },
     {
-      "id": "91",
+      "id": "90",
       "name": "Cecilia Zandalasini",
       "team": "Golden State Valkyries",
       "salary": 500000,
@@ -4253,7 +4319,7 @@
       "totalCareerEarnings": 693149
     },
     {
-      "id": "141",
+      "id": "140",
       "name": "Cameron Brink",
       "team": "Los Angeles Sparks",
       "salary": 493851,
@@ -4475,7 +4541,7 @@
       "totalCareerEarnings": 615772
     },
     {
-      "id": "92",
+      "id": "91",
       "name": "Iliana Rupert",
       "team": "Golden State Valkyries",
       "salary": 450000,
@@ -4535,7 +4601,7 @@
       "totalCareerEarnings": 549841
     },
     {
-      "id": "127",
+      "id": "126",
       "name": "NaLyssa Smith",
       "team": "Las Vegas Aces",
       "salary": 450000,
@@ -5081,7 +5147,7 @@
       "totalCareerEarnings": 820835
     },
     {
-      "id": "69",
+      "id": "68",
       "name": "Lindsay Allen",
       "team": "Dallas Wings",
       "salary": 410000,
@@ -5309,7 +5375,7 @@
       "totalCareerEarnings": 550503
     },
     {
-      "id": "112",
+      "id": "111",
       "name": "Tyasha Harris",
       "team": "Indiana Fever",
       "salary": 400000,
@@ -5375,7 +5441,7 @@
       "totalCareerEarnings": 680307
     },
     {
-      "id": "175",
+      "id": "176",
       "name": "Betnijah Laney-Hamilton",
       "team": "New York Liberty",
       "salary": 400000,
@@ -5501,7 +5567,7 @@
       "totalCareerEarnings": 798831
     },
     {
-      "id": "128",
+      "id": "127",
       "name": "Stephanie Talbot",
       "team": "Las Vegas Aces",
       "salary": 392500,
@@ -5609,7 +5675,7 @@
       "totalCareerEarnings": 380219
     },
     {
-      "id": "93",
+      "id": "92",
       "name": "Justė Jocytė",
       "team": "Golden State Valkyries",
       "salary": 380219,
@@ -5657,7 +5723,7 @@
       "totalCareerEarnings": 380219
     },
     {
-      "id": "129",
+      "id": "128",
       "name": "Dana Evans",
       "team": "Las Vegas Aces",
       "salary": 380000,
@@ -5723,7 +5789,7 @@
       "totalCareerEarnings": 616522
     },
     {
-      "id": "45",
+      "id": "44",
       "name": "Aaliyah Edwards",
       "team": "Connecticut Sun",
       "salary": 375542,
@@ -5783,7 +5849,7 @@
       "totalCareerEarnings": 523890
     },
     {
-      "id": "94",
+      "id": "93",
       "name": "Kiah Stokes",
       "team": "Golden State Valkyries",
       "salary": 375000,
@@ -6143,7 +6209,7 @@
       "totalCareerEarnings": 785000
     },
     {
-      "id": "176",
+      "id": "177",
       "name": "Rebecca Allen",
       "team": "New York Liberty",
       "salary": 350000,
@@ -6269,7 +6335,7 @@
       "totalCareerEarnings": 470236
     },
     {
-      "id": "46",
+      "id": "45",
       "name": "Aneesah Morrow",
       "team": "Connecticut Sun",
       "salary": 331563,
@@ -6437,7 +6503,7 @@
       "totalCareerEarnings": 450797
     },
     {
-      "id": "113",
+      "id": "112",
       "name": "Myisha Hines-Allen",
       "team": "Indiana Fever",
       "salary": 315000,
@@ -6503,7 +6569,7 @@
       "totalCareerEarnings": 873300
     },
     {
-      "id": "47",
+      "id": "46",
       "name": "Saniya Rivers",
       "team": "Connecticut Sun",
       "salary": 309622,
@@ -6785,7 +6851,7 @@
       "totalCareerEarnings": 480121
     },
     {
-      "id": "95",
+      "id": "94",
       "name": "Kate Martin",
       "team": "Golden State Valkyries",
       "salary": 293510,
@@ -6845,7 +6911,7 @@
       "totalCareerEarnings": 429354
     },
     {
-      "id": "177",
+      "id": "178",
       "name": "Leonie Fiebich",
       "team": "New York Liberty",
       "salary": 293510,
@@ -7061,7 +7127,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "48",
+      "id": "47",
       "name": "Leila Lacan",
       "team": "Connecticut Sun",
       "salary": 289133,
@@ -7115,7 +7181,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "49",
+      "id": "48",
       "name": "Gianna Kneepkens",
       "team": "Connecticut Sun",
       "salary": 289133,
@@ -7163,7 +7229,7 @@
       "totalCareerEarnings": 289133
     },
     {
-      "id": "50",
+      "id": "49",
       "name": "Nell Angloma",
       "team": "Connecticut Sun",
       "salary": 289133,
@@ -7211,7 +7277,7 @@
       "totalCareerEarnings": 289133
     },
     {
-      "id": "70",
+      "id": "69",
       "name": "Aziaha James",
       "team": "Dallas Wings",
       "salary": 289133,
@@ -7265,7 +7331,7 @@
       "totalCareerEarnings": 361588
     },
     {
-      "id": "114",
+      "id": "113",
       "name": "Raven Johnson",
       "team": "Indiana Fever",
       "salary": 289133,
@@ -7937,7 +8003,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "51",
+      "id": "50",
       "name": "Shey Peddy",
       "team": "Connecticut Sun",
       "salary": 277500,
@@ -7997,7 +8063,7 @@
       "totalCareerEarnings": 353792
     },
     {
-      "id": "52",
+      "id": "51",
       "name": "Mamignan Touré",
       "team": "Connecticut Sun",
       "salary": 277500,
@@ -8051,7 +8117,7 @@
       "totalCareerEarnings": 295269
     },
     {
-      "id": "71",
+      "id": "70",
       "name": "Rayah Marshall",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8105,7 +8171,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "72",
+      "id": "71",
       "name": "JJ Quinerly",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8159,7 +8225,7 @@
       "totalCareerEarnings": 343579
     },
     {
-      "id": "73",
+      "id": "72",
       "name": "Grace Berger",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8225,7 +8291,7 @@
       "totalCareerEarnings": 438741
     },
     {
-      "id": "74",
+      "id": "73",
       "name": "Alysha Clark",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8291,7 +8357,7 @@
       "totalCareerEarnings": 703408
     },
     {
-      "id": "75",
+      "id": "74",
       "name": "Dulcy Fankam Mendjiadeu",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8351,7 +8417,7 @@
       "totalCareerEarnings": 355978
     },
     {
-      "id": "76",
+      "id": "75",
       "name": "Odyssey Sims",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8417,7 +8483,7 @@
       "totalCareerEarnings": 346981
     },
     {
-      "id": "77",
+      "id": "76",
       "name": "Li Yueru",
       "team": "Dallas Wings",
       "salary": 277500,
@@ -8477,7 +8543,7 @@
       "totalCareerEarnings": 408346
     },
     {
-      "id": "96",
+      "id": "95",
       "name": "Laeticia Amihere",
       "team": "Golden State Valkyries",
       "salary": 277500,
@@ -8543,7 +8609,7 @@
       "totalCareerEarnings": 474834
     },
     {
-      "id": "97",
+      "id": "96",
       "name": "Kaitlyn Chen",
       "team": "Golden State Valkyries",
       "salary": 277500,
@@ -8597,7 +8663,7 @@
       "totalCareerEarnings": 326920
     },
     {
-      "id": "115",
+      "id": "114",
       "name": "Makayla Timpson",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -8651,7 +8717,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "116",
+      "id": "115",
       "name": "Damiris Dantas",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -8711,7 +8777,7 @@
       "totalCareerEarnings": 474600
     },
     {
-      "id": "117",
+      "id": "116",
       "name": "Megan McConnell",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -8765,7 +8831,7 @@
       "totalCareerEarnings": 308596
     },
     {
-      "id": "118",
+      "id": "117",
       "name": "Shatori Walker-Kimbrough",
       "team": "Indiana Fever",
       "salary": 277500,
@@ -8831,7 +8897,7 @@
       "totalCareerEarnings": 620350
     },
     {
-      "id": "130",
+      "id": "129",
       "name": "Kierstan Bell",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -8897,7 +8963,7 @@
       "totalCareerEarnings": 504075
     },
     {
-      "id": "131",
+      "id": "130",
       "name": "Chennedy Carter",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -8957,7 +9023,7 @@
       "totalCareerEarnings": 440736
     },
     {
-      "id": "132",
+      "id": "131",
       "name": "Cheyenne Parker-Tyus",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -9023,7 +9089,7 @@
       "totalCareerEarnings": 772431
     },
     {
-      "id": "133",
+      "id": "132",
       "name": "Brianna Turner",
       "team": "Las Vegas Aces",
       "salary": 277500,
@@ -9089,7 +9155,7 @@
       "totalCareerEarnings": 662500
     },
     {
-      "id": "142",
+      "id": "141",
       "name": "Sania Feagin",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -9143,7 +9209,7 @@
       "totalCareerEarnings": 346767
     },
     {
-      "id": "143",
+      "id": "142",
       "name": "Rae Burrell",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -9209,7 +9275,7 @@
       "totalCareerEarnings": 574934
     },
     {
-      "id": "144",
+      "id": "143",
       "name": "Emma Cannon",
       "team": "Los Angeles Sparks",
       "salary": 277500,
@@ -9273,6 +9339,66 @@
         }
       ],
       "totalCareerEarnings": 501111
+    },
+    {
+      "id": "144",
+      "name": "Sevgi Uzun",
+      "team": "Los Angeles Sparks",
+      "salary": 277500,
+      "status": "Signed",
+      "contractLengthYears": 1,
+      "contractStart": "2026-02-01",
+      "contractEnd": "2027-01-31",
+      "yearlySalaries": [
+        {
+          "year": 2026,
+          "salary": 277500,
+          "status": "Signed"
+        },
+        {
+          "year": 2027,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2028,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2029,
+          "salary": null,
+          "status": null
+        },
+        {
+          "year": 2030,
+          "salary": null,
+          "status": null
+        }
+      ],
+      "profileSlug": "sevgi-uzun",
+      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5209660.png",
+      "careerEarnings": [
+        {
+          "season": 2024,
+          "team": "Dallas Wings",
+          "salary": 64154,
+          "status": "Signed"
+        },
+        {
+          "season": 2025,
+          "team": "Chicago Sky",
+          "salary": 25543,
+          "status": "Signed"
+        },
+        {
+          "season": 2026,
+          "team": "Los Angeles Sparks",
+          "salary": 277500,
+          "status": "Signed"
+        }
+      ],
+      "totalCareerEarnings": 367197
     },
     {
       "id": "145",
@@ -9503,7 +9629,7 @@
       "totalCareerEarnings": 313530
     },
     {
-      "id": "178",
+      "id": "179",
       "name": "Rebekah Gardner",
       "team": "New York Liberty",
       "salary": 277500,
@@ -9563,7 +9689,7 @@
       "totalCareerEarnings": 443579
     },
     {
-      "id": "179",
+      "id": "180",
       "name": "DiDi Richards",
       "team": "New York Liberty",
       "salary": 277500,
@@ -9617,7 +9743,7 @@
       "totalCareerEarnings": 341654
     },
     {
-      "id": "180",
+      "id": "181",
       "name": "Han Xu",
       "team": "New York Liberty",
       "salary": 277500,
@@ -11585,7 +11711,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "53",
+      "id": "52",
       "name": "Charlisse Leger-Walker",
       "team": "Connecticut Sun",
       "salary": 270000,
@@ -11633,7 +11759,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "54",
+      "id": "53",
       "name": "Taylor Bigby",
       "team": "Connecticut Sun",
       "salary": 270000,
@@ -11681,7 +11807,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "55",
+      "id": "54",
       "name": "Harmoni Turner",
       "team": "Connecticut Sun",
       "salary": 270000,
@@ -11729,7 +11855,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "56",
+      "id": "55",
       "name": "Madison Hayes",
       "team": "Connecticut Sun",
       "salary": 270000,
@@ -11777,7 +11903,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "57",
+      "id": "56",
       "name": "Raegan Beers",
       "team": "Connecticut Sun",
       "salary": 270000,
@@ -11825,7 +11951,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "78",
+      "id": "77",
       "name": "Zee Spearman",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -11873,7 +11999,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "79",
+      "id": "78",
       "name": "Costanza Verona",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -11921,7 +12047,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "80",
+      "id": "79",
       "name": "Grace Sullivan",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -11969,7 +12095,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "81",
+      "id": "80",
       "name": "Kyla Oldacre",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -12017,7 +12143,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "82",
+      "id": "81",
       "name": "Shyanne Sellers",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -12065,7 +12191,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "83",
+      "id": "82",
       "name": "Amy Okonkwo",
       "team": "Dallas Wings",
       "salary": 270000,
@@ -12119,7 +12245,7 @@
       "totalCareerEarnings": 272915
     },
     {
-      "id": "98",
+      "id": "97",
       "name": "Ashlon Jackson",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12167,7 +12293,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "99",
+      "id": "98",
       "name": "Marta Suárez",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12215,7 +12341,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "100",
+      "id": "99",
       "name": "Bailey Maupin",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12263,7 +12389,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "101",
+      "id": "100",
       "name": "Caroline Ducharme",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12311,7 +12437,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "102",
+      "id": "101",
       "name": "Cate Reese",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12359,7 +12485,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "103",
+      "id": "102",
       "name": "Mariella Fasoula",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12407,7 +12533,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "104",
+      "id": "103",
       "name": "Miela Sowah",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12455,7 +12581,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "105",
+      "id": "104",
       "name": "Ndjakalenga Mwenentanda",
       "team": "Golden State Valkyries",
       "salary": 270000,
@@ -12503,7 +12629,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "119",
+      "id": "118",
       "name": "Jessica Timmons",
       "team": "Indiana Fever",
       "salary": 270000,
@@ -12551,7 +12677,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "120",
+      "id": "119",
       "name": "Kayana Traylor",
       "team": "Indiana Fever",
       "salary": 270000,
@@ -12605,7 +12731,7 @@
       "totalCareerEarnings": 280561
     },
     {
-      "id": "134",
+      "id": "133",
       "name": "Janiah Barker",
       "team": "Las Vegas Aces",
       "salary": 270000,
@@ -12653,7 +12779,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "135",
+      "id": "134",
       "name": "Jordan Obi",
       "team": "Las Vegas Aces",
       "salary": 270000,
@@ -13421,7 +13547,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "181",
+      "id": "182",
       "name": "Alex Fowler",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13469,7 +13595,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "182",
+      "id": "183",
       "name": "Ashley Owusu",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13517,7 +13643,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "183",
+      "id": "184",
       "name": "Derin Erdogan",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13565,7 +13691,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "184",
+      "id": "185",
       "name": "Ny'Ceara Pryor",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13613,7 +13739,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "185",
+      "id": "186",
       "name": "Pauline Astier",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13661,7 +13787,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "186",
+      "id": "187",
       "name": "Raquel Carrera",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13709,7 +13835,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "187",
+      "id": "188",
       "name": "Ugonne Onyiah",
       "team": "New York Liberty",
       "salary": 270000,
@@ -13757,7 +13883,7 @@
       "totalCareerEarnings": 270000
     },
     {
-      "id": "188",
+      "id": "189",
       "name": "Anneli Maley",
       "team": "New York Liberty",
       "salary": 270000,
@@ -15515,61 +15641,7 @@
       "totalCareerEarnings": 73903
     },
     {
-      "id": "40",
-      "name": "Sevgi Uzun",
-      "team": "Chicago Sky",
-      "salary": 0,
-      "status": null,
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "sevgi-uzun",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/5209660.png",
-      "careerEarnings": [
-        {
-          "season": 2024,
-          "team": "Dallas Wings",
-          "salary": 64154,
-          "status": "Signed"
-        },
-        {
-          "season": 2025,
-          "team": "Chicago Sky",
-          "salary": 25543,
-          "status": "Signed"
-        }
-      ],
-      "totalCareerEarnings": 89697
-    },
-    {
-      "id": "58",
+      "id": "57",
       "name": "Tina Charles",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -15605,7 +15677,7 @@
         }
       ],
       "profileSlug": "tina-charles",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/918.png",
+      "photoUrl": null,
       "careerEarnings": [
         {
           "season": 2024,
@@ -15623,7 +15695,7 @@
       "totalCareerEarnings": 300000
     },
     {
-      "id": "59",
+      "id": "58",
       "name": "Diamond DeShields",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -15683,7 +15755,7 @@
       "totalCareerEarnings": 274794
     },
     {
-      "id": "60",
+      "id": "59",
       "name": "Bria Hartley",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -15719,7 +15791,7 @@
         }
       ],
       "profileSlug": "bria-hartley",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529185.png",
+      "photoUrl": null,
       "careerEarnings": [
         {
           "season": 2025,
@@ -15731,7 +15803,7 @@
       "totalCareerEarnings": 78831
     },
     {
-      "id": "61",
+      "id": "60",
       "name": "Haley Peters",
       "team": "Connecticut Sun",
       "salary": 0,
@@ -15767,7 +15839,7 @@
         }
       ],
       "profileSlug": "haley-peters",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2529125.png",
+      "photoUrl": null,
       "careerEarnings": [
         {
           "season": 2025,
@@ -15779,7 +15851,7 @@
       "totalCareerEarnings": 25173
     },
     {
-      "id": "84",
+      "id": "83",
       "name": "Lou Lopez Sénéchal",
       "team": "Dallas Wings",
       "salary": 0,
@@ -15833,7 +15905,7 @@
       "totalCareerEarnings": 144027
     },
     {
-      "id": "121",
+      "id": "120",
       "name": "Sydney Colson",
       "team": "Indiana Fever",
       "salary": 0,
@@ -15893,7 +15965,7 @@
       "totalCareerEarnings": 240840
     },
     {
-      "id": "122",
+      "id": "121",
       "name": "Aari McDonald",
       "team": "Indiana Fever",
       "salary": 0,
@@ -16007,7 +16079,7 @@
       "totalCareerEarnings": 83989
     },
     {
-      "id": "189",
+      "id": "190",
       "name": "Natasha Cloud",
       "team": "New York Liberty",
       "salary": 0,
@@ -16065,66 +16137,6 @@
         }
       ],
       "totalCareerEarnings": 590000
-    },
-    {
-      "id": "190",
-      "name": "Jonquel Jones",
-      "team": "New York Liberty",
-      "salary": 0,
-      "status": "UFA",
-      "contractLengthYears": 0,
-      "contractStart": null,
-      "contractEnd": null,
-      "yearlySalaries": [
-        {
-          "year": 2026,
-          "salary": null,
-          "status": "UFA"
-        },
-        {
-          "year": 2027,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2028,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2029,
-          "salary": null,
-          "status": null
-        },
-        {
-          "year": 2030,
-          "salary": null,
-          "status": null
-        }
-      ],
-      "profileSlug": "jonquel-jones",
-      "photoUrl": "https://a.espncdn.com/combiner/i?img=/i/headshots/wnba/players/full/2999101.png",
-      "careerEarnings": [
-        {
-          "season": 2023,
-          "team": "New York Liberty",
-          "salary": 211150,
-          "status": "Protected Veteran"
-        },
-        {
-          "season": 2024,
-          "team": "New York Liberty",
-          "salary": 190000,
-          "status": "Protected Veteran"
-        },
-        {
-          "season": 2025,
-          "team": "New York Liberty",
-          "salary": 209000,
-          "status": "Protected Veteran"
-        }
-      ],
-      "totalCareerEarnings": 610150
     },
     {
       "id": "191",
@@ -16544,10 +16556,10 @@
       "urlSlug": "new-york-liberty",
       "salaryCap": 7000000,
       "totalSalaries": null,
-      "capRoom": 2761490,
-      "guaranteedSalary": 3595000,
+      "capRoom": 1571490,
+      "guaranteedSalary": 4785000,
       "totalPlayers": null,
-      "openRosterSlots": 6
+      "openRosterSlots": 5
     },
     "Phoenix Mercury": {
       "name": "Phoenix Mercury",
