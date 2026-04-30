@@ -1,7 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { players, meta } from "@/lib/data";
+import { players, allPlayers, meta } from "@/lib/data";
 import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
+import SalaryTrendChart, { type TrendDataPoint } from "@/components/SalaryTrendChart";
 
 const title = `WNBA Average Salary (${new Date().getFullYear()})`;
 const description = `The average WNBA salary in ${new Date().getFullYear()}, plus median salary, salary distribution by contract type, and full player breakdown.`;
@@ -17,6 +18,38 @@ export default function AverageSalary() {
   const sorted = [...players].sort((a, b) => b.salary - a.salary);
   const total = sorted.reduce((s, p) => s + p.salary, 0);
   const avg = total / sorted.length;
+
+  // Build year-over-year trend from careerEarnings (filter anomalous low entries)
+  const MIN_HIST_SALARY = 50_000;
+  const seasonMap = new Map<number, { sum: number; count: number }>();
+  for (const player of allPlayers) {
+    for (const entry of player.careerEarnings) {
+      if (entry.salary >= MIN_HIST_SALARY && entry.season < meta.season) {
+        const cur = seasonMap.get(entry.season) ?? { sum: 0, count: 0 };
+        seasonMap.set(entry.season, { sum: cur.sum + entry.salary, count: cur.count + 1 });
+      }
+    }
+  }
+  // Current season uses authoritative players data
+  seasonMap.set(meta.season, { sum: total, count: sorted.length });
+
+  const sortedSeasons = Array.from(seasonMap.entries()).sort(([a], [b]) => a - b);
+  const trendData: TrendDataPoint[] = sortedSeasons.map(([season, { sum, count }], i) => {
+    const seasonAvg = sum / count;
+    const prev = i > 0 ? sortedSeasons[i - 1] : null;
+    const prevAvg = prev ? prev[1].sum / prev[1].count : null;
+    return {
+      season,
+      avg: Math.round(seasonAvg),
+      count,
+      pctChange: prevAvg !== null ? ((seasonAvg - prevAvg) / prevAvg) * 100 : null,
+      isNewCba: season >= 2026,
+    };
+  });
+
+  const cbaJump = trendData.length >= 2
+    ? trendData[trendData.length - 1].pctChange
+    : null;
   const mid = Math.floor(sorted.length / 2);
   const median = sorted.length % 2 === 0
     ? (sorted[mid - 1].salary + sorted[mid].salary) / 2
@@ -64,6 +97,37 @@ export default function AverageSalary() {
             Total league payroll across all teams is <strong className="text-white">{formatCurrency(total)}</strong>.
           </p>
         </header>
+
+        {/* Salary trend chart */}
+        <section className="mb-8">
+          <div className="rounded-xl border border-white/5 bg-white/[0.02] px-4 pt-5 pb-2">
+            <div className="flex flex-wrap items-start justify-between gap-3 mb-1">
+              <div>
+                <h2 className="text-sm font-semibold text-white">Average Salary Over Time</h2>
+                <p className="mt-0.5 text-xs text-court-400">
+                  League-wide average across reported player contracts
+                </p>
+              </div>
+              {cbaJump !== null && (
+                <div className="rounded-lg border border-accent/30 bg-accent/10 px-3 py-2 text-right shrink-0">
+                  <div className="text-[10px] font-medium uppercase tracking-wider text-accent">
+                    New CBA impact
+                  </div>
+                  <div className="mt-0.5 text-xl font-bold text-white tabular-nums">
+                    +{cbaJump.toFixed(0)}%
+                  </div>
+                  <div className="text-[10px] text-court-400">
+                    {meta.season - 1} → {meta.season}
+                  </div>
+                </div>
+              )}
+            </div>
+            <SalaryTrendChart data={trendData} />
+            <p className="mt-1 pb-1 text-[10px] text-court-500">
+              2023–2025 reflects players currently rostered in {meta.season}. 2026 includes all active contracts.
+            </p>
+          </div>
+        </section>
 
         {/* Summary stats */}
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
