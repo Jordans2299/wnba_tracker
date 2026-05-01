@@ -7,13 +7,14 @@
  *  - teamSummaries: cap totals / cap room / guaranteed salary per team
  */
 
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = resolve(__dirname, "..", "data", "salaries.json");
+const OVERRIDES_PATH = resolve(__dirname, "..", "data", "photo-overrides.json");
 
 const USER_AGENT = "wnba-wage-tracker/0.1 (+scraper) Mozilla/5.0";
 const CURRENT_SEASON = 2026;
@@ -222,7 +223,7 @@ async function fetchEspnPhotoMap() {
 
 // ─── Build final records ──────────────────────────────────────────────────────
 
-function toFrontendRecord(p, idx, photoMap, historyMap) {
+function toFrontendRecord(p, idx, photoMap, historyMap, photoOverrides) {
   const ys = p.yearlySalaries;
   const current = ys.find((y) => y.year === CURRENT_SEASON) || ys[0] || null;
   const currentSalary = current?.salary ?? 0;
@@ -253,8 +254,8 @@ function toFrontendRecord(p, idx, photoMap, historyMap) {
 
   const totalCareerEarnings = careerEntries.reduce((s, e) => s + e.salary, 0);
 
-  // Photo from ESPN
-  const photoUrl = photoMap.get(key) ?? null;
+  // Photo from ESPN, with override fallback keyed by profileSlug
+  const photoUrl = photoMap.get(key) ?? photoOverrides[profileSlug] ?? null;
 
   // URL-safe player slug (derived from HHS profile slug, fallback to name)
   const profileSlug = p.profileSlug || p.name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
@@ -337,6 +338,13 @@ async function main() {
   // ── 3. ESPN photos ────────────────────────────────────────────────────────
   const photoMap = await fetchEspnPhotoMap();
 
+  // ── 3b. Load photo overrides (manual fallbacks by profileSlug) ────────────
+  let photoOverrides = {};
+  try {
+    photoOverrides = JSON.parse(await readFile(OVERRIDES_PATH, "utf8"));
+    console.log(`\nLoaded ${Object.keys(photoOverrides).length} photo overrides`);
+  } catch { /* overrides file is optional */ }
+
   // ── 4. Deduplicate + build final records ──────────────────────────────────
   const byKey = new Map();
   for (const p of currentPlayers) {
@@ -348,7 +356,7 @@ async function main() {
   }
 
   const records = Array.from(byKey.values())
-    .map((p, idx) => toFrontendRecord(p, idx, photoMap, historyMap))
+    .map((p, idx) => toFrontendRecord(p, idx, photoMap, historyMap, photoOverrides))
     .sort((a, b) => (b.salary ?? 0) - (a.salary ?? 0));
 
   const payload = {
