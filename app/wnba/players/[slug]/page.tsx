@@ -276,9 +276,15 @@ export default function PlayerPage({ params }: Props) {
             sub={peakEarning ? `${peakEarning.season} · ${peakEarning.team}` : undefined}
           />
           <StatCard
-            label="Contract"
-            value={player.contractLengthYears > 0 ? `${player.contractLengthYears} year${player.contractLengthYears !== 1 ? "s" : ""}` : "—"}
-            sub={player.contractEnd ? `Expires ${formatDate(player.contractEnd)}` : undefined}
+            label="Contract Value"
+            value={activeSalaries.length > 1 && totalContractValue > 0
+              ? formatCurrency(totalContractValue)
+              : player.contractLengthYears > 0
+              ? `${player.contractLengthYears} yr${player.contractLengthYears !== 1 ? "s" : ""}`
+              : "—"}
+            sub={activeSalaries.length > 1 && totalContractValue > 0
+              ? `${activeSalaries.length}-yr · ${formatCurrency(Math.round(aav))}/yr avg`
+              : player.contractEnd ? `Expires ${formatDate(player.contractEnd)}` : undefined}
           />
         </div>
 
@@ -401,6 +407,12 @@ export default function PlayerPage({ params }: Props) {
                     {player.salary > 0 ? formatCurrency(player.salary) : "Unsigned"}
                   </dd>
                 </div>
+                {activeSalaries.length > 1 && totalContractValue > 0 && (
+                  <div className="flex justify-between text-sm">
+                    <dt className="text-court-400">Total Value</dt>
+                    <dd className="font-bold text-white tabular-nums">{formatCurrency(totalContractValue)}</dd>
+                  </div>
+                )}
                 {aav > 0 && activeSalaries.length > 1 && (
                   <div className="flex justify-between text-sm">
                     <dt className="text-court-400">Avg Annual Value</dt>
@@ -470,6 +482,12 @@ export default function PlayerPage({ params }: Props) {
                       </div>
                     );
                   })}
+                  {activeSalaries.length > 1 && totalContractValue > 0 && (
+                    <div className="mt-3 pt-3 border-t border-white/10 flex justify-between items-baseline">
+                      <span className="text-[10px] font-semibold uppercase tracking-wider text-court-400">Total</span>
+                      <span className="text-sm font-bold text-white tabular-nums">{formatCurrency(totalContractValue)}</span>
+                    </div>
+                  )}
                 </div>
               </div>
             )}
