@@ -254,11 +254,11 @@ function toFrontendRecord(p, idx, photoMap, historyMap, photoOverrides) {
 
   const totalCareerEarnings = careerEntries.reduce((s, e) => s + e.salary, 0);
 
-  // Photo from ESPN, with override fallback keyed by profileSlug
-  const photoUrl = photoMap.get(key) ?? photoOverrides[profileSlug] ?? null;
-
   // URL-safe player slug (derived from HHS profile slug, fallback to name)
   const profileSlug = p.profileSlug || p.name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+
+  // Photo from ESPN, with override fallback keyed by profileSlug
+  const photoUrl = photoMap.get(key) ?? photoOverrides[profileSlug] ?? null;
 
   return {
     id: `${idx + 1}`,
