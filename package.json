@@ -7,9 +7,17 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "scrape": "node scripts/scrape.mjs"
+    "scrape": "npx tsx scripts/scrape.ts",
+    "pipeline": "npx tsx scripts/pipeline.ts",
+    "db:seed": "npx tsx db/seed.ts",
+    "db:push": "npx drizzle-kit push",
+    "db:generate": "npx drizzle-kit generate"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
+    "@libsql/client": "^0.17.3",
+    "drizzle-orm": "^0.45.2",
+    "jose": "^6.2.3",
     "next": "14.2.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -21,8 +29,10 @@
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.19",
     "cheerio": "^1.0.0-rc.12",
+    "drizzle-kit": "^0.31.10",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.4",
+    "tsx": "^4.21.0",
     "typescript": "^5.4.5"
   }
 }

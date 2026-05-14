@@ -6,3 +6,4 @@ out
 !.env.example
 *.log
 .vercel
+local.db

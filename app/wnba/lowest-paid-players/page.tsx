@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { players, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
 
 const title = `Lowest Paid WNBA Players (${new Date().getFullYear()})`;
@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   openGraph: { title, description, url: `${SITE_URL}/wnba/lowest-paid-players` },
 };
 
-export default function LowestPaidPlayers() {
+export default async function LowestPaidPlayers() {
+  const { players, meta } = await getData();
   const ranked = [...players].sort((a, b) => a.salary - b.salary);
 
   return (

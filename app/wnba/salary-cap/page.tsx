@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { players as allPlayers, teamSummaries, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, teamUrl, SITE_URL } from "@/lib/utils";
 
 const title = `WNBA Salary Cap (${new Date().getFullYear()}) — Team Payroll Rankings`;
@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   openGraph: { title, description, url: `${SITE_URL}/wnba/salary-cap` },
 };
 
-export default function SalaryCap() {
+export default async function SalaryCap() {
+  const { players: allPlayers, teamSummaries, meta } = await getData();
   const CAP = 7_000_000;
 
   const teamRows = Object.values(teamSummaries)

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { players, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
 
 const title = `WNBA Rookie Salaries (${new Date().getFullYear()})`;
@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   openGraph: { title, description, url: `${SITE_URL}/wnba/rookie-salaries` },
 };
 
-export default function RookieSalaries() {
+export default async function RookieSalaries() {
+  const { players, meta } = await getData();
   const rookies = players
     .filter((p) => p.status === "Rookie")
     .sort((a, b) => b.salary - a.salary);

@@ -1,14 +1,9 @@
 name: Scrape WNBA salaries
 
 on:
-  # Runs every day at 10:00 UTC (~6 AM ET). Adjust as desired.
   schedule:
     - cron: "0 10 * * *"
-  # Allow manual runs from the Actions tab.
   workflow_dispatch:
-
-permissions:
-  contents: write
 
 concurrency:
   group: scrape-salaries
@@ -32,19 +27,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run scraper
-        run: npm run scrape
-
-      - name: Commit updated data
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          if git diff --quiet -- data/salaries.json; then
-            echo "No salary changes detected."
-            exit 0
-          fi
-
-          git add data/salaries.json
-          git commit -m "chore(data): refresh WNBA salaries $(date -u +'%Y-%m-%d')"
-          git push
+      - name: Run pipeline
+        run: npx tsx scripts/pipeline.ts
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

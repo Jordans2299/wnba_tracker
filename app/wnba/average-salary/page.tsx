@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { players, allPlayers, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
 import SalaryTrendChart, { type TrendDataPoint } from "@/components/SalaryTrendChart";
 
@@ -14,7 +14,8 @@ export const metadata: Metadata = {
   openGraph: { title, description, url: `${SITE_URL}/wnba/average-salary` },
 };
 
-export default function AverageSalary() {
+export default async function AverageSalary() {
+  const { players, allPlayers, meta } = await getData();
   const sorted = [...players].sort((a, b) => b.salary - a.salary);
   const total = sorted.reduce((s, p) => s + p.salary, 0);
   const avg = total / sorted.length;

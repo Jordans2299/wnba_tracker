@@ -1,17 +1,19 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { players as allPlayers, teamSummaries, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, formatDate, playerUrl, SITE_URL } from "@/lib/utils";
 import TeamCapChart from "@/components/TeamCapChart";
 
 type Props = { params: { slug: string } };
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { teamSummaries } = await getData();
   return Object.values(teamSummaries).map((t) => ({ slug: t.urlSlug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { teamSummaries, meta } = await getData();
   const summary = Object.values(teamSummaries).find((t) => t.urlSlug === params.slug);
   if (!summary) return {};
 
@@ -47,7 +49,8 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub?: s
   );
 }
 
-export default function TeamPage({ params }: Props) {
+export default async function TeamPage({ params }: Props) {
+  const { players: allPlayers, teamSummaries, meta } = await getData();
   const summary = Object.values(teamSummaries).find((t) => t.urlSlug === params.slug);
   if (!summary) notFound();
 

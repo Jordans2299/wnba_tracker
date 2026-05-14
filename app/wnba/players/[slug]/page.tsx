@@ -2,19 +2,21 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
-import { allPlayers, meta } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { formatCurrency, formatDate, playerUrl, teamUrl, teamUrlSlug, SITE_URL } from "@/lib/utils";
 import EarningsChart from "@/components/EarningsChart";
 
 type Props = { params: { slug: string } };
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const { allPlayers } = await getData();
   return allPlayers
     .filter((p) => p.profileSlug)
     .map((p) => ({ slug: p.profileSlug }));
 }
 
-export function generateMetadata({ params }: Props): Metadata {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { allPlayers, meta } = await getData();
   const player = allPlayers.find((p) => p.profileSlug === params.slug);
   if (!player) return {};
 
@@ -58,7 +60,8 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub?: s
   );
 }
 
-export default function PlayerPage({ params }: Props) {
+export default async function PlayerPage({ params }: Props) {
+  const { allPlayers, meta } = await getData();
   const player = allPlayers.find((p) => p.profileSlug === params.slug);
   if (!player) notFound();
 

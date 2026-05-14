@@ -1,8 +1,9 @@
 import type { MetadataRoute } from "next";
-import { allPlayers, teamSummaries } from "@/lib/data";
+import { getData } from "@/lib/data";
 import { SITE_URL } from "@/lib/utils";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const { allPlayers, teamSummaries } = await getData();
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [
