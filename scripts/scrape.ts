@@ -213,26 +213,6 @@ async function fetchEspnPhotoMap(): Promise<Map<string, string>> {
 
 // ─── Database comparison + pending_updates ──────────────────────────────────
 
-async function createPendingUpdate(
-  db: ReturnType<typeof drizzle>,
-  entityType: string,
-  entityRef: string,
-  fieldName: string,
-  oldValue: string | null,
-  newValue: string | null,
-  source: string
-) {
-  if (oldValue === newValue) return;
-  await db.insert(schema.pendingUpdates).values({
-    entityType,
-    entityRef,
-    fieldName,
-    oldValue,
-    newValue,
-    source,
-    status: "pending",
-  });
-}
 
 export async function runScrape() {
   const client = createClient({
@@ -256,7 +236,7 @@ export async function runScrape() {
   const existingTeamSeasons = await db.select().from(schema.teamSeasons);
   const teamSeasonMap = new Map(existingTeamSeasons.map((ts) => [`${ts.teamId}:${ts.season}`, ts]));
 
-  let pendingCount = 0;
+  let updateCount = 0;
 
   // ── 1. Scrape current season ──────────────────────────────────────────────
   console.log(`\n=== Scraping ${CURRENT_SEASON} (current season) ===`);
@@ -380,40 +360,30 @@ export async function runScrape() {
     const contractStart = runStart != null ? `${runStart}-02-01` : null;
     const contractEnd = runEnd != null ? `${runEnd + 1}-01-31` : null;
 
-    // Check current season salary
+    // Check current season salary — apply HHS changes directly
     const currentYs = ys.find(y => y.year === CURRENT_SEASON);
     if (currentYs) {
       const existing = salaryMap.get(salaryKey(player.id, CURRENT_SEASON));
-      const entityRef = `${profileSlug}:${CURRENT_SEASON}`;
 
       if (existing) {
-        if (currentYs.salary !== existing.salary) {
-          await createPendingUpdate(db, "player_salary", entityRef, "salary",
-            String(existing.salary), String(currentYs.salary), "hhs");
-          pendingCount++;
-        }
-        if (currentYs.status !== existing.status) {
-          await createPendingUpdate(db, "player_salary", entityRef, "status",
-            existing.status, currentYs.status, "hhs");
-          pendingCount++;
-        }
-        if (contractStart !== existing.contractStart) {
-          await createPendingUpdate(db, "player_salary", entityRef, "contract_start",
-            existing.contractStart, contractStart, "hhs");
-          pendingCount++;
-        }
-        if (contractEnd !== existing.contractEnd) {
-          await createPendingUpdate(db, "player_salary", entityRef, "contract_end",
-            existing.contractEnd, contractEnd, "hhs");
-          pendingCount++;
-        }
-        if (contractLength !== existing.contractLengthYears) {
-          await createPendingUpdate(db, "player_salary", entityRef, "contract_length_years",
-            String(existing.contractLengthYears), String(contractLength), "hhs");
-          pendingCount++;
+        const updates: Record<string, any> = {};
+        if (currentYs.salary !== existing.salary) updates.salary = currentYs.salary;
+        if (currentYs.status !== existing.status) updates.status = currentYs.status;
+        if (contractStart !== existing.contractStart) updates.contractStart = contractStart;
+        if (contractEnd !== existing.contractEnd) updates.contractEnd = contractEnd;
+        if (contractLength !== existing.contractLengthYears) updates.contractLengthYears = contractLength;
+
+        if (Object.keys(updates).length > 0) {
+          await db.update(schema.playerSalaries)
+            .set(updates)
+            .where(eq(schema.playerSalaries.id, existing.id));
+          await db.update(schema.players)
+            .set({ updatedAt: new Date().toISOString() })
+            .where(eq(schema.players.id, player.id));
+          updateCount++;
+          console.log(`  Updated ${p.name} (${CURRENT_SEASON}): ${Object.keys(updates).join(", ")}`);
         }
       } else {
-        // New salary record — insert directly (new data is not a "change")
         await db.insert(schema.playerSalaries).values({
           playerId: player.id,
           teamId: teamId!,
@@ -425,6 +395,7 @@ export async function runScrape() {
           contractLengthYears: contractLength,
           source: "hhs",
         }).onConflictDoNothing();
+        updateCount++;
       }
     }
 
@@ -446,7 +417,7 @@ export async function runScrape() {
       }
     }
 
-    // Future years from yearlySalaries
+    // Future years from yearlySalaries — apply directly
     for (const ys2 of p.yearlySalaries) {
       if (ys2.year <= CURRENT_SEASON || ys2.salary == null) continue;
       const existing = salaryMap.get(salaryKey(player.id, ys2.year));
@@ -459,40 +430,42 @@ export async function runScrape() {
           status: ys2.status,
           source: "hhs",
         }).onConflictDoNothing();
+        updateCount++;
       } else if (ys2.salary !== existing.salary) {
-        const entityRef = `${profileSlug}:${ys2.year}`;
-        await createPendingUpdate(db, "player_salary", entityRef, "salary",
-          String(existing.salary), String(ys2.salary), "hhs");
-        pendingCount++;
+        await db.update(schema.playerSalaries)
+          .set({ salary: ys2.salary })
+          .where(eq(schema.playerSalaries.id, existing.id));
+        await db.update(schema.players)
+          .set({ updatedAt: new Date().toISOString() })
+          .where(eq(schema.players.id, player.id));
+        updateCount++;
+        console.log(`  Updated ${p.name} (${ys2.year}): salary`);
       }
     }
   }
 
-  // ── 6. Compare team season summaries ──────────────────────────────────────
+  // ── 6. Compare team season summaries — apply directly ─────────────────────
   for (const [name, summary] of Object.entries(scrapedTeamSummaries)) {
     const teamId = teamIdByName.get(name);
     if (!teamId) continue;
 
     const existing = teamSeasonMap.get(`${teamId}:${CURRENT_SEASON}`);
-    const entityRef = `${summary.urlSlug}:${CURRENT_SEASON}`;
 
     if (existing) {
-      const fields: [string, any, any][] = [
-        ["salary_cap", existing.salaryCap, summary.salaryCap],
-        ["total_salaries", existing.totalSalaries, summary.totalSalaries],
-        ["cap_room", existing.capRoom, summary.capRoom],
-        ["guaranteed_salary", existing.guaranteedSalary, summary.guaranteedSalary],
-        ["total_players", existing.totalPlayers, summary.totalPlayers],
-        ["open_roster_slots", existing.openRosterSlots, summary.openRosterSlots],
-      ];
-      for (const [field, oldVal, newVal] of fields) {
-        if (oldVal !== newVal) {
-          await createPendingUpdate(db, "team_season", entityRef, field,
-            oldVal != null ? String(oldVal) : null,
-            newVal != null ? String(newVal) : null,
-            "hhs");
-          pendingCount++;
-        }
+      const updates: Record<string, any> = {};
+      if (existing.salaryCap !== summary.salaryCap) updates.salaryCap = summary.salaryCap;
+      if (existing.totalSalaries !== summary.totalSalaries) updates.totalSalaries = summary.totalSalaries;
+      if (existing.capRoom !== summary.capRoom) updates.capRoom = summary.capRoom;
+      if (existing.guaranteedSalary !== summary.guaranteedSalary) updates.guaranteedSalary = summary.guaranteedSalary;
+      if (existing.totalPlayers !== summary.totalPlayers) updates.totalPlayers = summary.totalPlayers;
+      if (existing.openRosterSlots !== summary.openRosterSlots) updates.openRosterSlots = summary.openRosterSlots;
+
+      if (Object.keys(updates).length > 0) {
+        await db.update(schema.teamSeasons)
+          .set(updates)
+          .where(eq(schema.teamSeasons.id, existing.id));
+        updateCount++;
+        console.log(`  Updated team ${name}: ${Object.keys(updates).join(", ")}`);
       }
     } else {
       await db.insert(schema.teamSeasons).values({
@@ -505,11 +478,12 @@ export async function runScrape() {
         totalPlayers: summary.totalPlayers,
         openRosterSlots: summary.openRosterSlots,
       }).onConflictDoNothing();
+      updateCount++;
     }
   }
 
-  console.log(`\nScrape complete: ${pendingCount} pending updates created`);
-  return pendingCount;
+  console.log(`\nScrape complete: ${updateCount} records updated directly`);
+  return updateCount;
 }
 
 // Run directly if this file is the entry point

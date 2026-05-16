@@ -1,5 +1,5 @@
 import { db, schema } from "@/db";
-import { eq, gt, desc, asc, sql } from "drizzle-orm";
+import { eq, gt, desc, asc, sql, max } from "drizzle-orm";
 
 export type YearlySalary = {
   year: number;
@@ -141,6 +141,13 @@ async function buildTeamSummaries(): Promise<Record<string, TeamSummary>> {
   return summaries;
 }
 
+async function getLastUpdated(): Promise<string> {
+  const [result] = await db
+    .select({ latest: max(schema.players.updatedAt) })
+    .from(schema.players);
+  return result?.latest ?? new Date().toISOString();
+}
+
 let _cache: {
   players: Player[];
   allPlayers: Player[];
@@ -165,7 +172,7 @@ export async function getData() {
     meta: {
       source: "https://herhoopstats.com/salary-cap-sheet/wnba/",
       season: CURRENT_SEASON,
-      lastUpdated: new Date().toISOString(),
+      lastUpdated: await getLastUpdated(),
     },
   };
 
