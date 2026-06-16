@@ -1,5 +1,8 @@
 import { db, schema } from "@/db";
-import { eq, gt, desc, asc, sql, max } from "drizzle-orm";
+import { eq, max } from "drizzle-orm";
+import type { League } from "@/lib/utils";
+
+export type { League };
 
 export type YearlySalary = {
   year: number;
@@ -52,10 +55,16 @@ export type SalaryDataset = {
 
 const CURRENT_SEASON = 2026;
 
-async function buildPlayers(): Promise<Player[]> {
-  const allPlayerRows = await db.select().from(schema.players);
+async function buildPlayers(league: League): Promise<Player[]> {
+  const allPlayerRows = await db
+    .select()
+    .from(schema.players)
+    .where(eq(schema.players.league, league));
   const allSalaryRows = await db.select().from(schema.playerSalaries);
-  const allTeamRows = await db.select().from(schema.teams);
+  const allTeamRows = await db
+    .select()
+    .from(schema.teams)
+    .where(eq(schema.teams.league, league));
 
   const teamMap = new Map(allTeamRows.map((t) => [t.id, t]));
 
@@ -115,12 +124,15 @@ async function buildPlayers(): Promise<Player[]> {
   return players;
 }
 
-async function buildTeamSummaries(): Promise<Record<string, TeamSummary>> {
+async function buildTeamSummaries(league: League): Promise<Record<string, TeamSummary>> {
   const teamSeasonRows = await db
     .select()
     .from(schema.teamSeasons)
     .where(eq(schema.teamSeasons.season, CURRENT_SEASON));
-  const teamRows = await db.select().from(schema.teams);
+  const teamRows = await db
+    .select()
+    .from(schema.teams)
+    .where(eq(schema.teams.league, league));
   const teamMap = new Map(teamRows.map((t) => [t.id, t]));
 
   const summaries: Record<string, TeamSummary> = {};
@@ -141,40 +153,84 @@ async function buildTeamSummaries(): Promise<Record<string, TeamSummary>> {
   return summaries;
 }
 
-async function getLastUpdated(): Promise<string> {
+async function getLastUpdated(league: League): Promise<string> {
   const [result] = await db
     .select({ latest: max(schema.players.updatedAt) })
-    .from(schema.players);
+    .from(schema.players)
+    .where(eq(schema.players.league, league));
   return result?.latest ?? new Date().toISOString();
 }
 
-let _cache: {
+const LEAGUE_SOURCE: Record<League, string> = {
+  wnba: "https://herhoopstats.com/salary-cap-sheet/wnba/",
+  nba: "https://hoopshype.com/salaries/",
+};
+
+type LeagueData = {
   players: Player[];
   allPlayers: Player[];
   teams: string[];
   teamSummaries: Record<string, TeamSummary>;
-  meta: { source: string; season: number; lastUpdated: string };
-} | null = null;
+  meta: { league: League; source: string; season: number; lastUpdated: string };
+};
 
-export async function getData() {
-  if (_cache) return _cache;
+export type SeasonAverage = {
+  season: number;
+  avg: number;
+  count: number;
+};
 
-  const allPlayers = await buildPlayers();
+export async function getLeagueSeasonAverages(league: League): Promise<SeasonAverage[]> {
+  const playerRows = await db
+    .select({ id: schema.players.id })
+    .from(schema.players)
+    .where(eq(schema.players.league, league));
+  const playerIds = new Set(playerRows.map((p) => p.id));
+
+  const salaryRows = await db.select().from(schema.playerSalaries);
+
+  const bySeason = new Map<number, number[]>();
+  for (const s of salaryRows) {
+    if (!playerIds.has(s.playerId) || !s.salary || s.salary <= 0) continue;
+    if (s.season > CURRENT_SEASON) continue;
+    const list = bySeason.get(s.season) ?? [];
+    list.push(s.salary);
+    bySeason.set(s.season, list);
+  }
+
+  return Array.from(bySeason.entries())
+    .map(([season, salaries]) => ({
+      season,
+      avg: Math.round(salaries.reduce((s, x) => s + x, 0) / salaries.length),
+      count: salaries.length,
+    }))
+    .sort((a, b) => a.season - b.season);
+}
+
+const _cache: Partial<Record<League, LeagueData>> = {};
+
+export async function getData(league: League = "wnba"): Promise<LeagueData> {
+  const cached = _cache[league];
+  if (cached) return cached;
+
+  const allPlayers = await buildPlayers(league);
   const players = allPlayers.filter((p) => p.salary > 0);
   const teams = Array.from(new Set(players.map((p) => p.team))).sort();
-  const teamSummaries = await buildTeamSummaries();
+  const teamSummaries = await buildTeamSummaries(league);
 
-  _cache = {
+  const data: LeagueData = {
     players,
     allPlayers,
     teams,
     teamSummaries,
     meta: {
-      source: "https://herhoopstats.com/salary-cap-sheet/wnba/",
+      league,
+      source: LEAGUE_SOURCE[league],
       season: CURRENT_SEASON,
-      lastUpdated: await getLastUpdated(),
+      lastUpdated: await getLastUpdated(league),
     },
   };
 
-  return _cache;
+  _cache[league] = data;
+  return data;
 }

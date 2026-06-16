@@ -36,10 +36,42 @@ export function teamUrlSlug(name: string): string {
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://playerpay.io";
 
-export function playerUrl(slug: string): string {
-  return `/wnba/players/${slug}`;
+export type League = "wnba" | "nba";
+
+export const LEAGUES: League[] = ["wnba", "nba"];
+
+export function isLeague(value: string): value is League {
+  return value === "wnba" || value === "nba";
 }
 
-export function teamUrl(teamName: string): string {
-  return `/wnba/teams/${teamUrlSlug(teamName)}`;
+export function leagueLabel(league: League): string {
+  return league.toUpperCase();
+}
+
+// Fallback league salary cap (per team) used when a team-season summary is missing one.
+// WNBA 2026 cap; NBA 2025-26 cap.
+const LEAGUE_CAP: Record<League, number> = {
+  wnba: 7_000_000,
+  nba: 154_647_000,
+};
+
+export function leagueCap(league: League): number {
+  return LEAGUE_CAP[league];
+}
+
+const LEAGUE_SOURCE_NAME: Record<League, string> = {
+  wnba: "Her Hoop Stats",
+  nba: "HoopsHype",
+};
+
+export function leagueSourceName(league: League): string {
+  return LEAGUE_SOURCE_NAME[league];
+}
+
+export function playerUrl(slug: string, league: League = "wnba"): string {
+  return `/${league}/players/${slug}`;
+}
+
+export function teamUrl(teamName: string, league: League = "wnba"): string {
+  return `/${league}/teams/${teamUrlSlug(teamName)}`;
 }

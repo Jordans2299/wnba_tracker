@@ -35,9 +35,9 @@ export default function StatsSummary({ players, totalCount }: Props) {
     return (
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
         <Stat label="Players Shown" value="0" sublabel={`of ${totalCount}`} />
-        <Stat label="Highest Salary" value="—" />
-        <Stat label="Average Salary" value="—" />
-        <Stat label="Total Payroll" value="—" />
+        <Stat label="Highest Salary" value="-" />
+        <Stat label="Average Salary" value="-" />
+        <Stat label="Total Payroll" value="-" />
       </div>
     );
   }

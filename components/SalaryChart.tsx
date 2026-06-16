@@ -12,11 +12,12 @@ import {
   Cell,
 } from "recharts";
 import type { Player } from "@/lib/data";
-import { formatCompactCurrency, formatCurrency, teamUrl } from "@/lib/utils";
+import { formatCompactCurrency, formatCurrency, teamUrl, type League } from "@/lib/utils";
 
 type Props = {
   players: Player[];
   focusMode?: boolean;
+  league?: League;
 };
 
 const ACCENT = "#9333ea";
@@ -36,7 +37,7 @@ function CustomTooltip({ active, payload }: any) {
   );
 }
 
-export default function SalaryChart({ players, focusMode = false }: Props) {
+export default function SalaryChart({ players, focusMode = false, league = "wnba" }: Props) {
   const router = useRouter();
 
   const sorted = [...players].sort((a, b) => b.salary - a.salary);
@@ -55,7 +56,7 @@ export default function SalaryChart({ players, focusMode = false }: Props) {
   const barHeight = focusMode ? Math.max(320, data.length * 28) : 360;
 
   function handleBarClick(entry: Player) {
-    router.push(teamUrl(entry.team));
+    router.push(teamUrl(entry.team, league));
   }
 
   return (

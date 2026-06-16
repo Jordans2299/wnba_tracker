@@ -106,7 +106,7 @@ function parseTeamPage(html, teamName) {
     const nameCell = $tr.find("td.salary_player_name").first();
     if (!nameCell.length) return;
 
-    // Player name — prefer full-name anchor
+    // Player name - prefer full-name anchor
     let name = nameCell.find("a.d-none.d-sm-block").first().text().trim();
     if (!name) name = nameCell.find("a").first().text().trim();
     if (!name) return;
@@ -328,7 +328,7 @@ async function main() {
         }
         console.log(`${count} entries`);
       } catch (err) {
-        // Teams that didn't exist yet (expansion teams) will 404 — that's fine
+        // Teams that didn't exist yet (expansion teams) will 404 - that's fine
         console.log(err.message.includes("404") ? "not found (expansion team)" : `FAILED: ${err.message}`);
       }
       await sleep(400);

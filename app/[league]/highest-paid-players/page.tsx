@@ -1,28 +1,44 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getData } from "@/lib/data";
-import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
+import { formatCurrency, playerUrl, teamUrl, isLeague, leagueLabel, leagueSourceName, LEAGUES, SITE_URL } from "@/lib/utils";
 
-const title = `Highest Paid WNBA Players (${new Date().getFullYear()})`;
-const description = `Complete ranking of the highest paid WNBA players in ${new Date().getFullYear()}. See every player's salary, team, and contract status.`;
+export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  title,
-  description,
-  alternates: { canonical: `${SITE_URL}/wnba/highest-paid-players` },
-  openGraph: { title, description, url: `${SITE_URL}/wnba/highest-paid-players` },
-};
+type Props = { params: { league: string } };
 
-export default async function HighestPaidPlayers() {
-  const { players, meta } = await getData();
+export function generateStaticParams() {
+  return LEAGUES.map((league) => ({ league }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  if (!isLeague(params.league)) return {};
+  const label = leagueLabel(params.league);
+  const year = new Date().getFullYear();
+  const title = `Highest Paid ${label} Players (${year})`;
+  const description = `Complete ranking of the highest paid ${label} players in ${year}. See every player's salary, team, and contract status.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `${SITE_URL}/${params.league}/highest-paid-players` },
+    openGraph: { title, description, url: `${SITE_URL}/${params.league}/highest-paid-players` },
+  };
+}
+
+export default async function HighestPaidPlayers({ params }: Props) {
+  if (!isLeague(params.league)) notFound();
+  const league = params.league;
+  const label = leagueLabel(league);
+  const { players, meta } = await getData(league);
   const ranked = [...players].sort((a, b) => b.salary - a.salary);
-  const leagueAvg = ranked.reduce((s, p) => s + p.salary, 0) / ranked.length;
+  const leagueAvg = ranked.length ? ranked.reduce((s, p) => s + p.salary, 0) / ranked.length : 0;
 
   return (
     <main className="min-h-screen">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
 
-        <Link href="/" className="inline-flex items-center gap-1.5 text-xs text-court-400 hover:text-white transition-colors mb-6">
+        <Link href={`/${league}`} className="inline-flex items-center gap-1.5 text-xs text-court-400 hover:text-white transition-colors mb-6">
           <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="15 18 9 12 15 6" />
           </svg>
@@ -35,16 +51,16 @@ export default async function HighestPaidPlayers() {
             {meta.season} Season
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
-            Highest Paid WNBA Players
+            Highest Paid {label} Players
           </h1>
           <p className="mt-3 text-sm text-court-300 max-w-2xl leading-relaxed">
-            The {meta.season} WNBA season features <strong className="text-white">{ranked.length} players</strong> with active contracts.
+            The {meta.season} {label} season features <strong className="text-white">{ranked.length} players</strong> with active contracts.
             The highest paid player earns{" "}
             <strong className="text-white">{formatCurrency(ranked[0]?.salary ?? 0)}</strong>, while the
             league average salary is <strong className="text-white">{formatCurrency(Math.round(leagueAvg))}</strong>.
             Salaries sourced from{" "}
-            <a href="https://herhoopstats.com" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
-              Her Hoop Stats
+            <a href={meta.source} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+              {leagueSourceName(league)}
             </a>.
           </p>
         </header>
@@ -69,12 +85,12 @@ export default async function HighestPaidPlayers() {
                   >
                     <td className="px-4 py-3 text-court-500 tabular-nums text-xs font-medium">#{i + 1}</td>
                     <td className="px-4 py-3 font-medium">
-                      <Link href={playerUrl(p.profileSlug)} className="text-white hover:text-accent transition-colors">
+                      <Link href={playerUrl(p.profileSlug, league)} className="text-white hover:text-accent transition-colors">
                         {p.name}
                       </Link>
                     </td>
                     <td className="px-4 py-3 hidden sm:table-cell">
-                      <Link href={teamUrl(p.team)} className="text-xs text-court-300 hover:text-accent transition-colors">
+                      <Link href={teamUrl(p.team, league)} className="text-xs text-court-300 hover:text-accent transition-colors">
                         {p.team}
                       </Link>
                     </td>
@@ -94,10 +110,10 @@ export default async function HighestPaidPlayers() {
         </div>
 
         <div className="mt-6 flex flex-wrap gap-4 text-xs text-court-400">
-          <Link href="/wnba/lowest-paid-players" className="hover:text-accent transition-colors">Lowest paid players →</Link>
-          <Link href="/wnba/average-salary" className="hover:text-accent transition-colors">WNBA average salary →</Link>
-          <Link href="/wnba/salary-cap" className="hover:text-accent transition-colors">Team payroll rankings →</Link>
-          <Link href="/wnba/rookie-salaries" className="hover:text-accent transition-colors">Rookie salaries →</Link>
+          <Link href={`/${league}/lowest-paid-players`} className="hover:text-accent transition-colors">Lowest paid players →</Link>
+          <Link href={`/${league}/average-salary`} className="hover:text-accent transition-colors">{label} average salary →</Link>
+          <Link href={`/${league}/salary-cap`} className="hover:text-accent transition-colors">Team payroll rankings →</Link>
+          <Link href={`/${league}/rookie-salaries`} className="hover:text-accent transition-colors">Rookie salaries →</Link>
         </div>
       </div>
     </main>

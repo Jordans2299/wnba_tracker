@@ -186,7 +186,7 @@ function SourceBadge({ source }: { source: string }) {
 }
 
 function formatValue(field: string, value: string | null): string {
-  if (value == null) return "—";
+  if (value == null) return "-";
   if (field === "salary" || field.includes("salari") || field.includes("cap") || field.includes("guaranteed")) {
     const num = parseInt(value, 10);
     if (!isNaN(num)) return `$${num.toLocaleString()}`;

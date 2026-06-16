@@ -8,16 +8,18 @@ import SearchBar from "@/components/SearchBar";
 import TeamFilter from "@/components/TeamFilter";
 import StatsSummary from "@/components/StatsSummary";
 import ViewToggle, { View } from "@/components/ViewToggle";
-import { classNames } from "@/lib/utils";
+import { classNames, leagueLabel, leagueSourceName, type League } from "@/lib/utils";
 import Link from "next/link";
 
 type Props = {
   players: Player[];
   teams: string[];
-  meta: { source: string; season: number; lastUpdated: string };
+  meta: { league: League; source: string; season: number; lastUpdated: string };
 };
 
 export default function HomeClient({ players: allPlayers, teams, meta }: Props) {
+  const league = meta.league;
+  const label = leagueLabel(league);
   const [isLoading, setIsLoading] = useState(true);
   const [query, setQuery] = useState("");
   const [team, setTeam] = useState("");
@@ -92,10 +94,10 @@ export default function HomeClient({ players: allPlayers, teams, meta }: Props) 
           <div>
             <div className="inline-flex items-center gap-2 rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
               <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
-              WNBA Salary Data · {meta.season} Season
+              {label} Salary Data · {meta.season} Season
             </div>
             <h1 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight text-white">
-              WNBA Wage Tracker
+              {label} Wage Tracker
             </h1>
             <p className="mt-2 text-sm sm:text-base text-court-300 max-w-2xl">
               Browse, search, and sort player salaries and contracts across the league.
@@ -199,31 +201,32 @@ export default function HomeClient({ players: allPlayers, teams, meta }: Props) 
                 sortKey={sortKey}
                 sortDir={sortDir}
                 onSortChange={handleSortChange}
+                league={league}
               />
             </div>
             <div className="xl:col-span-1 order-1 xl:order-2">
-              <SalaryChart players={sorted} />
+              <SalaryChart players={sorted} league={league} />
             </div>
           </div>
         ) : (
-          <SalaryChart players={sorted} focusMode />
+          <SalaryChart players={sorted} focusMode league={league} />
         )}
 
         {/* Ranking page links */}
         <nav className="mt-8 flex flex-wrap justify-center gap-4 text-xs text-court-400 border-t border-white/5 pt-6">
-          <Link href="/wnba/highest-paid-players" className="hover:text-white transition-colors">Highest Paid Players</Link>
+          <Link href={`/${league}/highest-paid-players`} className="hover:text-white transition-colors">Highest Paid Players</Link>
           <span className="text-court-700">·</span>
-          <Link href="/wnba/lowest-paid-players" className="hover:text-white transition-colors">Lowest Paid Players</Link>
+          <Link href={`/${league}/lowest-paid-players`} className="hover:text-white transition-colors">Lowest Paid Players</Link>
           <span className="text-court-700">·</span>
-          <Link href="/wnba/average-salary" className="hover:text-white transition-colors">Average Salary</Link>
+          <Link href={`/${league}/average-salary`} className="hover:text-white transition-colors">Average Salary</Link>
           <span className="text-court-700">·</span>
-          <Link href="/wnba/salary-cap" className="hover:text-white transition-colors">Salary Cap</Link>
+          <Link href={`/${league}/salary-cap`} className="hover:text-white transition-colors">Salary Cap</Link>
           <span className="text-court-700">·</span>
-          <Link href="/wnba/rookie-salaries" className="hover:text-white transition-colors">Rookie Salaries</Link>
+          <Link href={`/${league}/rookie-salaries`} className="hover:text-white transition-colors">Rookie Salaries</Link>
         </nav>
 
         <footer className="mt-4 text-center text-xs text-court-500">
-          Built with Next.js · Data sourced from Her Hoop Stats.
+          Salary data sourced from {leagueSourceName(league)}.
         </footer>
       </div>
     </main>

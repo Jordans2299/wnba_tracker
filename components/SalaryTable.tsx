@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { Player } from "@/lib/data";
-import { classNames, formatCurrency, formatDate, playerUrl, teamUrl } from "@/lib/utils";
+import { classNames, formatCurrency, formatDate, playerUrl, teamUrl, type League } from "@/lib/utils";
 
 export type SortKey =
   | "name"
@@ -18,6 +18,7 @@ type Props = {
   sortKey: SortKey;
   sortDir: SortDir;
   onSortChange: (key: SortKey) => void;
+  league?: League;
 };
 
 const COLUMNS: {
@@ -47,7 +48,7 @@ function SortIcon({ dir }: { dir: SortDir | null }) {
   );
 }
 
-export default function SalaryTable({ players, sortKey, sortDir, onSortChange }: Props) {
+export default function SalaryTable({ players, sortKey, sortDir, onSortChange, league = "wnba" }: Props) {
   if (players.length === 0) {
     return (
       <div className="rounded-xl border border-white/5 bg-white/[0.03] p-10 text-center">
@@ -98,7 +99,7 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
               >
                 <td className="px-4 py-3">
                   <Link
-                    href={playerUrl(p.profileSlug)}
+                    href={playerUrl(p.profileSlug, league)}
                     className="font-medium text-white hover:text-accent transition-colors truncate max-w-[200px] sm:max-w-none block"
                   >
                     {p.name}
@@ -106,7 +107,7 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
                 </td>
                 <td className="px-4 py-3">
                   <Link
-                    href={teamUrl(p.team)}
+                    href={teamUrl(p.team, league)}
                     className="inline-flex items-center rounded-md border border-white/10 bg-white/[0.03] px-2 py-0.5 text-xs text-court-200 whitespace-nowrap hover:border-accent/50 hover:bg-accent/10 hover:text-accent transition-colors"
                   >
                     {p.team}
@@ -119,10 +120,10 @@ export default function SalaryTable({ players, sortKey, sortDir, onSortChange }:
                   {p.contractLengthYears} {p.contractLengthYears === 1 ? "yr" : "yrs"}
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums text-court-200 whitespace-nowrap">
-                  {p.contractStart ? formatDate(p.contractStart) : "—"}
+                  {p.contractStart ? formatDate(p.contractStart) : "-"}
                 </td>
                 <td className="px-4 py-3 text-right tabular-nums text-court-200 whitespace-nowrap">
-                  {p.contractEnd ? formatDate(p.contractEnd) : "—"}
+                  {p.contractEnd ? formatDate(p.contractEnd) : "-"}
                 </td>
               </tr>
             ))}

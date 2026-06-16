@@ -27,8 +27,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run scraper
+      - name: Run WNBA scraper
         run: npx tsx scripts/scrape.ts
+        env:
+          TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
+          TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}
+
+      - name: Run NBA scraper
+        run: npx tsx scripts/scrape-nba.ts
         env:
           TURSO_DATABASE_URL: ${{ secrets.TURSO_DATABASE_URL }}
           TURSO_AUTH_TOKEN: ${{ secrets.TURSO_AUTH_TOKEN }}

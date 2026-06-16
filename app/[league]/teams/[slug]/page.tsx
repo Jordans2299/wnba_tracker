@@ -2,24 +2,33 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getData } from "@/lib/data";
-import { formatCurrency, formatDate, playerUrl, SITE_URL } from "@/lib/utils";
+import { formatCurrency, formatDate, playerUrl, teamUrl, isLeague, leagueLabel, leagueSourceName, leagueCap, LEAGUES, SITE_URL } from "@/lib/utils";
 import TeamCapChart from "@/components/TeamCapChart";
 
-type Props = { params: { slug: string } };
+export const revalidate = 86400;
+
+type Props = { params: { league: string; slug: string } };
 
 export async function generateStaticParams() {
-  const { teamSummaries } = await getData();
-  return Object.values(teamSummaries).map((t) => ({ slug: t.urlSlug }));
+  const params: { league: string; slug: string }[] = [];
+  for (const league of LEAGUES) {
+    const { teamSummaries } = await getData(league);
+    for (const t of Object.values(teamSummaries)) {
+      params.push({ league, slug: t.urlSlug });
+    }
+  }
+  return params;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { teamSummaries, meta } = await getData();
+  if (!isLeague(params.league)) return {};
+  const { teamSummaries, meta } = await getData(params.league);
   const summary = Object.values(teamSummaries).find((t) => t.urlSlug === params.slug);
   if (!summary) return {};
 
   const title = `${summary.name} Salary Cap & Roster (${meta.season})`;
   const description = `${summary.name} ${meta.season} salary cap breakdown. Total payroll, player contracts, cap space, and full roster salaries.`;
-  const canonical = `${SITE_URL}/wnba/teams/${summary.urlSlug}`;
+  const canonical = `${SITE_URL}/${params.league}/teams/${summary.urlSlug}`;
 
   return {
     title,
@@ -50,7 +59,10 @@ function StatCard({ label, value, sub }: { label: string; value: string; sub?: s
 }
 
 export default async function TeamPage({ params }: Props) {
-  const { players: allPlayers, teamSummaries, meta } = await getData();
+  if (!isLeague(params.league)) notFound();
+  const league = params.league;
+  const label = leagueLabel(league);
+  const { players: allPlayers, teamSummaries, meta } = await getData(league);
   const summary = Object.values(teamSummaries).find((t) => t.urlSlug === params.slug);
   if (!summary) notFound();
 
@@ -59,13 +71,15 @@ export default async function TeamPage({ params }: Props) {
     .sort((a, b) => b.salary - a.salary);
 
   const totalSalaries = summary.totalSalaries ?? roster.reduce((s, p) => s + p.salary, 0);
-  const cap = summary.salaryCap ?? 7_000_000;
+  const cap = summary.salaryCap ?? leagueCap(league);
   const capRoom = summary.capRoom ?? Math.max(0, cap - totalSalaries);
   const capUsedPct = Math.round((totalSalaries / cap) * 100);
 
   const highestPaid = roster[0] ?? null;
   const lowestPaid = roster[roster.length - 1] ?? null;
   const avgSalary = roster.length > 0 ? totalSalaries / roster.length : 0;
+
+  const capYears = Array.from({ length: 5 }, (_, i) => meta.season + i);
 
   // Team payroll rank vs all teams
   const allTeamPayrolls = Object.values(teamSummaries)
@@ -82,10 +96,10 @@ export default async function TeamPage({ params }: Props) {
     "@type": "SportsTeam",
     name: summary.name,
     sport: "Basketball",
-    url: `${SITE_URL}/wnba/teams/${summary.urlSlug}`,
+    url: `${SITE_URL}/${league}/teams/${summary.urlSlug}`,
     memberOf: {
       "@type": "SportsOrganization",
-      name: "WNBA",
+      name: label,
     },
   };
 
@@ -100,7 +114,7 @@ export default async function TeamPage({ params }: Props) {
 
         {/* Back nav */}
         <Link
-          href="/"
+          href={`/${league}`}
           className="inline-flex items-center gap-1.5 text-xs text-court-400 hover:text-white transition-colors mb-6"
         >
           <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -120,8 +134,8 @@ export default async function TeamPage({ params }: Props) {
           </h1>
           <p className="mt-2 text-sm text-court-300">
             {roster.length} players on {meta.season} cap ·{" "}
-            <a href={`https://herhoopstats.com/salary-cap-sheet/wnba/`} target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-white">
-              Her Hoop Stats
+            <a href={meta.source} target="_blank" rel="noopener noreferrer" className="underline decoration-dotted underline-offset-2 hover:text-white">
+              {leagueSourceName(league)}
             </a>
           </p>
         </header>
@@ -131,14 +145,14 @@ export default async function TeamPage({ params }: Props) {
           The <strong className="text-white">{summary.name}</strong> have a total {meta.season} payroll of{" "}
           <strong className="text-white">{formatCurrency(totalSalaries)}</strong>,
           ranking{" "}
-          <Link href="/wnba/salary-cap" className="text-accent hover:underline">
+          <Link href={`/${league}/salary-cap`} className="text-accent hover:underline">
             #{teamRank} out of {allTeamPayrolls.length} teams
           </Link>{" "}
           in the league. The team is using {capUsedPct}% of the {formatCurrency(cap)} salary cap
           with {formatCurrency(capRoom)} in remaining cap room.
           {highestPaid && (
             <>
-              {" "}<Link href={playerUrl(highestPaid.profileSlug)} className="text-accent hover:underline">{highestPaid.name}</Link> is the highest paid player at {formatCurrency(highestPaid.salary)}.
+              {" "}<Link href={playerUrl(highestPaid.profileSlug, league)} className="text-accent hover:underline">{highestPaid.name}</Link> is the highest paid player at {formatCurrency(highestPaid.salary)}.
             </>
           )}
         </p>
@@ -162,7 +176,7 @@ export default async function TeamPage({ params }: Props) {
           />
           <StatCard
             label="Guaranteed"
-            value={summary.guaranteedSalary != null ? formatCurrency(summary.guaranteedSalary) : "—"}
+            value={summary.guaranteedSalary != null ? formatCurrency(summary.guaranteedSalary) : "-"}
             sub={summary.openRosterSlots != null ? `${summary.openRosterSlots} open slots` : undefined}
           />
         </section>
@@ -172,7 +186,7 @@ export default async function TeamPage({ params }: Props) {
           {highestPaid && (
             <div className="rounded-xl border border-white/5 bg-white/[0.02] p-4">
               <div className="text-xs uppercase tracking-wider text-court-400 mb-1">Highest Paid</div>
-              <Link href={playerUrl(highestPaid.profileSlug)} className="text-white font-semibold hover:text-accent transition-colors">
+              <Link href={playerUrl(highestPaid.profileSlug, league)} className="text-white font-semibold hover:text-accent transition-colors">
                 {highestPaid.name}
               </Link>
               <div className="text-sm text-court-300 tabular-nums">{formatCurrency(highestPaid.salary)}</div>
@@ -181,7 +195,7 @@ export default async function TeamPage({ params }: Props) {
           {lowestPaid && (
             <div className="rounded-xl border border-white/5 bg-white/[0.02] p-4">
               <div className="text-xs uppercase tracking-wider text-court-400 mb-1">Lowest Paid</div>
-              <Link href={playerUrl(lowestPaid.profileSlug)} className="text-white font-semibold hover:text-accent transition-colors">
+              <Link href={playerUrl(lowestPaid.profileSlug, league)} className="text-white font-semibold hover:text-accent transition-colors">
                 {lowestPaid.name}
               </Link>
               <div className="text-sm text-court-300 tabular-nums">{formatCurrency(lowestPaid.salary)}</div>
@@ -232,7 +246,7 @@ export default async function TeamPage({ params }: Props) {
                         >
                           <td className="px-4 py-3 text-court-500 tabular-nums text-xs">{i + 1}</td>
                           <td className="px-4 py-3 font-medium whitespace-nowrap">
-                            <Link href={playerUrl(p.profileSlug)} className="text-white hover:text-accent transition-colors">
+                            <Link href={playerUrl(p.profileSlug, league)} className="text-white hover:text-accent transition-colors">
                               {p.name}
                             </Link>
                           </td>
@@ -267,10 +281,10 @@ export default async function TeamPage({ params }: Props) {
                             )}
                           </td>
                           <td className="px-4 py-3 text-right tabular-nums text-court-200 text-xs">
-                            {p.contractLengthYears > 0 ? `${p.contractLengthYears}yr` : "—"}
+                            {p.contractLengthYears > 0 ? `${p.contractLengthYears}yr` : "-"}
                           </td>
                           <td className="px-4 py-3 text-right tabular-nums text-court-200 text-xs whitespace-nowrap">
-                            {p.contractEnd ? formatDate(p.contractEnd) : "—"}
+                            {p.contractEnd ? formatDate(p.contractEnd) : "-"}
                           </td>
                         </tr>
                       );
@@ -305,7 +319,7 @@ export default async function TeamPage({ params }: Props) {
                 <thead>
                   <tr className="bg-white/[0.04] text-court-400">
                     <th className="px-4 py-2 text-left font-medium">Player</th>
-                    {[2026, 2027, 2028, 2029, 2030].map((y) => (
+                    {capYears.map((y) => (
                       <th key={y} className="px-3 py-2 text-right font-medium">{y}</th>
                     ))}
                   </tr>
@@ -314,11 +328,11 @@ export default async function TeamPage({ params }: Props) {
                   {roster.map((p, i) => (
                     <tr key={p.id} className={`border-t border-white/5 ${i % 2 === 1 ? "bg-white/[0.01]" : ""}`}>
                       <td className="px-4 py-2 whitespace-nowrap">
-                        <Link href={playerUrl(p.profileSlug)} className="text-court-200 hover:text-accent transition-colors">
+                        <Link href={playerUrl(p.profileSlug, league)} className="text-court-200 hover:text-accent transition-colors">
                           {p.name}
                         </Link>
                       </td>
-                      {[2026, 2027, 2028, 2029, 2030].map((y) => {
+                      {capYears.map((y) => {
                         const ys = p.yearlySalaries.find((yr) => yr.year === y);
                         return (
                           <td key={y} className="px-3 py-2 text-right tabular-nums">
@@ -327,7 +341,7 @@ export default async function TeamPage({ params }: Props) {
                             ) : ys?.status ? (
                               <span className="text-court-500">{ys.status}</span>
                             ) : (
-                              <span className="text-court-600">—</span>
+                              <span className="text-court-600">-</span>
                             )}
                           </td>
                         );
@@ -342,20 +356,20 @@ export default async function TeamPage({ params }: Props) {
 
         {/* Internal links to ranking pages */}
         <div className="mt-8 flex flex-wrap gap-3 text-xs text-court-400">
-          <Link href="/wnba/highest-paid-players" className="hover:text-accent transition-colors">
-            Highest paid WNBA players →
+          <Link href={`/${league}/highest-paid-players`} className="hover:text-accent transition-colors">
+            Highest paid {label} players →
           </Link>
-          <Link href="/wnba/salary-cap" className="hover:text-accent transition-colors">
+          <Link href={`/${league}/salary-cap`} className="hover:text-accent transition-colors">
             All teams by payroll →
           </Link>
-          <Link href="/wnba/average-salary" className="hover:text-accent transition-colors">
-            WNBA average salary →
+          <Link href={`/${league}/average-salary`} className="hover:text-accent transition-colors">
+            {label} average salary →
           </Link>
         </div>
 
         <footer className="mt-8 text-center text-xs text-court-500">
           Built with Next.js · Data sourced from{" "}
-          <a href="https://herhoopstats.com" className="underline decoration-dotted hover:text-court-300">Her Hoop Stats</a>
+          <a href={meta.source} className="underline decoration-dotted hover:text-court-300">{leagueSourceName(league)}</a>
           {" · "}Updated daily
         </footer>
       </div>

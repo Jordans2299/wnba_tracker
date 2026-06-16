@@ -5,13 +5,14 @@ import { fileURLToPath } from "node:url";
 import * as cheerio from "cheerio";
 import { createClient } from "@libsql/client";
 import { drizzle } from "drizzle-orm/libsql";
-import { eq, and } from "drizzle-orm";
+import { eq } from "drizzle-orm";
 import * as schema from "../db/schema";
+import { sleep, normalizeName, fetchText, fetchEspnPhotoMap } from "./lib/scrape-common";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OVERRIDES_PATH = resolve(__dirname, "..", "data", "photo-overrides.json");
 
-const USER_AGENT = "wnba-wage-tracker/0.1 (+scraper) Mozilla/5.0";
+const LEAGUE = "wnba";
 const CURRENT_SEASON = 2026;
 const HISTORICAL_SEASONS = [2023, 2024, 2025];
 
@@ -33,44 +34,13 @@ const TEAMS = [
   { name: "Washington Mystics",     slug: "washington-mystics-11eaecc7-3568-d154-b611-2362f5011b0b" },
 ];
 
-function sleep(ms: number) { return new Promise((r) => setTimeout(r, ms)); }
-
 function teamUrlSlug(name: string) {
   return name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
-}
-
-function normalizeName(name: string) {
-  return name
-    .toLowerCase()
-    .normalize("NFD")
-    .replace(/[̀-ͯ]/g, "")
-    .replace(/[^a-z\s]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
 }
 
 function parseDollar(text: string): number | null {
   const m = text && text.match(/\$([\d,]+)/);
   return m ? parseInt(m[1].replace(/,/g, ""), 10) : null;
-}
-
-async function fetchText(url: string, opts: { retries?: number; isJson?: boolean } = {}) {
-  const { retries = 2, isJson = false } = opts;
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      const res = await fetch(url, {
-        headers: {
-          "user-agent": USER_AGENT,
-          accept: isJson ? "application/json" : "text/html,application/xhtml+xml",
-        },
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return isJson ? res.json() : res.text();
-    } catch (err: any) {
-      if (attempt === retries) throw err;
-      await sleep(1000 * (attempt + 1));
-    }
-  }
 }
 
 type ScrapedPlayer = {
@@ -168,49 +138,6 @@ function parseTeamPage(html: string, teamName: string): { players: ScrapedPlayer
   return { players, capSummary };
 }
 
-async function fetchEspnPhotoMap(): Promise<Map<string, string>> {
-  const photoMap = new Map<string, string>();
-  console.log("\nFetching ESPN rosters for player photos...");
-
-  let teamsData: any;
-  try {
-    teamsData = await fetchText(
-      "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams?limit=30",
-      { isJson: true }
-    );
-  } catch (err: any) {
-    console.warn("  ESPN teams fetch failed:", err.message);
-    return photoMap;
-  }
-
-  const espnTeams = teamsData?.sports?.[0]?.leagues?.[0]?.teams ?? [];
-  console.log(`  ${espnTeams.length} ESPN teams found`);
-
-  for (const { team } of espnTeams) {
-    try {
-      const rosterData = await fetchText(
-        `https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/teams/${team.id}/roster`,
-        { isJson: true }
-      );
-      const athletes = rosterData?.athletes ?? [];
-      for (const athlete of athletes) {
-        const normalized = normalizeName(athlete.fullName || athlete.displayName || "");
-        if (normalized && athlete.headshot?.href) {
-          const url = athlete.headshot.href.replace(
-            /\/i\/headshots\/wnba\/players\/full\//,
-            "/combiner/i?img=/i/headshots/wnba/players/full/"
-          );
-          photoMap.set(normalized, url);
-        }
-      }
-      await sleep(200);
-    } catch (_) { /* non-fatal */ }
-  }
-
-  console.log(`  ${photoMap.size} player photos collected`);
-  return photoMap;
-}
-
 // ─── Database comparison + pending_updates ──────────────────────────────────
 
 
@@ -221,12 +148,12 @@ export async function runScrape() {
   });
   const db = drizzle(client, { schema });
 
-  // Load existing data from DB
-  const existingTeams = await db.select().from(schema.teams);
+  // Load existing data from DB (WNBA only - NBA rows are managed by scrape-nba)
+  const existingTeams = (await db.select().from(schema.teams)).filter((t) => t.league === LEAGUE);
   const teamIdByName = new Map(existingTeams.map((t) => [t.name, t.id]));
   const teamIdBySlug = new Map(existingTeams.map((t) => [t.urlSlug, t.id]));
 
-  const existingPlayers = await db.select().from(schema.players);
+  const existingPlayers = (await db.select().from(schema.players)).filter((p) => p.league === LEAGUE);
   const playerBySlug = new Map(existingPlayers.map((p) => [p.profileSlug, p]));
 
   const existingSalaries = await db.select().from(schema.playerSalaries);
@@ -292,7 +219,7 @@ export async function runScrape() {
   }
 
   // ── 3. ESPN photos (applied directly, no approval needed) ────────────────
-  const photoMap = await fetchEspnPhotoMap();
+  const photoMap = await fetchEspnPhotoMap("wnba");
 
   let photoOverrides: Record<string, string> = {};
   try {
@@ -321,7 +248,7 @@ export async function runScrape() {
     if (!teamId) {
       const urlSlug = teamUrlSlug(p.team);
       const hhsSlug = TEAMS.find(t => t.name === p.team)?.slug ?? urlSlug;
-      const result = await db.insert(schema.teams).values({ name: p.team, urlSlug, hhsSlug }).returning({ id: schema.teams.id });
+      const result = await db.insert(schema.teams).values({ name: p.team, urlSlug, league: LEAGUE, hhsSlug }).returning({ id: schema.teams.id });
       teamId = result[0].id;
       teamIdByName.set(p.team, teamId);
     }
@@ -332,7 +259,7 @@ export async function runScrape() {
       const normalized = normalizeName(p.name);
       const photoUrl = photoMap.get(normalized) ?? photoOverrides[profileSlug] ?? null;
       const result = await db.insert(schema.players)
-        .values({ name: p.name, profileSlug, photoUrl })
+        .values({ name: p.name, profileSlug, league: LEAGUE, photoUrl })
         .returning();
       player = result[0];
       playerBySlug.set(profileSlug, player);
@@ -360,7 +287,7 @@ export async function runScrape() {
     const contractStart = runStart != null ? `${runStart}-02-01` : null;
     const contractEnd = runEnd != null ? `${runEnd + 1}-01-31` : null;
 
-    // Check current season salary — apply HHS changes directly
+    // Check current season salary - apply HHS changes directly
     const currentYs = ys.find(y => y.year === CURRENT_SEASON);
     if (currentYs) {
       const existing = salaryMap.get(salaryKey(player.id, CURRENT_SEASON));
@@ -417,7 +344,7 @@ export async function runScrape() {
       }
     }
 
-    // Future years from yearlySalaries — apply directly
+    // Future years from yearlySalaries - apply directly
     for (const ys2 of p.yearlySalaries) {
       if (ys2.year <= CURRENT_SEASON || ys2.salary == null) continue;
       const existing = salaryMap.get(salaryKey(player.id, ys2.year));
@@ -444,7 +371,7 @@ export async function runScrape() {
     }
   }
 
-  // ── 6. Compare team season summaries — apply directly ─────────────────────
+  // ── 6. Compare team season summaries - apply directly ─────────────────────
   for (const [name, summary] of Object.entries(scrapedTeamSummaries)) {
     const teamId = teamIdByName.get(name);
     if (!teamId) continue;

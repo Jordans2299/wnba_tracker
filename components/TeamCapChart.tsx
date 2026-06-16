@@ -16,7 +16,7 @@ type Props = {
   summary: TeamSummary;
 };
 
-// A purple-to-violet-to-pink-to-indigo palette — all readable on dark bg
+// A purple-to-violet-to-pink-to-indigo palette - all readable on dark bg
 const SLICE_COLORS = [
   "#9333ea", // purple-600
   "#c084fc", // purple-400
@@ -34,7 +34,7 @@ const SLICE_COLORS = [
   "#4ade80", // green-400
   "#f43f5e", // rose-500
 ];
-const CAP_ROOM_COLOR = "#1f2937"; // gray-800 — muted for "empty" space
+const CAP_ROOM_COLOR = "#1f2937"; // gray-800 - muted for "empty" space
 
 function CustomTooltip({ active, payload }: any) {
   if (!active || !payload?.length) return null;
@@ -76,7 +76,7 @@ export default function TeamCapChart({ players, summary }: Props) {
   const totalUsed = signedPlayers.reduce((s, p) => s + p.salary, 0);
   const capRoom = Math.max(0, cap - totalUsed);
 
-  // Build pie slices — one per player, plus a cap-room slice
+  // Build pie slices - one per player, plus a cap-room slice
   const playerSlices = signedPlayers
     .sort((a, b) => b.salary - a.salary)
     .map((p, i) => ({
@@ -102,7 +102,7 @@ export default function TeamCapChart({ players, summary }: Props) {
       {/* Cap usage bar */}
       <div className="mb-5">
         <div className="flex justify-between text-xs text-court-300 mb-1.5">
-          <span>Cap used — {formatCurrency(totalUsed)}</span>
+          <span>Cap used - {formatCurrency(totalUsed)}</span>
           <span className="text-court-400">{formatCurrency(cap)} cap</span>
         </div>
         <div className="h-2.5 w-full rounded-full bg-white/[0.06] overflow-hidden">

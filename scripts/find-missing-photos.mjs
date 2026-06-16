@@ -3,7 +3,7 @@
  * Fetch photo URLs for players currently missing them in data/salaries.json.
  *
  * Sources tried in order:
- *  1. ESPN team rosters (existing approach — by normalized name match)
+ *  1. ESPN team rosters (existing approach - by normalized name match)
  *  2. WNBA stats API → CDN headshots (filters out placeholder images <8KB)
  *
  * Writes matched slugs → photoUrl to data/photo-overrides.json.

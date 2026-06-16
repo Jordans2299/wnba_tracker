@@ -1,24 +1,40 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getData } from "@/lib/data";
-import { formatCurrency, playerUrl, teamUrl, SITE_URL } from "@/lib/utils";
+import { formatCurrency, playerUrl, teamUrl, isLeague, leagueLabel, LEAGUES, SITE_URL } from "@/lib/utils";
 import SalaryTrendChart, { type TrendDataPoint } from "@/components/SalaryTrendChart";
 
-const title = `WNBA Average Salary (${new Date().getFullYear()})`;
-const description = `The average WNBA salary in ${new Date().getFullYear()}, plus median salary, salary distribution by contract type, and full player breakdown.`;
+export const revalidate = 86400;
 
-export const metadata: Metadata = {
-  title,
-  description,
-  alternates: { canonical: `${SITE_URL}/wnba/average-salary` },
-  openGraph: { title, description, url: `${SITE_URL}/wnba/average-salary` },
-};
+type Props = { params: { league: string } };
 
-export default async function AverageSalary() {
-  const { players, allPlayers, meta } = await getData();
+export function generateStaticParams() {
+  return LEAGUES.map((league) => ({ league }));
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  if (!isLeague(params.league)) return {};
+  const label = leagueLabel(params.league);
+  const year = new Date().getFullYear();
+  const title = `${label} Average Salary (${year})`;
+  const description = `The average ${label} salary in ${year}, plus median salary, salary distribution by contract type, and full player breakdown.`;
+  return {
+    title,
+    description,
+    alternates: { canonical: `${SITE_URL}/${params.league}/average-salary` },
+    openGraph: { title, description, url: `${SITE_URL}/${params.league}/average-salary` },
+  };
+}
+
+export default async function AverageSalary({ params }: Props) {
+  if (!isLeague(params.league)) notFound();
+  const league = params.league;
+  const label = leagueLabel(league);
+  const { players, allPlayers, meta } = await getData(league);
   const sorted = [...players].sort((a, b) => b.salary - a.salary);
   const total = sorted.reduce((s, p) => s + p.salary, 0);
-  const avg = total / sorted.length;
+  const avg = sorted.length ? total / sorted.length : 0;
 
   // Build year-over-year trend from careerEarnings (filter anomalous low entries)
   const MIN_HIST_SALARY = 50_000;
@@ -32,7 +48,7 @@ export default async function AverageSalary() {
     }
   }
   // Current season uses authoritative players data
-  seasonMap.set(meta.season, { sum: total, count: sorted.length });
+  if (sorted.length) seasonMap.set(meta.season, { sum: total, count: sorted.length });
 
   const sortedSeasons = Array.from(seasonMap.entries()).sort(([a], [b]) => a - b);
   const trendData: TrendDataPoint[] = sortedSeasons.map(([season, { sum, count }], i) => {
@@ -52,7 +68,9 @@ export default async function AverageSalary() {
     ? trendData[trendData.length - 1].pctChange
     : null;
   const mid = Math.floor(sorted.length / 2);
-  const median = sorted.length % 2 === 0
+  const median = sorted.length === 0
+    ? 0
+    : sorted.length % 2 === 0
     ? (sorted[mid - 1].salary + sorted[mid].salary) / 2
     : sorted[mid].salary;
 
@@ -76,7 +94,7 @@ export default async function AverageSalary() {
     <main className="min-h-screen">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8 py-8 sm:py-10">
 
-        <Link href="/" className="inline-flex items-center gap-1.5 text-xs text-court-400 hover:text-white transition-colors mb-6">
+        <Link href={`/${league}`} className="inline-flex items-center gap-1.5 text-xs text-court-400 hover:text-white transition-colors mb-6">
           <svg viewBox="0 0 24 24" className="h-4 w-4" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <polyline points="15 18 9 12 15 6" />
           </svg>
@@ -89,10 +107,10 @@ export default async function AverageSalary() {
             {meta.season} Season
           </div>
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight text-white">
-            WNBA Average Salary
+            {label} Average Salary
           </h1>
           <p className="mt-3 text-sm text-court-300 max-w-2xl leading-relaxed">
-            The average WNBA salary in {meta.season} is <strong className="text-white">{formatCurrency(Math.round(avg))}</strong>,
+            The average {label} salary in {meta.season} is <strong className="text-white">{formatCurrency(Math.round(avg))}</strong>,
             based on <strong className="text-white">{sorted.length} players</strong> with active contracts.
             The median salary is <strong className="text-white">{formatCurrency(Math.round(median))}</strong>.
             Total league payroll across all teams is <strong className="text-white">{formatCurrency(total)}</strong>.
@@ -100,35 +118,34 @@ export default async function AverageSalary() {
         </header>
 
         {/* Salary trend chart */}
-        <section className="mb-8">
-          <div className="rounded-xl border border-white/5 bg-white/[0.02] px-4 pt-5 pb-2">
-            <div className="flex flex-wrap items-start justify-between gap-3 mb-1">
-              <div>
-                <h2 className="text-sm font-semibold text-white">Average Salary Over Time</h2>
-                <p className="mt-0.5 text-xs text-court-400">
-                  League-wide average across reported player contracts
-                </p>
-              </div>
-              {cbaJump !== null && (
-                <div className="rounded-lg border border-accent/30 bg-accent/10 px-3 py-2 text-right shrink-0">
-                  <div className="text-[10px] font-medium uppercase tracking-wider text-accent">
-                    New CBA impact
-                  </div>
-                  <div className="mt-0.5 text-xl font-bold text-white tabular-nums">
-                    +{cbaJump.toFixed(0)}%
-                  </div>
-                  <div className="text-[10px] text-court-400">
-                    {meta.season - 1} → {meta.season}
-                  </div>
+        {trendData.length >= 2 && (
+          <section className="mb-8">
+            <div className="rounded-xl border border-white/5 bg-white/[0.02] px-4 pt-5 pb-2">
+              <div className="flex flex-wrap items-start justify-between gap-3 mb-1">
+                <div>
+                  <h2 className="text-sm font-semibold text-white">Average Salary Over Time</h2>
+                  <p className="mt-0.5 text-xs text-court-400">
+                    League-wide average across reported player contracts
+                  </p>
                 </div>
-              )}
+                {cbaJump !== null && (
+                  <div className="rounded-lg border border-accent/30 bg-accent/10 px-3 py-2 text-right shrink-0">
+                    <div className="text-[10px] font-medium uppercase tracking-wider text-accent">
+                      Year-over-year
+                    </div>
+                    <div className="mt-0.5 text-xl font-bold text-white tabular-nums">
+                      {cbaJump >= 0 ? "+" : ""}{cbaJump.toFixed(0)}%
+                    </div>
+                    <div className="text-[10px] text-court-400">
+                      {meta.season - 1} → {meta.season}
+                    </div>
+                  </div>
+                )}
+              </div>
+              <SalaryTrendChart data={trendData} />
             </div>
-            <SalaryTrendChart data={trendData} />
-            <p className="mt-1 pb-1 text-[10px] text-court-500">
-              2023–2025 reflects players currently rostered in {meta.season}. 2026 includes all active contracts.
-            </p>
-          </div>
-        </section>
+          </section>
+        )}
 
         {/* Summary stats */}
         <section className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-8">
@@ -146,33 +163,35 @@ export default async function AverageSalary() {
         </section>
 
         {/* Breakdown by contract type */}
-        <section className="mb-8">
-          <h2 className="text-sm font-semibold text-white mb-4">Average Salary by Contract Type</h2>
-          <div className="rounded-xl border border-white/5 bg-white/[0.02] overflow-hidden">
-            <table className="w-full border-collapse text-sm">
-              <thead>
-                <tr className="bg-white/[0.04] text-court-300">
-                  <th className="px-4 py-3 text-left text-xs uppercase tracking-wider font-medium">Designation</th>
-                  <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Players</th>
-                  <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Avg Salary</th>
-                  <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Max Salary</th>
-                </tr>
-              </thead>
-              <tbody>
-                {statusGroups.map((g, i) => (
-                  <tr key={g.label} className={`border-t border-white/5 ${i % 2 === 1 ? "bg-white/[0.015]" : ""}`}>
-                    <td className="px-4 py-3 font-medium text-white">{g.label}</td>
-                    <td className="px-4 py-3 text-right tabular-nums text-court-300">{g.players.length}</td>
-                    <td className="px-4 py-3 text-right tabular-nums font-semibold text-white">{formatCurrency(Math.round(g.avg))}</td>
-                    <td className="px-4 py-3 text-right tabular-nums text-court-300">
-                      {formatCurrency(Math.max(...g.players.map((p) => p.salary)))}
-                    </td>
+        {statusGroups.length > 0 && (
+          <section className="mb-8">
+            <h2 className="text-sm font-semibold text-white mb-4">Average Salary by Contract Type</h2>
+            <div className="rounded-xl border border-white/5 bg-white/[0.02] overflow-hidden">
+              <table className="w-full border-collapse text-sm">
+                <thead>
+                  <tr className="bg-white/[0.04] text-court-300">
+                    <th className="px-4 py-3 text-left text-xs uppercase tracking-wider font-medium">Designation</th>
+                    <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Players</th>
+                    <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Avg Salary</th>
+                    <th className="px-4 py-3 text-right text-xs uppercase tracking-wider font-medium">Max Salary</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </section>
+                </thead>
+                <tbody>
+                  {statusGroups.map((g, i) => (
+                    <tr key={g.label} className={`border-t border-white/5 ${i % 2 === 1 ? "bg-white/[0.015]" : ""}`}>
+                      <td className="px-4 py-3 font-medium text-white">{g.label}</td>
+                      <td className="px-4 py-3 text-right tabular-nums text-court-300">{g.players.length}</td>
+                      <td className="px-4 py-3 text-right tabular-nums font-semibold text-white">{formatCurrency(Math.round(g.avg))}</td>
+                      <td className="px-4 py-3 text-right tabular-nums text-court-300">
+                        {formatCurrency(Math.max(...g.players.map((p) => p.salary)))}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
+        )}
 
         {/* Full player table */}
         <section>
@@ -191,7 +210,7 @@ export default async function AverageSalary() {
                 </thead>
                 <tbody>
                   {sorted.map((p, i) => {
-                    const diff = ((p.salary / avg - 1) * 100).toFixed(0);
+                    const diff = avg ? ((p.salary / avg - 1) * 100).toFixed(0) : "0";
                     const isAbove = p.salary >= avg;
                     return (
                       <tr
@@ -200,12 +219,12 @@ export default async function AverageSalary() {
                       >
                         <td className="px-4 py-3 text-court-500 tabular-nums text-xs">#{i + 1}</td>
                         <td className="px-4 py-3 font-medium">
-                          <Link href={playerUrl(p.profileSlug)} className="text-white hover:text-accent transition-colors">
+                          <Link href={playerUrl(p.profileSlug, league)} className="text-white hover:text-accent transition-colors">
                             {p.name}
                           </Link>
                         </td>
                         <td className="px-4 py-3 hidden sm:table-cell">
-                          <Link href={teamUrl(p.team)} className="text-xs text-court-300 hover:text-accent transition-colors">
+                          <Link href={teamUrl(p.team, league)} className="text-xs text-court-300 hover:text-accent transition-colors">
                             {p.team}
                           </Link>
                         </td>
@@ -227,9 +246,9 @@ export default async function AverageSalary() {
         </section>
 
         <div className="mt-6 flex flex-wrap gap-4 text-xs text-court-400">
-          <Link href="/wnba/highest-paid-players" className="hover:text-accent transition-colors">Highest paid players →</Link>
-          <Link href="/wnba/salary-cap" className="hover:text-accent transition-colors">Team payroll rankings →</Link>
-          <Link href="/wnba/rookie-salaries" className="hover:text-accent transition-colors">Rookie salaries →</Link>
+          <Link href={`/${league}/highest-paid-players`} className="hover:text-accent transition-colors">Highest paid players →</Link>
+          <Link href={`/${league}/salary-cap`} className="hover:text-accent transition-colors">Team payroll rankings →</Link>
+          <Link href={`/${league}/rookie-salaries`} className="hover:text-accent transition-colors">Rookie salaries →</Link>
         </div>
       </div>
     </main>

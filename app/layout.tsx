@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SITE_URL } from "@/lib/utils";
+import Navbar from "@/components/Navbar";
 
-const SITE_NAME = "WNBA Wage Tracker";
+const SITE_NAME = "Player Pay";
 const DEFAULT_DESCRIPTION =
-  "Browse, search and sort WNBA player salaries and contracts. Explore cap sheets, contract details, and salary rankings for every player in the league.";
+  "Browse, search and sort NBA and WNBA player salaries and contracts. Explore cap sheets, contract details, and salary rankings across both leagues.";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -46,7 +47,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
