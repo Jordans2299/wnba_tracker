@@ -53,7 +53,7 @@ export type SalaryDataset = {
   teamSummaries: Record<string, TeamSummary>;
 };
 
-const CURRENT_SEASON = 2026;
+const CURRENT_SEASON = 2027;
 
 async function buildPlayers(league: League): Promise<Player[]> {
   const allPlayerRows = await db

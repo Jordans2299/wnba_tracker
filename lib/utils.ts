@@ -49,10 +49,10 @@ export function leagueLabel(league: League): string {
 }
 
 // Fallback league salary cap (per team) used when a team-season summary is missing one.
-// WNBA 2026 cap; NBA 2025-26 cap.
+// WNBA 2026 cap; NBA 2026-27 cap (verify exact figure).
 const LEAGUE_CAP: Record<League, number> = {
   wnba: 7_000_000,
-  nba: 154_647_000,
+  nba: 163_000_000,
 };
 
 export function leagueCap(league: League): number {

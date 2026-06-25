@@ -14,8 +14,8 @@ import {
 } from "./lib/scrape-common";
 
 const LEAGUE = "nba";
-const CURRENT_SEASON = 2026; // HoopsHype season int: 2026 == 2025-26
-const NBA_CAP = 154_647_000; // 2025-26 league-wide salary cap
+const CURRENT_SEASON = 2027; // HoopsHype season int: 2027 == 2026-27
+const NBA_CAP = 163_000_000; // 2026-27 league-wide salary cap (verify exact figure)
 const ROSTER_SIZE = 15;
 const BASE = "https://hoopshype.com/salaries/teams";
 
@@ -113,7 +113,7 @@ export async function runScrapeNba(): Promise<number> {
       let count = 0;
       for (const c of contracts) {
         const cur = c.seasons.find((s) => s.season === CURRENT_SEASON && !s.terminated && s.salary > 0);
-        if (!cur) continue; // only players on a 2025-26 contract
+        if (!cur) continue; // only players on a 2026-27 contract
         if (!contractsByPlayer.has(c.playerID)) {
           contractsByPlayer.set(c.playerID, { ...c, currentTeamId: cur.teamID });
           count++;
