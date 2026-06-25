@@ -182,6 +182,7 @@ export async function runScrapeNba(): Promise<number> {
     const photoUrl = photoMap.get(normalized) ?? null;
 
     // Insert or fetch player
+    const now = new Date().toISOString();
     let player = playerBySlug.get(profileSlug);
     if (!player) {
       const result = await db
@@ -190,10 +191,12 @@ export async function runScrapeNba(): Promise<number> {
         .returning();
       player = result[0];
       playerBySlug.set(profileSlug, player);
-    } else if (photoUrl && photoUrl !== player.photoUrl) {
+    } else {
+      const updates: Record<string, any> = { updatedAt: now };
+      if (photoUrl && photoUrl !== player.photoUrl) updates.photoUrl = photoUrl;
       await db
         .update(schema.players)
-        .set({ photoUrl, updatedAt: new Date().toISOString() })
+        .set(updates)
         .where(eq(schema.players.id, player.id));
     }
 
