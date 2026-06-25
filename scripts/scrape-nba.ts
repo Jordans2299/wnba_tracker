@@ -200,13 +200,42 @@ export async function runScrapeNba(): Promise<number> {
         .where(eq(schema.players.id, player.id));
     }
 
-    // All non-terminated seasons for this contract - include past years so the
-    // full contract length is accurate (e.g. a 5-year deal signed before CURRENT_SEASON
-    // would otherwise only count the remaining years).
-    const allContractSeasons = c.seasons
-      .filter((s) => !s.terminated)
+    // HoopsHype includes full career history in c.seasons. Detect the current
+    // contract's start year by scanning backward from CURRENT_SEASON and stopping
+    // when a year-over-year salary jump >25% is found (signals a new deal).
+    // Cap the lookback at 4 years (NBA max contract is 5 years).
+    const eligibleSeasons = c.seasons
+      .filter((s) => !s.terminated && s.salary > 0)
+      .sort((a, b) => a.season - b.season);
+    const pastSeasons = eligibleSeasons.filter((s) => s.season <= CURRENT_SEASON);
+
+    let contractStartSeason = CURRENT_SEASON;
+    for (let i = pastSeasons.length - 1; i >= 1; i--) {
+      const cur = pastSeasons[i];
+      const prev = pastSeasons[i - 1];
+      if (cur.season < CURRENT_SEASON - 4) break; // cap at 5-year max lookback
+      // gap between consecutive seasons or large salary jump signals new contract
+      if (prev.season < cur.season - 1 || cur.salary / prev.salary > 1.25) {
+        contractStartSeason = cur.season;
+        break;
+      }
+      contractStartSeason = cur.season;
+    }
+
+    const contractWindowSeasons = eligibleSeasons
+      .filter((s) => s.season >= contractStartSeason)
       .map((s) => ({ year: s.season, salary: s.salary > 0 ? s.salary : null }));
-    const { contractStart, contractEnd, contractLengthYears } = deriveContractWindow(allContractSeasons);
+
+    let { contractStart, contractEnd, contractLengthYears } = deriveContractWindow(contractWindowSeasons);
+
+    // Safety: NBA max contract is 5 years. If detection overshot (no clear jump
+    // found), fall back to remaining years from CURRENT_SEASON.
+    if (contractLengthYears > 5) {
+      const remaining = eligibleSeasons
+        .filter((s) => s.season >= CURRENT_SEASON)
+        .map((s) => ({ year: s.season, salary: s.salary > 0 ? s.salary : null }));
+      ({ contractStart, contractEnd, contractLengthYears } = deriveContractWindow(remaining));
+    }
 
     // Write a salary row for every season with a real salary
     for (const s of c.seasons) {

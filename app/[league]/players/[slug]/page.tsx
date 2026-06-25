@@ -574,7 +574,7 @@ export default async function PlayerPage({ params }: Props) {
                 <dt className="text-sm font-medium text-white">What is {player.name}&apos;s average annual salary?</dt>
                 <dd className="mt-1 text-sm text-court-300">
                   {activeSalaries.length > 1
-                    ? `${player.name}'s average annual value (AAV) across their ${activeSalaries.length}-year contract is ${formatCurrency(Math.round(aav))}.`
+                    ? `${player.name}'s average annual value (AAV) across the remaining years of their contract is ${formatCurrency(Math.round(aav))}.`
                     : `${player.name} earns ${formatCurrency(player.salary)} this season.`}
                   {" "}The league average {label} salary in {meta.season} is {formatCurrency(Math.round(leagueAvg))}.
                 </dd>
